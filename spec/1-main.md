@@ -4,9 +4,13 @@ The GovStack Sandbox is a unified environment for all the GovStack and digital g
 ecosystem actors to discover, understand, engage, experiment, innovate, and build digital
 government solutions using the [GovStack platform](http://govstack.gitbook.io/).
 
-The sandbox is not just a playground, but rather a publicly available kit of tools, including a cloud infrastructure
-repositories, container images and Helm charts for building blocks. This means that you have the flexibility to take these
-repositories and set up your own sandbox environment.
+The sandbox is not just a playground, but rather a publicly available kit of tools, including:
+* cloud infrastructure configurations
+* container images
+* CI/CD pipeline configurations
+* Helm charts for building blocks.
+ 
+This means that you have the flexibility to take these repositories and set up your own sandbox environment.
 
 The fully operational environment offers a comprehensive API that public and private agencies can use to mimic the
 characteristics exhibited by the GovStack platform and environment on a real-time basis to help simulate responses from 
