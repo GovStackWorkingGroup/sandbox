@@ -32,5 +32,5 @@ List of available BB candidates:
 
 ## Portal
 
-[Portal](https://github.com/GovStackWorkingGroup/sandbox-portal-backend) is a marketplace of officially confirmed building 
-blocks with use case applications.
+[Portal](https://github.com/GovStackWorkingGroup/sandbox-portal-backend) is a concept of marketplace that consists of a 
+collection of officially confirmed building blocks with use case applications.
