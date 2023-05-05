@@ -1,5 +1,6 @@
 root: ./spec/
 structure:
     readme: README.md  
+    happy-flow: happy-flow.md
     summary: SUMMARY.md
     
