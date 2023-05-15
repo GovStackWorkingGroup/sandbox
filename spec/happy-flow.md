@@ -35,6 +35,23 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 
 ![Happy-flow](.gitbook/assets/happy-flow.png)
 
+### Steps
+
+1. Login/one-time auth call by email. Response as token sent via email.
+2. Login via token.
+3. Redirect to Sandbox UI Landing page. 
+4. Choose a benefit program. It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit-program-details-product-details
+5. Fill registration form. https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#8.1-online-registration-e-services
+6. Submit registration form to OpenIMIS https://oleksii-1.gitbook.io/open-imis/2-api#request-beneficiary-enrollment
+7. OpenIMIS grands response (Yes, person eligible ) 
+8. Create payment request for money disbursement.
+9. Payment block executes payment. 
+10. Post message payment done.
+
+### 5
+We should create form. Need to define schema/data structure. 
+
+
 ## Prerequisite registries
 All registries, presented in Happy Flow diagram should be deployed and preconfigured (data input) for running the Happy Flow scenario.  
 
