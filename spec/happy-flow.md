@@ -29,6 +29,8 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 
 **Note**: There are no adapters used to data and protocol translation (OpenIMIS uses FIHR protocol ) therefore workaround to build the API is done
 
+
+
 ## High level overview of BB in USCT “Happy flow” 
 
 ![Happy-flow](.gitbook/assets/happy-flow.png)
@@ -65,3 +67,11 @@ Before connecting all BB and running the flow, pre-required registries must be i
 * IFMS - Integrated Finance Management Information System
 * * Personal ID (Citizen)
 * * Bank Account
+
+## Implementation
+Driver application building block is responsible to implement happy flow functionality.
+Backend will call in order next building blocks APIs:
+1. ID/MOSIP (optional)
+2. UNCTAD
+3. OpenIMIS
+4. Payment
