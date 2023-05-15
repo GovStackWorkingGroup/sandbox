@@ -2,5 +2,6 @@ root: ./spec/
 structure:
     readme: README.md  
     happy-flow: happy-flow.md
+    terminology-abbreviations: terminology-abbreviations.md
     summary: SUMMARY.md
     
