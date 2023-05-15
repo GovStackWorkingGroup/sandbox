@@ -33,3 +33,8 @@ The USCT MVP is built based upon the technical sandbox and the USCT simulation. 
 A vision of a publicly available instance of the Govstack Sandbox, enhanced and wrapped into a portal-like environment. It additionally is planned to serve as a marketing tool for country engagement activities.
 
 ## Portal 
+The Sandbox portal is the main end-user facing component and implements the necessary functionality for interacting with the GovStack instances. For example, the portal exposes functionality for:
+
+* Viewing the various documentation about the Sandbox and building blocks.
+* Selecting and clicking through an use case and seeing how various building blocks interact (using a pre-deployed GovStack instance to minimize any setup time)
+* Deploying a GovStack instances with a specific configuration (building blocks and compliant applications) and executing use cases against the custom configuration.
