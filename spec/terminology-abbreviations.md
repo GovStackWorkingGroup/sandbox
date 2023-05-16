@@ -18,13 +18,9 @@ The Sandbox contributes to the GovStack vision in providing a demonstration envi
 
 The initial goal of the GovStack Sandbox is to provide an openly accessible and reproducible development environment, including the underlying documentation.
 
-## Happy Path
+## Happy flow
 
-```In the context of software or information modeling, a happy path (sometimes called happy flow) is a default scenario featuring no exceptional or error conditions.```
-From [Wikipedia](https://en.wikipedia.org/wiki/Happy_path).
-
-
-Our happy path is built around the corresponding business value and demonstrates the functionality of a use case. It only focusses on the linear path of a user and omits any difficult deviations and exceptions.
+[Definition](happy-flow.md#overview)
 
 ## USCT MVP
 The USCT MVP is built based upon the technical sandbox and the USCT simulation. It’s intended to enable a vertical penetration of GovStack based on an idealised journey of the use case "Unconditional Social Cash Transfer" in order to make a common exemplary journey accessible to all teams and groups. With the help of this, they can further develop and test their individual developments and concepts. It is additionally serving as a technical proof of concept and example implementation for the GovStack community.
@@ -38,3 +34,6 @@ The Sandbox portal is the main end-user facing component and implements the nece
 * Viewing the various documentation about the Sandbox and building blocks.
 * Selecting and clicking through an use case and seeing how various building blocks interact (using a pre-deployed GovStack instance to minimize any setup time)
 * Deploying a GovStack instances with a specific configuration (building blocks and compliant applications) and executing use cases against the custom configuration.
+
+## Civil servant
+A civil servant is an individual who works for the government and performs various administrative, executive, or professional roles in public service. They are employed in government departments, agencies, and other public sector organizations. Civil servants are responsible for implementing government policies, providing public services, and assisting in the governance of a country or region.

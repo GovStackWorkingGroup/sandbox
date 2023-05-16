@@ -1,5 +1,6 @@
 # Minimum Viable Product (MVP) eg. Happy Flow
 
+## Overview
 Following page will cover USCT  (Unconditional Social Cash Transfer) minimum “Happy” flow and BB involvement in it. Minimum requirements from USCT MVP workflow perspective.
 
 USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
@@ -7,35 +8,42 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
 
-**In “Happy flow”, Civil servant will only perform few steps in our UI:**
+## Civil servant
+[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps using UI:
 
-**Pre steps** before the Happy flow starts:
+<details>
+<summary>Pre steps</summary>
 
-* CR and IFMS registries created using UNCTAD functionality (see [Registries](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179208267/Registries))
-* User for SRIS/BOMS (OpenIMIS) created using MOSIP functionality (see  [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification))
+1. CR and IFMS registries created using UNCTAD functionality (see [Registries](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179208267/Registries))
+2. User for SRIS/BOMS (OpenIMIS) created using MOSIP functionality (see  [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification))
 
-**Happy flow:**
+</details>
 
-* Login to the SRIS - user will be verified (see [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification) )
-* Register citizen to SRIS (OpenIMIS) - when entering citizens personal ID, citizens personal data will be pulled over x-road and personal data fields filled automatically with mocked data in CR Citizen Registry (UNCTAD) (see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) ) 
-* Link benefit program to citizen - list of mocked programs is provided (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
-* Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
-* Submit benefit package to the citizen - payment request triggered from OpenIMIS, which is background functionality
-* Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
-* Notification of payment completed sent to the BOMS and Citizen - backround functionality will be mocked
-  
+### Login to the SRIS
+User will be verified (see [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification) )
+
+### Register citizen to SRIS (OpenIMIS)
+When entering citizens personal ID, citizens personal data will be pulled over x-road and personal data fields filled automatically with mocked data in CR Citizen Registry (UNCTAD) (see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) ) 
+
+### Link benefit program to citizen
+list of mocked programs is provided (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+
+### Registration
+Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+
+### Submit benefit package to the citizen
+payment request triggered from OpenIMIS, which is background functionality
  
-**Out of the scope**: ConsentBB, WorkflowBB, MessagingBB, ScedulerBB.
+### Payment check 
+Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
 
-**Note**: There are no adapters used to data and protocol translation (OpenIMIS uses FIHR protocol ) therefore workaround to build the API is done
+### Notification
+Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
 
-
-
-## High level overview of BB in USCT “Happy flow” 
 
 ![Happy-flow](.gitbook/assets/happy-flow.png)
 
-### Steps
+## Alternative steps
 
 1. Login/one-time auth call by email. Response as token sent via email.
 2. Login via token.
