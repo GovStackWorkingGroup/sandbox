@@ -9,7 +9,7 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
 
 ## Civil servant
-[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps using UI:
+[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
 
 <details>
 <summary>Pre steps</summary>
@@ -20,20 +20,40 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 </details>
 
 ### Login to the SRIS
+Implementation should use one-time auth call by email. As a response user will get a token.
+
+Implementation has two options: 
+
+#### MOSIP
 User will be verified (see [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification) )
 
-### Register citizen to SRIS (OpenIMIS)
-When entering citizens personal ID, citizens personal data will be pulled over x-road and personal data fields filled automatically with mocked data in CR Citizen Registry (UNCTAD) (see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) ) 
+[Documentation](https://docs.mosip.io/1.2.0/).
 
-### Link benefit program to citizen
+#### Mock identity system
+Lightweight alternative for MOSIP.
+
+[Definition](https://github.com/mosip/esignet-mock-services/tree/master/mock-identity-system) 
+
+[API example](./login/api.md)
+
+### Register citizen to SRIS (OpenIMIS)
+When entering citizens personal ID, citizens personal data will be pulled and personal data fields filled automatically with mocked data in CR Citizen Registry (UNCTAD) (see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) ) 
+
+### Link/choose benefit program to citizen
 list of mocked programs is provided (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+
+It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit-program-details-product-details  Provide Benefit program details (Product details) endpoint in OpenIMIS
 
 ### Registration
 Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
 
 ### Submit benefit package to the citizen
-payment request triggered from OpenIMIS, which is background functionality
- 
+Payment request triggered from OpenIMIS, which is background functionality.
+
+Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#8.1-online-registration-e-services).
+
+[Submit registration form](https://oleksii-1.gitbook.io/open-imis/2-api#request-beneficiary-enrollment) to OpenIMIS
+
 ### Payment check 
 Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
 
@@ -42,23 +62,6 @@ Payment completed sent to the BOMS and Citizen - backround functionality will be
 
 
 ![Happy-flow](.gitbook/assets/happy-flow.png)
-
-## Alternative steps
-
-1. Login/one-time auth call by email. Response as token sent via email.
-2. Login via token.
-3. Redirect to Sandbox UI Landing page. 
-4. Choose a benefit program. It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit-program-details-product-details
-5. Fill registration form. https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#8.1-online-registration-e-services
-6. Submit registration form to OpenIMIS https://oleksii-1.gitbook.io/open-imis/2-api#request-beneficiary-enrollment
-7. OpenIMIS grands response (Yes, person eligible ) 
-8. Create payment request for money disbursement.
-9. Payment block executes payment. 
-10. Post message payment done.
-
-### 5
-We should create form. Need to define schema/data structure. 
-
 
 ## Prerequisite registries
 All registries, presented in Happy Flow diagram should be deployed and preconfigured (data input) for running the Happy Flow scenario.  
