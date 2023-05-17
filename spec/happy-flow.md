@@ -11,6 +11,8 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 ## Civil servant
 [Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
 
+![Happy-flow](.gitbook/assets/happy-flow.png)
+
 <details>
 <summary>Pre steps</summary>
 
