@@ -56,13 +56,10 @@ Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registrat
 
 [Submit registration form](https://oleksii-1.gitbook.io/open-imis/2-api#request-beneficiary-enrollment) to OpenIMIS
 
-
-
-
 ### Payment 
 Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
 
-#### Beneficiary onboarding
+#### Beneficiary onboarding request
 [API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api)
 
 ```json
@@ -86,11 +83,60 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 5. Financial address of the recipient of the cash transfer.
 
 #### Prepayment validation request
+[API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-pre-payment-validation-api)
 
-API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-pre-payment-validation-api
+```json
+{
+  "RequestID": "string", //1
+  "SourceBBID": "string", //2
+  "BatchID": "string", //3
+  "CreditInstructions": [
+    {
+      "InstructionID": "string", //4 
+      "PayeeFunctionalID": "string",//5
+      "Amount": 0, //6
+      "Currency": "string", // 7
+      "Narration": "string" // 8
+    }
+  ]
+}
+```
+1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
+2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+3. BatchID for batch submitted by the Source BB.
+4. Individual ID for each instruction in the Credit Batch.
+5. The functional ID of the beneficiary.
+6. Amount to be Credited.
+7. Transaction Currency Code.
+8. Description of Payment.
 
-#### OpenIMIS will create payment order
+#### Bulk disbursement request
+[API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-bulk-disbursement-apis)
 
+```json
+{
+  "RequestID": "string", //1
+  "SourceBBID": "string", //2
+  "BatchID": "string", //3
+  "CreditInstructions": [
+    {
+      "InstructionID": "string", //4
+      "PayeeFunctionalID": "string", //5
+      "Amount": 0, //6
+      "Currency": "string", //7
+      "Narration": "string" //8
+    }
+  ]
+}
+```
+1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
+2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+3. BatchID for batch submitted by the Source BB.
+4. Individual ID for each instruction in the Credit Batch
+5. The functional ID of the beneficiary.
+6. Amount to be Credited
+7. Transaction Currency Code
+8. Description of Payment
 
 ### Notification
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
