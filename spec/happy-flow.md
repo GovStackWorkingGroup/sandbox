@@ -11,7 +11,6 @@ proof of concept and example implementation for the GovStack community.**
 ![Happy-flow](.gitbook/assets/happy-flow.png)
 
 
-
 ## Steps
 
 Steps are cover only minimum part of workflow and will use only some fragments from BB functionality, there will be 
