@@ -8,8 +8,6 @@ proof of concept and example implementation for the GovStack community.**
 
 ![Happy-flow-circle](.gitbook/assets/circle.png)
 
-![Happy-flow](.gitbook/assets/happy-flow.png)
-
 
 ## Steps
 
