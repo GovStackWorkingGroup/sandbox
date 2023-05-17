@@ -22,6 +22,9 @@ The initial goal of the GovStack Sandbox is to provide an openly accessible and 
 
 [Definition](happy-flow.md#overview)
 
+## SRIS 
+Sandbox application to orchestrate MVP flow
+
 ## USCT MVP
 The USCT MVP is built based upon the technical sandbox and the USCT simulation. It’s intended to enable a vertical penetration of GovStack based on an idealised journey of the use case "Unconditional Social Cash Transfer" in order to make a common exemplary journey accessible to all teams and groups. With the help of this, they can further develop and test their individual developments and concepts. It is additionally serving as a technical proof of concept and example implementation for the GovStack community.
 
