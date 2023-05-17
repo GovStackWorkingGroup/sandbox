@@ -42,15 +42,3 @@ A civil servant is an individual who works for the government and performs vario
 
 [Definition](https://docs.mosip.io/1.2.0/overview#what-is-a-foundational-id-system).
 
-## SRIS
-Absent GovStack specification.
-
-Driver suppose to implement some SRIS functionality.
-
-Social registry informational system aka [OpenIMIS](https://openimis.org/).
-
-
-
-## Eligibility 
-Specification is absent.
-We suppose to mock it. 
