@@ -55,6 +55,14 @@ Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registrat
 [Submit registration form](https://oleksii-1.gitbook.io/open-imis/2-api#request-beneficiary-enrollment) to OpenIMIS
 
 
+
+
+### Payment 
+Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
+
+#### Beneficiary onboarding
+API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api
+
 ```json
 
 {
@@ -70,16 +78,6 @@ Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registrat
 }
 ```
 
-PayeeFunctionalID = fundation id + programId + ...
-PaymentModality = or Bank Account, 01 for Mobile Money, 02 for Voucher, 03 for Digital Wallet, 04 for Proxy
-FinancialAddress = beneficiary address.
-
-### Payment 
-Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
-
-#### Beneficiary onboarding
-API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api
-
 #### Prepayment validation request
 
 API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-pre-payment-validation-api
@@ -91,7 +89,18 @@ API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
 
 
-![Happy-flow](.gitbook/assets/happy-flow.png)
+```mermaid
+sequenceDiagram
+
+User ->> ID: Login
+ID ->> MOCK SRIS: 
+User ->> Registry: Fetch 
+User ->> Payment: Register beneficiary 
+MOCK SRIS ->> Payment: Validate
+MOCK SRIS ->> Payment: Trigger payment
+User ->> MOCK SRIS: Result
+
+```
 
 ## Prerequisite registries
 All registries, presented in Happy Flow diagram should be deployed and preconfigured (data input) for running the Happy Flow scenario.  
