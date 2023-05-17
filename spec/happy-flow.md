@@ -14,7 +14,7 @@ proof of concept and example implementation for the GovStack community.**
 ## Steps
 
 Steps are cover only minimum part of workflow and will use only some fragments from BB functionality, there will be 
-no errors, corner cases and non-compliances.
+no errors, corner cases and non-compliances, mocked authentication.
 
 [Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
 
@@ -33,14 +33,6 @@ MOCK SRIS ->> Payment: Trigger payment
 MOCK SRIS ->> User: Result
 
 ```
-
-<details>
-<summary>Pre steps</summary>
-
-1. CR and IFMS registries created using UNCTAD functionality (see [Registries](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179208267/Registries))
-2. User for SRIS/BOMS (OpenIMIS) created using MOSIP functionality (see  [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification))
-
-</details>
 
 ### Login to the SRIS
 Implementation should use one-time auth call by email. As a response user will get a token.
