@@ -1,17 +1,39 @@
-# Minimum Viable Product (MVP) eg. Happy Flow
+# Minimum Viable Product eg. Happy Flow
 
 ## Overview
-Following page will cover USCT  (Unconditional Social Cash Transfer) minimum “Happy” flow and BB involvement in it. Minimum requirements from USCT MVP workflow perspective.
+The USCT MVP is built based upon the technical sandbox and the USCT simulation. It’s intended to enable a vertical
+penetration (re-define vertical penetration) of GovStack based on a slice of the journey of the use case "Unconditional
+Social Cash Transfer" in order to make a common exemplary journey accessible to all teams and groups. **It is a technical
+proof of concept and example implementation for the GovStack community.**
 
-USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
-
-
-**MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
-
-## Civil servant
-[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
+![Happy-flow-circle](.gitbook/assets/circle.png)
 
 ![Happy-flow](.gitbook/assets/happy-flow.png)
+
+
+
+## Steps
+
+Steps are cover only minimum part of workflow and will use only some fragments from BB functionality, there will be 
+no errors, corner cases and non-compliances.
+
+[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
+
+```mermaid
+sequenceDiagram
+
+
+User ->> ID: Login
+ID ->> MOCK SRIS: 
+participant im as IM
+User ->> Registry: Fetch
+participant im. as IM
+User ->> Payment: Register beneficiary
+MOCK SRIS ->> Payment: Validate
+MOCK SRIS ->> Payment: Trigger payment
+MOCK SRIS ->> User: Result
+
+```
 
 <details>
 <summary>Pre steps</summary>
@@ -89,23 +111,6 @@ API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.
 
 ### Notification
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
-
-
-```mermaid
-sequenceDiagram
-
-
-User ->> ID: Login
-ID ->> MOCK SRIS: 
-participant im as IM
-User ->> Registry: Fetch
-participant im. as IM
-User ->> Payment: Register beneficiary
-MOCK SRIS ->> Payment: Validate
-MOCK SRIS ->> Payment: Trigger payment
-MOCK SRIS ->> User: Result
-
-```
 
 ## Implementation
 Driver application building block is responsible to implement happy flow functionality.
