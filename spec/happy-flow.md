@@ -63,22 +63,27 @@ Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registrat
 Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
 
 #### Beneficiary onboarding
-API = https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api
+[API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api)
 
 ```json
 
 {
-  "RequestID": "system data",
-  "SourceBBID": "system data",
+  "RequestID": "system data", // 1
+  "SourceBBID": "system data", // 2
   "Beneficiaries": [
     {
-      "PayeeFunctionalID": "string",
-      "PaymentModality": "string",
-      "FinancialAddress": "string"
+      "PayeeFunctionalID": "string", //3
+      "PaymentModality": "string", //4
+      "FinancialAddress": "string" //5 
     }
   ]
 }
 ```
+1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
+2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+3. ID of the beneficiary.
+4. Type of payment e.g. (Bank account, Mobile money...)
+5. Financial address of the recipient of the cash transfer.
 
 #### Prepayment validation request
 
