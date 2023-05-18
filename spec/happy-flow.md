@@ -21,6 +21,8 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 
 </details>
 
+### created citizen registry
+
 ### Login to the SRIS
 Implementation should use one-time auth call by email. As a response user will get a token.
 
@@ -38,16 +40,164 @@ Lightweight alternative for MOSIP.
 
 [API example](./login/api.md)
 
-### Register citizen to SRIS (OpenIMIS)
-When entering citizens personal ID, citizens personal data will be pulled and personal data fields filled automatically with mocked data in CR Citizen Registry (UNCTAD) (see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) ) 
+### Search form for entering citizen ID
+Obtaining form data structure from registry BB.
+```json
+{
+  "eFormId": "d98a205a-679b-485b-823d-7a32a391e744",
+  "name": "A1",
+  "description": "string",
+  "version": "1",
+  "latest": true,
+  "schema": {
+    "additionalProp1": {
+      "FullName": "",
+      "PersonalID": ""
+      }
+    }
+  }
+
+```
+
+
+### Fetch citizen data from the ID BB
+Personal ID is a param to fetch data.
+MOSIP is responsible to provide data ([Foundational ID](terminology-abbreviations.md#foundational-id-system)). 
+```json
+{
+  "requestTime": "<string>",
+  "request": {
+    "individualId": "<string>",
+    "pin": "<string>",
+    "fullName": [ //1
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "gender": [
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "dateOfBirth": "<string>",
+    "streetAddress": [
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "locality": [
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "region": [
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "postalCode": "<string>",
+    "encodedPhoto": "<string>",
+    "email": "<string>",
+    "phone": "<string>",
+    "country": [
+      {
+        "language": "<string>",
+        "value": "<string>"
+      },
+      {
+        "language": "<string>",
+        "value": "<string>"
+      }
+    ],
+    "individualBiometrics": {
+      "format": "<string>",
+      "version": "<integer>",
+      "value": "<string>"
+    }
+  }
+}
+```
+1. Full name should be split. First, Middle, Surname...
+
+### Fetch citizen data from the registry BB
+Personal data fetch from created [citizen registry data](happy-flow.md#created-citizen-registry) through Foundational ID from MOSIP.
+
+### Merging 
+[Related API specification](https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#eforms-eformid)
+
+Merging data from ID and Registry BBs. 
+
+functionally data from registry via personal ID
+
+
+Entering citizens personal ID into the E-Form. (E-Form created from trough UNCTAD solution otherwise
+[Registration BB]()) citizens personal data will be pulled and personal data fields filled automatically
+with mocked data in CR Citizen Registry (UNCTAD)
+(see [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+
+
+```json
+{
+  "eFormId": "d98a205a-679b-485b-823d-7a32a391e744",
+  "name": "A1",
+  "description": "string",
+  "version": "1",
+  "latest": true,
+  "schema": {
+    "additionalProp1": {
+      "FoundationalID": "",
+      "PersonalID": ""
+      }
+    }
+  }
+
+```
+1. No biometric data
+2. No language data
+
 
 ### Link/choose benefit program to citizen
 list of mocked programs is provided (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
 
-It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit-program-details-product-details  Provide Benefit program details (Product details) endpoint in OpenIMIS
+It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit-program-details-product-details  
+Provide Benefit program details (Product details) endpoint in OpenIMIS
 
 ### Registration
 Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+
+#### Prerequisites
+[API specification](https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#8.1-online-registration-e-services) 
+
+#### Eligibility and enrollment decisions
+Need to find related API specification.
+
+#### Determination of benefits and service package
+Need to find related API specification.
 
 ### Submit benefit package to the citizen
 Payment request triggered from OpenIMIS, which is background functionality.
@@ -82,7 +232,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 4. Type of payment e.g. (Bank account, Mobile money...)
 5. Financial address of the recipient of the cash transfer.
 
-#### Prepayment validation request
+#### Prepayment validation
 [API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-pre-payment-validation-api)
 
 ```json
@@ -110,7 +260,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 7. Transaction Currency Code.
 8. Description of Payment.
 
-#### Bulk disbursement request
+#### Bulk disbursement
 [API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.2-bulk-disbursement-apis)
 
 ```json

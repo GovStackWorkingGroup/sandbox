@@ -42,6 +42,5 @@ The Sandbox portal is the main end-user facing component and implements the nece
 A civil servant is an individual who works for the government and performs various administrative, executive, or professional roles in public service. They are employed in government departments, agencies, and other public sector organizations. Civil servants are responsible for implementing government policies, providing public services, and assisting in the governance of a country or region.
 
 ## Foundational ID system
-
 [Definition](https://docs.mosip.io/1.2.0/overview#what-is-a-foundational-id-system).
 
