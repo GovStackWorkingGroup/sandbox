@@ -77,7 +77,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 }
 ```
 1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
-2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+2. ID which is coming from [driver app](happy-flow.md#implementation) to identify the origination of the request.
 3. ID of the beneficiary.
 4. Type of payment e.g. (Bank account, Mobile money...)
 5. Financial address of the recipient of the cash transfer.
@@ -102,7 +102,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 }
 ```
 1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
-2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+2. ID which is coming from [driver app](happy-flow.md#implementation) to identify the origination of the request.
 3. BatchID for batch submitted by the Source BB.
 4. Individual ID for each instruction in the Credit Batch.
 5. The functional ID of the beneficiary.
@@ -130,7 +130,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 }
 ```
 1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
-2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+2. ID which is coming from [driver app](happy-flow.md#implementation) to identify the origination of the request.
 3. BatchID for batch submitted by the Source BB.
 4. Individual ID for each instruction in the Credit Batch
 5. The functional ID of the beneficiary.
