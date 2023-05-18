@@ -6,6 +6,18 @@ Following page will cover USCT  (Unconditional Social Cash Transfer) minimum “
 USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
 
 
+## Prerequisite for the  Happy Flow
+
+>Created registries & data in it:
+>   * Civil Registry (created by Registry BB - Unctad)
+>   * Social registry (for benefit program enrollment)
+>     * Created social program + criteria for enrollment
+>     * Created application for applying under USCT 
+>   * Created Civil servant -user with credentials (ID-BB Mock application)
+>   * Configured infrastructure (cloud + network +tokens installed+ services available+ BB-s configured)
+>   * ...
+>   * 
+
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
 
 ## Civil servant
@@ -189,6 +201,7 @@ Provide Benefit program details (Product details) endpoint in OpenIMIS
 
 ### Registration
 Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+It will be performed through Sandbox provided UI
 
 #### Prerequisites
 [API specification](https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#8.1-online-registration-e-services) 
@@ -227,7 +240,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 }
 ```
 1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
-2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
+2. ID which is coming from [driver app](happy-flow.md#implementation) to identify the origination of the request.
 3. ID of the beneficiary.
 4. Type of payment e.g. (Bank account, Mobile money...)
 5. Financial address of the recipient of the cash transfer.
