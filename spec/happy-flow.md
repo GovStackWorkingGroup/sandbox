@@ -59,7 +59,7 @@ Fill registration [form](https://govstack.gitbook.io/bb-registration/v/registrat
 ### Payment 
 Check if the payment due date is reached, trigger the benefit payment to the citizen by MIFOS functionality - this is the backround functionality, the verification of banc account is triggered towards IFMS mocked database (see [Payments](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179568721/Payments) )
 
-#### Beneficiary onboarding request
+#### Beneficiary onboarding
 [API specification](https://govstack.gitbook.io/bb-payments/v/payments-1.0/9-service-apis#8.2.1-beneficiary-onboarding-api)
 
 ```json
@@ -162,6 +162,6 @@ MOCK SRIS ->> User: Result
 Driver application building block is responsible to implement happy flow functionality.
 Backend will call in order next building blocks APIs:
 1. ID/MOSIP (optional)
-2. UNCTAD
-3. OpenIMIS
-4. Payment
+2. OpenIMIS
+3. Payment
+4. Information Mediator
