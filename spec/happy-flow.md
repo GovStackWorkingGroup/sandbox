@@ -6,6 +6,18 @@ Following page will cover USCT  (Unconditional Social Cash Transfer) minimum “
 USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
 
 
+## Prerequisite for the  Happy Flow
+
+>Created registries & data in it:
+>   * Civil Registry (created by Registry BB - Unctad)
+>   * Social registry (for benefit program enrollment)
+>     * Created social program + criteria for enrollment
+>     * Created application for applying under USCT 
+>   * Created Civil servant -user with credentials (ID-BB Mock application)
+>   * Configured infrastructure (cloud + network +tokens installed+ services available+ BB-s configured)
+>   * ...
+>   * 
+
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
 
 ## Civil servant
@@ -48,6 +60,7 @@ It should come from https://oleksii-1.gitbook.io/open-imis/2-api#provide-benefit
 
 ### Registration
 Add additional benefit related information (payment due date, payment amount, account no …) to the BOMS form (OpenIMIS) (see  [Registration](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179601480/Registration) )
+It will be performed through Sandbox provided UI
 
 ### Submit benefit package to the citizen
 Payment request triggered from OpenIMIS, which is background functionality.
