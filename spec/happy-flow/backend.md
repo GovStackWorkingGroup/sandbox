@@ -264,24 +264,39 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
 
 
+### Super minimal
+
 ```mermaid
 sequenceDiagram
 
-
-User ->> ID: Login
-ID ->> MOCK SRIS: 
+Civil servant ->> MOCK SRIS: Login
+Civil servant ->> MOCK SRIS: provide Foundational id
+Civil servant ->> MOCK SRIS: approve beneficiary enrollment
 participant im as IM
-User ->> Registry: Fetch
-participant im. as IM
-User ->> Payment: Register beneficiary
-MOCK SRIS ->> Payment: Validate
-MOCK SRIS ->> Payment: Trigger payment
-MOCK SRIS ->> User: Result
-
+MOCK SRIS ->> Payment: Beneficiary onboarding 
+MOCK SRIS ->> Payment: Prepayment validation 
+MOCK SRIS ->> Payment: Bulk disbursement
+MOCK SRIS ->> Civil servant: Result
 ```
 
+### Happy minimal
+
+```mermaid
+sequenceDiagram
+
+Civil servant ->> MOCK SRIS: Login
+Civil servant ->> MOCK SRIS: provide Foundational id
+      participant im as IM
+MOCK SRIS ->> Digital registry: fetch citizen data
+MOCK SRIS ->> Civil servant: Show citizen data
+Civil servant ->> MOCK SRIS: approve beneficiary enrollment
+MOCK SRIS ->> Payment: Beneficiary onboarding 
+MOCK SRIS ->> Payment: Prepayment validation 
+MOCK SRIS ->> Payment: Bulk disbursement
+MOCK SRIS ->> Civil servant: Result
+```
 ## Implementation
-Driver application building block is responsible to implement happy flow functionality.
+MOCK SRIS building block is responsible to implement happy flow functionality.
 Backend will call in order next building blocks APIs:
 1. ID/MOSIP (optional)
 2. OpenIMIS
