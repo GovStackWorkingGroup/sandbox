@@ -21,9 +21,9 @@ USCT description: [Digital Impact Exchange](https://solutions.dial.community/use
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.** 
 
 ## Civil servant
-[Civil servant](terminology-abbreviations.md#civil-servant) will perform next steps:
+[Civil servant](../terminology-abbreviations.md#civil-servant) will perform next steps:
 
-![Happy-flow](.gitbook/assets/happy-flow.png)
+![Happy-flow](../.gitbook/assets/happy-flow.png)
 
 <details>
 <summary>Pre steps</summary>
@@ -50,7 +50,7 @@ Lightweight alternative for MOSIP.
 
 [Definition](https://github.com/mosip/esignet-mock-services/tree/master/mock-identity-system) 
 
-[API example](./login/api.md)
+[API example](loginpi.md)
 
 ### Search form for entering citizen ID
 Obtaining form data structure from registry BB.
@@ -74,7 +74,7 @@ Obtaining form data structure from registry BB.
 
 ### Fetch citizen data from the ID BB
 Personal ID is a param to fetch data.
-MOSIP is responsible to provide data ([Foundational ID](terminology-abbreviations.md#foundational-id-system)). 
+MOSIP is responsible to provide data ([Foundational ID](../terminology-abbreviations.md#foundational-id-system)). 
 ```json
 {
   "requestTime": "<string>",
@@ -157,7 +157,7 @@ MOSIP is responsible to provide data ([Foundational ID](terminology-abbreviation
 1. Full name should be split. First, Middle, Surname...
 
 ### Fetch citizen data from the registry BB
-Personal data fetch from created [citizen registry data](happy-flow.md#created-citizen-registry) through Foundational ID from MOSIP.
+Personal data fetch from created [citizen registry data](main.md#created-citizen-registry) through Foundational ID from MOSIP.
 
 ### Merging 
 [Related API specification](https://govstack.gitbook.io/bb-registration/v/registration-1.0/7-service-apis#eforms-eformid)
@@ -239,8 +239,8 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
   ]
 }
 ```
-1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
-2. ID which is coming from [driver app](happy-flow.md#implementation) to identify the origination of the request.
+1. Globally unique ID which is coming from [driver app](main.md#implementation).
+2. ID which is coming from [driver app](main.md#implementation) to identify the origination of the request.
 3. ID of the beneficiary.
 4. Type of payment e.g. (Bank account, Mobile money...)
 5. Financial address of the recipient of the cash transfer.
@@ -264,7 +264,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
   ]
 }
 ```
-1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
+1. Globally unique ID which is coming from [driver app](main.md#implementation).
 2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
 3. BatchID for batch submitted by the Source BB.
 4. Individual ID for each instruction in the Credit Batch.
@@ -292,7 +292,7 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
   ]
 }
 ```
-1. Globally unique ID which is coming from [driver app](happy-flow.md#implementation).
+1. Globally unique ID which is coming from [driver app](main.md#implementation).
 2. ID which is coming from [Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator) to identify the origination of the request.
 3. BatchID for batch submitted by the Source BB.
 4. Individual ID for each instruction in the Credit Batch

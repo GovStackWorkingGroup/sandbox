@@ -20,7 +20,7 @@ The initial goal of the GovStack Sandbox is to provide an openly accessible and 
 
 ## Happy flow
 
-[Definition](happy-flow.md#overview)
+[Definition](happy-flow/main.md#overview)
 
 ## SRIS 
 Sandbox application to orchestrate MVP flow
