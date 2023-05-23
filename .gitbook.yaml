@@ -1,4 +1,4 @@
-root: ./spec/
+root: ./docs/
 structure:
     readme: README.md  
     summary: SUMMARY.md
