@@ -1,44 +1,16 @@
 # Minimum Viable Product (MVP) eg. Happy Flow
 
 ## Overview
-Following page will cover USCT  (Unconditional Social Cash Transfer) minimum “Happy” flow and BB involvement in it. Minimum requirements from USCT MVP workflow perspective.
+The USCT MVP is built based upon the technical sandbox and the USCT simulation. It’s intended to enable a vertical
+penetration (re-define vertical penetration) of GovStack based on a slice of the journey of the use case "Unconditional
+Social Cash Transfer" in order to make a common exemplary journey accessible to all teams and groups. **It is a technical
+proof of concept and example implementation for the GovStack community.**
 
+![Happy-flow-circle](../.gitbook/assets/circle.png)
 USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
 
-## Flow
+## Steps
+Steps are cover only minimum part of workflow and will use only some fragments from BB functionality, there will be
+no errors, corner cases and non-compliances, mocked authentication.
 
-### Login to the SRIS
-Implementation should use one-time auth call by email. As a response user will get a token.
-
-Implementation has two options:
-
-#### MOSIP
-User will be verified (see [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification) )
-
-[Documentation](https://docs.mosip.io/1.2.0/).
-
-#### Mock identity system
-Lightweight alternative for MOSIP.
-
-[Definition](https://github.com/mosip/esignet-mock-services/tree/master/mock-identity-system)
-
-[API example](loginpi.md)
-
-### Search form for entering citizen ID
-Obtaining form data structure from registry BB.
-```json
-{
-  "eFormId": "d98a205a-679b-485b-823d-7a32a391e744",
-  "name": "A1",
-  "description": "string",
-  "version": "1",
-  "latest": true,
-  "schema": {
-    "additionalProp1": {
-      "FullName": "",
-      "PersonalID": ""
-      }
-    }
-  }
-
-```
+For more details please take a look [backend logic](backend.md).
