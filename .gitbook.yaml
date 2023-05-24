@@ -1,7 +1,5 @@
 root: ./docs/
 structure:
-    readme: README.md  
-    happy-flow: happy-flow/main.md
-    terminology-abbreviations: terminology-abbreviations.md
+    readme: README.md
     summary: SUMMARY.md
     
