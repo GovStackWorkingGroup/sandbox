@@ -5,7 +5,6 @@
 
 * Package as OCI (Docker) container.
 * Designed to operate in a cloud environment.
-* Dependencies should be open-source and refrain from soliciting monetary compensation. 
 
 ## Examples
 
