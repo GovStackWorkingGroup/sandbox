@@ -13,6 +13,22 @@
 
 **MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.**
 
+## Steps
+```mermaid
+sequenceDiagram
+
+Civil servant ->> MOCK SRIS: Login
+Civil servant ->> MOCK SRIS: provide Foundational id
+      participant im as IM
+MOCK SRIS ->> Digital registry: fetch citizen data
+MOCK SRIS ->> Civil servant: Show citizen data
+Civil servant ->> MOCK SRIS: approve beneficiary enrollment
+MOCK SRIS ->> Payment: Beneficiary onboarding 
+MOCK SRIS ->> Payment: Prepayment validation 
+MOCK SRIS ->> Payment: Bulk disbursement
+MOCK SRIS ->> Civil servant: Result
+```
+
 ## Civil servant
 [Civil servant](../terminology-abbreviations.md#civil-servant) will perform next steps:
 
@@ -263,38 +279,6 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 ### Notification
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
 
-
-### Super minimal
-
-```mermaid
-sequenceDiagram
-
-Civil servant ->> MOCK SRIS: Login
-Civil servant ->> MOCK SRIS: provide Foundational id
-Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-participant im as IM
-MOCK SRIS ->> Payment: Beneficiary onboarding 
-MOCK SRIS ->> Payment: Prepayment validation 
-MOCK SRIS ->> Payment: Bulk disbursement
-MOCK SRIS ->> Civil servant: Result
-```
-
-### Happy minimal
-
-```mermaid
-sequenceDiagram
-
-Civil servant ->> MOCK SRIS: Login
-Civil servant ->> MOCK SRIS: provide Foundational id
-      participant im as IM
-MOCK SRIS ->> Digital registry: fetch citizen data
-MOCK SRIS ->> Civil servant: Show citizen data
-Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-MOCK SRIS ->> Payment: Beneficiary onboarding 
-MOCK SRIS ->> Payment: Prepayment validation 
-MOCK SRIS ->> Payment: Bulk disbursement
-MOCK SRIS ->> Civil servant: Result
-```
 ## Implementation
 MOCK SRIS building block is responsible to implement happy flow functionality.
 Backend will call in order next building blocks APIs:
