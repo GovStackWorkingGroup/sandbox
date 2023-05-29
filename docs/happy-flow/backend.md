@@ -6,8 +6,6 @@ no errors, corner cases and non-compliances.
 ```mermaid
 sequenceDiagram
 
-Civil servant ->> MOCK SRIS: Login
-MOCK SRIS -->> Civil servant: Return auth token
 Civil servant ->> MOCK SRIS: provide Foundational id
 Civil servant ->> MOCK SRIS: approve beneficiary enrollment
 participant im as IM
