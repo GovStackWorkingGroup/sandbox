@@ -1,35 +1,25 @@
 # Backend logic
-## Prerequisite for the  Happy Flow
+Server side is responsible to cover very minimum part of workflow and use fragments from BB functionality, there will be
+no errors, corner cases and non-compliances.
 
->Created registries & data in it:
->   * Civil Registry (created by Registry BB - Unctad)
->   * Social registry (for benefit program enrollment)
-      >     * Created social program + criteria for enrollment
->     * Created application for applying under USCT
->   * Created Civil servant -user with credentials (ID-BB Mock application)
->   * Configured infrastructure (cloud + network +tokens installed+ services available+ BB-s configured)
->   * ...
->   *
+## Steps
+```mermaid
+sequenceDiagram
 
-**MVP eg “Happy flow” will cover only very minimum part of USCT workflow and will use only some fragments from BB functionality, there will be no errors, corner cases and non-compliances.**
+Civil servant ->> MOCK SRIS: provide Foundational id
+Civil servant ->> MOCK SRIS: approve beneficiary enrollment
+participant im as IM
+MOCK SRIS ->> Payment mock: Beneficiary onboarding 
+MOCK SRIS ->> Payment mock: Prepayment validation 
+MOCK SRIS ->> Payment mock: Bulk disbursement
+MOCK SRIS -->> Civil servant: Result
+```
 
-## Civil servant
-[Civil servant](../terminology-abbreviations.md#civil-servant) will perform next steps:
+## MOCK SRIS
+It's a [driver app](https://github.com/GovStackWorkingGroup/sandbox-portal-backend) which is responsible to implement
+happy flow functionality.
 
-![Happy-flow](../.gitbook/assets/happy-flow.png)
-
-<details>
-<summary>Pre steps</summary>
-
-1. CR and IFMS registries created using UNCTAD functionality (see [Registries](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179208267/Registries))
-2. User for SRIS/BOMS (OpenIMIS) created using MOSIP functionality (see  [Identity and verification](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/179896365/Identity+and+verification))
-
-</details>
-
-### created citizen registry
-
-
-
+## API mapping
 
 ### Fetch citizen data from the ID BB
 Personal ID is a param to fetch data.
@@ -262,43 +252,3 @@ Check if the payment due date is reached, trigger the benefit payment to the cit
 
 ### Notification
 Payment completed sent to the BOMS and Citizen - backround functionality will be mocked
-
-
-### Super minimal
-
-```mermaid
-sequenceDiagram
-
-Civil servant ->> MOCK SRIS: Login
-Civil servant ->> MOCK SRIS: provide Foundational id
-Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-participant im as IM
-MOCK SRIS ->> Payment: Beneficiary onboarding 
-MOCK SRIS ->> Payment: Prepayment validation 
-MOCK SRIS ->> Payment: Bulk disbursement
-MOCK SRIS ->> Civil servant: Result
-```
-
-### Happy minimal
-
-```mermaid
-sequenceDiagram
-
-Civil servant ->> MOCK SRIS: Login
-Civil servant ->> MOCK SRIS: provide Foundational id
-      participant im as IM
-MOCK SRIS ->> Digital registry: fetch citizen data
-MOCK SRIS ->> Civil servant: Show citizen data
-Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-MOCK SRIS ->> Payment: Beneficiary onboarding 
-MOCK SRIS ->> Payment: Prepayment validation 
-MOCK SRIS ->> Payment: Bulk disbursement
-MOCK SRIS ->> Civil servant: Result
-```
-## Implementation
-MOCK SRIS building block is responsible to implement happy flow functionality.
-Backend will call in order next building blocks APIs:
-1. ID/MOSIP (optional)
-2. OpenIMIS
-3. Payment
-4. Information Mediator
