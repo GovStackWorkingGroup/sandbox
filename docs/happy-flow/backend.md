@@ -6,9 +6,10 @@ no errors, corner cases and non-compliances.
 ```mermaid
 sequenceDiagram
 
+Civil servant ->> MOCK SRIS: get list of candidates?
 Civil servant ->> MOCK SRIS: provide Foundational id
 Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-participant im as IM
+    participant im as IM
 MOCK SRIS ->> Payment mock: Beneficiary onboarding 
 MOCK SRIS ->> Payment mock: Prepayment validation 
 MOCK SRIS ->> Payment mock: Bulk disbursement
