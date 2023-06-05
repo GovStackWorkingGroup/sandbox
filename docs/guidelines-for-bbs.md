@@ -1,6 +1,6 @@
 # Guidelines for building block Sandbox deployment
 
-> :notes: GovStack Sandbox aims to be an **isolated, safe environment simulating** a small governmental
+> GovStack Sandbox aims to be an **isolated, safe environment simulating** a small governmental
 > e-service system (reference implementation of the GovStack approach). The Sandbox is not intended to be a production
 > environment, and it does not contain sensitive data. It is a demonstration environment to **learn** and a technical
 > environment to **test and develop** digital government services.
