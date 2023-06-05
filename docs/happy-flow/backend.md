@@ -21,7 +21,6 @@ It's a [driver app](https://github.com/GovStackWorkingGroup/sandbox-portal-backe
 happy flow functionality.
 
 ## API mapping
-
 ### Fetch citizen data from the ID BB
 Personal ID is a param to fetch data.
 MOSIP is responsible to provide data ([Foundational ID](../terminology-abbreviations.md#foundational-id-system)).
