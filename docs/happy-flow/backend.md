@@ -6,9 +6,10 @@ no errors, corner cases and non-compliances.
 ```mermaid
 sequenceDiagram
 
+Civil servant ->> MOCK SRIS: get list of candidates?
 Civil servant ->> MOCK SRIS: provide Foundational id
 Civil servant ->> MOCK SRIS: approve beneficiary enrollment
-participant im as IM
+    participant im as IM
 MOCK SRIS ->> Payment mock: Beneficiary onboarding 
 MOCK SRIS ->> Payment mock: Prepayment validation 
 MOCK SRIS ->> Payment mock: Bulk disbursement
@@ -20,7 +21,6 @@ It's a [driver app](https://github.com/GovStackWorkingGroup/sandbox-portal-backe
 happy flow functionality.
 
 ## API mapping
-
 ### Fetch citizen data from the ID BB
 Personal ID is a param to fetch data.
 MOSIP is responsible to provide data ([Foundational ID](../terminology-abbreviations.md#foundational-id-system)).
