@@ -36,7 +36,6 @@ Try out BB candidates:
 * [Information mediator/X-Road](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator)
 * [Registration/OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-registration) 
 * [Payment/Mifos](https://github.com/GovStackWorkingGroup/sandbox-bb-payments) 
-* …
 
 ## Portal
 
