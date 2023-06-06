@@ -6,6 +6,9 @@ penetration (re-define vertical penetration) of GovStack based on a slice of the
 Social Cash Transfer" in order to make a common exemplary journey accessible to all teams and groups. **It is a technical
 proof of concept and example implementation for the GovStack community.**
 
+Full documentation of the use case is in a 
+[dedicated repository](https://github.com/GovStackWorkingGroup/product-use-cases/tree/main/example-implementations/unconditional-social-cash-transfer).
+
 ![Happy-flow-circle](../.gitbook/assets/circle.png)
 USCT description: [Digital Impact Exchange](https://solutions.dial.community/use_cases/unconditional_social_cash_transf) 
 
@@ -14,3 +17,8 @@ Steps are cover only minimum part of workflow and will use only some fragments f
 no errors, corner cases and non-compliances, mocked authentication.
 
 For more details please take a look [backend logic](backend.md).
+
+
+## Frontend application
+
+[Sources of implementation](https://github.com/GovStackWorkingGroup/sandbox-playgroud).
