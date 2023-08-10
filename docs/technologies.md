@@ -11,3 +11,7 @@ The sandbox is a testing and development environment, so it has the following re
 * Use [Kubernetes secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
 * Don't keep secret in git repository (encrypted as well, due to rotation policy)
 * Use random generated passwords, e.g. [Helm randAlphaNum method](https://helm.sh/docs/chart_template_guide/function_list/#randalphanum-randalpha-randnumeric-and-randascii)
+
+## Figma
+
+{% embed url="https://www.figma.com/file/qVUaK5Z5FmgQV16C71RRCn/USCT---Vertical-Prototype?node-id=178-5054&type=design" %}

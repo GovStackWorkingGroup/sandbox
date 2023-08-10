@@ -2,5 +2,4 @@ root: ./docs/
 structure:
     readme: README.md  
     summary: SUMMARY.md
-    temp: temp.md
 
