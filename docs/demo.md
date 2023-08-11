@@ -1,5 +1,7 @@
 # Public Demo - Access public demo Sandbox
+{% hint style="warning" %}
 Public access will be coming soon. Stay tuned.
+{% endhint %}
 
 ## Unconditional social cash transfer
 This use case profiles specifically the digital integration steps within the delivery journey of a generalized unconditional social cash transfer service. Unconditional cash transfers are cash payments provided to financially disadvantaged or vulnerable people or households without requiring anything in return (i.e. without conditionality).
@@ -14,4 +16,6 @@ This use case profiles the implementation process of a construction permit. A se
 {% embed url="https://www.figma.com/file/dVDSKvR2RY99w1zhRZbnSI/Analyses---Construction-Permit-Service?type=design&node-id=578%3A330&mode=design&t=EBRbAF4mCmNfSl3m-1" %}
 
 ## High school certificates
+{% hint style="warning" %}
 This section is under development.
+{% endhint %}
