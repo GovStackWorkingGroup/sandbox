@@ -21,12 +21,6 @@ such as APIs, [building blocks](https://govstack.gitbook.io/specification/buildi
 cases and transaction flows. This helps developers and digital government agencies 
 to achieve a more holistic view of the GovStack.
 
-## Get started
-The sandbox is reusable and replicable, which means you can set up your own GovStack sandbox within your own environment.
-
-To get more details on how to up and run your instance check out the 
-[infrastructure documentation](https://github.com/GovStackWorkingGroup/sandbox-infra). 
-
 ## Candidates for building blocks
 In the Sandbox, you have the freedom to configure your own setup and run any 
 [building blocks](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks) of your choice.
