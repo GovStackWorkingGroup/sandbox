@@ -31,5 +31,3 @@ Try out BB candidates:
 * [Registration/OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-registration) 
 * [Payment/Mifos](https://github.com/GovStackWorkingGroup/sandbox-bb-payments) 
 
-
-[//]: # (todo add diagram with links to other repositories)

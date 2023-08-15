@@ -3,7 +3,9 @@
 ## Unconditional social cash transfer
 This use case profiles specifically the digital integration steps within the delivery journey of a generalized unconditional social cash transfer service. Unconditional cash transfers are cash payments provided to financially disadvantaged or vulnerable people or households without requiring anything in return (i.e. without conditionality).
 
-A live demo is available [here](https://usct.dev.sandbox-playground.com/driver-poc/).
+{% hint style="warning" %}
+Not production ready live demo is available [here](https://usct.dev.sandbox-playground.com/driver-poc/).
+{% endhint %}
 
 Implementation and more details in the [Mock-SRIS repository](https://github.com/GovStackWorkingGroup/sandbox-portal-backend/blob/main/docs/main.md).
 
