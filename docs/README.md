@@ -31,7 +31,3 @@ Try out BB candidates:
 * [Registration/OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-registration) 
 * [Payment/Mifos](https://github.com/GovStackWorkingGroup/sandbox-bb-payments) 
 
-## Portal
-
-[Portal](https://github.com/GovStackWorkingGroup/sandbox-portal-backend) is a concept of marketplace that consists of a 
-collection of officially confirmed building blocks with use case applications.

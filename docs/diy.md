@@ -1,4 +1,4 @@
-# Built your own Sandbox - How to up and run your own GovStack
+# Built your own Sandbox
 
 The sandbox is reusable and replicable, which means you can set up your own GovStack sandbox within your own environment.
 
