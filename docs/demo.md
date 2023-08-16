@@ -14,13 +14,6 @@ This use case profiles the implementation process of a construction permit. A se
 
 For more information, see [product-use-cases repository](https://govstack.gitbook.io/use-cases/readme/inf-1-construction-permit).
 
-{% hint style="warning" %}
+{% hint style="warning" %} 
 This use case demo is under development and expected to be released in Q4/2023.
-{% endhint %}
-
-{% embed url="https://www.figma.com/file/dVDSKvR2RY99w1zhRZbnSI/Analyses---Construction-Permit-Service?type=design&node-id=578%3A330&mode=design&t=EBRbAF4mCmNfSl3m-1" %}
-
-## High school certificates
-{% hint style="warning" %}
-This use case demo is under development and expected to be released in Q1/2024.
 {% endhint %}
