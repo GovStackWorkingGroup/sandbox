@@ -1,22 +1,18 @@
-# USCT demo implementation Demo Implementation (POC)
-{% hint style="warning" %}
-This section is under development.
-{% endhint %}
+# USCT demo implementation
+Current demo implementation contains frontend app React, backend application writen in Spring boot and building blocks.
 
+Implementation consiste of severl parts fronten, midle leyer, orchistration midel ground between bbs. 
 
 ## Frontend Application
-
-{% hint style="warning" %}
-This section is under development.
-{% endhint %}
+[repository](https://github.com/GovStackWorkingGroup/sandbox-playground)
 
 ### Backend Application
-
-{% hint style="warning" %}
-This section is under development.
-{% endhint %}
+Provide service to the client, plus local state.
+[repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md)
 
 ### Used Building Block Implementations
+
+Information mediator.
 
 Building block implementations are applications that implement the functionality described in Govstack Specifications and are compliant with the defined API endpoints in Govstack Specifications.
 
