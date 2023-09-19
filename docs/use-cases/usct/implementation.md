@@ -1,18 +1,20 @@
 # USCT demo implementation
-Current demo implementation contains frontend app React, backend application writen in Spring boot and building blocks.
 
-Implementation consiste of severl parts fronten, midle leyer, orchistration midel ground between bbs. 
+Demo implementation contains:
 
 ## Frontend Application
+{% hint style="warning" %}
+This section is under development.
+{% endhint %}
 [repository](https://github.com/GovStackWorkingGroup/sandbox-playground)
 
-### Backend Application
-Provide service to the client, plus local state.
+## Backend Application
+{% hint style="warning" %}
+This section is under development.
+{% endhint %}
 [repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md)
 
-### Used Building Block Implementations
-
-Information mediator.
+## Used Building Block Implementations
 
 Building block implementations are applications that implement the functionality described in Govstack Specifications and are compliant with the defined API endpoints in Govstack Specifications.
 
@@ -26,10 +28,10 @@ Building Block Implementations that will be used in next versions of UCST implem
 
 Building Block                                      | Building Block Implementation  | Documentation    | Use case Version
 ----------------------------------------------------|--------------------------------|------------------|-----------------
-[Payments](https://govstack.gitbook.io/bb-payments/)| Mifos Payment HUB)             | TBD              | 1.X.X
+[Payments](https://govstack.gitbook.io/bb-payments/)| Mifos Payment HUB             | TBD              | 1.X.X 
 [Identity](https://govstack.gitbook.io/bb-identity/)| Mosip                          | TBD              | 1.X.X
 
-### Used Building Block Emulators
+## Used Building Block Emulators
 
 Building block emulators are simple application that “emulates“ the behaviour of specific building block (BB). The implementations are based on Govstack Specification. They are example implementation that mimics the actual behaviour of BB. They may not provide the complete functionality of specific BB, but should provide specified endpoints in the Govstack Specification.
 

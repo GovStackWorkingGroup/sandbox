@@ -1,8 +1,8 @@
 # Use Case Analysis and Documentation
 
-Use Case is .....
+Within the core GovStack Initiative, "reference use cases" are used to provide context and limit scope of the various GovStack Building Blocks. These use cases are considered to be part of GovStack and are versioned and released alongside the Building Block Specifications when a given GovStack release occurs.
 
-Set expectation
+[Govstack Use Case Documentation](https://govstack.gitbook.io/use-cases/)
 
 ## Unconditional Social Cash Transfer
 
