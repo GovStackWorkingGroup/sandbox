@@ -21,8 +21,6 @@ This use case profiles the implementation process of a construction permit. A se
 
 For more information, see [product-use-cases repository](https://govstack.gitbook.io/use-cases/readme/inf-1-construction-permit).
 
-## Building permit
-
 [Implementation](use-cases/building-permit/implementation.md)
 
 [Design](use-cases/building-permit/design.md) 
