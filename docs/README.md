@@ -1,33 +1,38 @@
-# GovStack Sandbox
+---
+description: Test and Learn the GovStack Approach using our Sandbox
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: false
+---
 
-The GovStack Sandbox is a unified environment for all the GovStack and digital government
-ecosystem actors to discover, understand, engage, experiment, innovate, and build digital
-government solutions using the [GovStack platform](https://govstack.global).
+# Enter the Sandbox
 
-The sandbox is not just a playground, but rather a publicly available kit of tools, including:
-* cloud infrastructure configurations
-* container images
-* CI/CD pipeline configurations
-* Helm charts for building blocks.
- 
-This means that you have the flexibility to take these repositories and set up your own sandbox environment.
+The GovStack Sandbox is a demonstration environment for **digital teams from governments and service providers** to **learn** and **test** how to technically implement the GovStack approach:
 
-The fully operational environment offers a comprehensive API that public and private agencies can use to mimic the
-characteristics exhibited by the GovStack platform and environment on a real-time basis to help simulate responses from 
-all the systems an application interfaces with. This especially enables government agencies and digital government 
-players to experiment with innovative GovTech products or services within a well-defined space and duration. The design 
-of the GovStack sandbox encapsulates the business logic and data necessary to represent multiple GovStack capabilities 
-such as APIs, [building blocks](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks), use 
-cases and transaction flows. This helps developers and digital government agencies 
-to achieve a more holistic view of the GovStack.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Access Use Case Demo</strong></td><td>Explore the civil servant and administrative UIs of our implementation of Unconditional Cash Transfer (USCT)</td><td><a href=".gitbook/assets/Background blue web.png">Background blue web.png</a></td><td><a href="access-demos/usct-use-case.md">usct-use-case.md</a></td></tr><tr><td><strong>Do It Yourself</strong></td><td>Get a packaged version of the sandbox and deploy in your own environment</td><td><a href=".gitbook/assets/Background blue web.png">Background blue web.png</a></td><td><a href="access-demos/diy/">diy</a></td></tr><tr><td><strong>Explore Technical Stack</strong></td><td>Read our documentation and code for assets on all architecture layers</td><td><a href=".gitbook/assets/Background blue web.png">Background blue web.png</a></td><td><a href="explore-stack/architecture.md">architecture.md</a></td></tr></tbody></table>
 
-## Candidates for building blocks
-In the Sandbox, you have the freedom to configure your own setup and run any 
-[building blocks](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks) of your choice.
+{% hint style="info" %}
+You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/) making the Building Block approach tangible for non-tech users.
+{% endhint %}
 
-Try out BB candidates:
+## New to GovStack?
 
-* [Information mediator/X-Road](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator)
-* [Registration/OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-registration) 
-* [Payment/Mifos](https://github.com/GovStackWorkingGroup/sandbox-bb-payments) 
+Find out about GovStack with the following resources:
 
+* A
+* B
+* C
+
+## Need support setting up your test environment?
+
+## Acknowledgement
+
+Thanks to...

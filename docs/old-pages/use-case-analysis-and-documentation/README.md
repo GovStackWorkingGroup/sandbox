@@ -12,15 +12,16 @@ This use case profiles specifically the digital integration steps within the del
 Not production ready live demo is available [here](https://usct.dev.sandbox-playground.com/driver-poc/).
 {% endhint %}
 
-[Implementation](use-cases/usct/implementation.md)
+[Implementation](implementation.md)
 
-[Design](use-cases/usct/design.md) 
+[Design](design.md)
 
 ## Building Permits
+
 This use case profiles the implementation process of a construction permit. A service that automates the entire construction permit approval process - from enabling online application submissions of building construction plans, to initiating verification and final approval by the local government authorities.
 
 For more information, see [product-use-cases repository](https://govstack.gitbook.io/use-cases/readme/inf-1-construction-permit).
 
-[Implementation](use-cases/building-permit/implementation.md)
+[Implementation](implementation-1.md)
 
-[Design](use-cases/building-permit/design.md) 
+[Design](design-1.md)
