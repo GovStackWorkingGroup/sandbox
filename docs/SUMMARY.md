@@ -21,6 +21,7 @@
 ## Follow Methodology
 
 * [Our Service Design Approach](follow-methodology/our-service-design-approach.md)
+* [Our DPI/DPG Contributions](follow-methodology/our-dpi-dpg-contributions.md)
 * [Our Management Recommendations](follow-methodology/our-management-recommendations.md)
 
 ## Old Pages
