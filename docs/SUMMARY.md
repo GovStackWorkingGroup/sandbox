@@ -5,6 +5,7 @@
 ## Access Demos
 
 * [USCT Use Case](access-demos/usct-use-case.md)
+* [Construction Permit Use Case](access-demos/construction-permit-use-case.md)
 * [Do It Yourself](access-demos/diy/README.md)
   * [Support for Setting up Your Test Environment](access-demos/diy/support-for-setting-up-your-test-environment.md)
 
