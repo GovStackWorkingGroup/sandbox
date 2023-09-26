@@ -1,2 +1,0 @@
-# Our Management Recommendations
-

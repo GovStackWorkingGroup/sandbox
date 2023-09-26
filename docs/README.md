@@ -25,14 +25,22 @@ You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-o
 
 ## New to GovStack?
 
-Find out about GovStack with the following resources:
+Explore what GovStack Initiative is and what we offer on our official website:
 
-* A
-* B
-* C
+{% embed url="https://www.govstack.global/" %}
 
-## Need support setting up your test environment?
+## Need support setting up your own GovStack Sandbox?
+
+We help you to find the right partner for the DIY-version of the Sandbox or your bespoke enhanced testing environment:
+
+{% content-ref url="access-demos/diy/get-deployment-support.md" %}
+[get-deployment-support.md](access-demos/diy/get-deployment-support.md)
+{% endcontent-ref %}
 
 ## Acknowledgement
 
-Thanks to...
+Special thanks to all the contributors to the project:
+
+[Gofore](https://gofore.com/en/) implementing the full stack and integrating BB:
+
+[Technoforte](https://www.technoforte.co.in/) customizing and supplying MOSIP (Identity BB):

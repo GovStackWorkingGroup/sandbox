@@ -2,7 +2,6 @@
 description: >-
   Demonstration of a full stack using a Unconditional Social Cash Transfer
   (USCT) Use Case
-layout: landing
 ---
 
 # USCT Use Case

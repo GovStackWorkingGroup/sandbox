@@ -7,7 +7,7 @@
 * [USCT Use Case](access-demos/usct-use-case.md)
 * [Construction Permit Use Case](access-demos/construction-permit-use-case.md)
 * [Do It Yourself](access-demos/diy/README.md)
-  * [Support for Setting up Your Test Environment](access-demos/diy/support-for-setting-up-your-test-environment.md)
+  * [Get Deployment Support](access-demos/diy/get-deployment-support.md)
 
 ## Explore Stack
 
@@ -23,7 +23,7 @@
 
 * [Our Service Design Approach](follow-methodology/our-service-design-approach.md)
 * [Our DPI/DPG Contributions](follow-methodology/our-dpi-dpg-contributions.md)
-* [Our Management Recommendations](follow-methodology/our-management-recommendations.md)
+* [Our Project Retrospective](follow-methodology/our-project-retrospective.md)
 
 ## Old Pages
 
