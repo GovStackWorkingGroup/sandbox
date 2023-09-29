@@ -1,2 +1,0 @@
-# Our Service Design Approach
-

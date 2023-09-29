@@ -21,7 +21,8 @@
 
 ## Follow Methodology
 
-* [Our Service Design Approach](follow-methodology/our-service-design-approach.md)
+* [Our Design Approach](follow-methodology/our-service-design-approach/README.md)
+  * [Best Practice Example: Design of the Sandbox Building Permit Use Case](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case.md)
 * [Our DPI/DPG Contributions](follow-methodology/our-dpi-dpg-contributions.md)
 * [Our Project Retrospective](follow-methodology/our-project-retrospective.md)
 
