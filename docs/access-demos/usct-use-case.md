@@ -18,9 +18,7 @@ Paragraph on USCT Use Case: Lorem ipsum dolor sit amet, consetetur sadipscing el
 
 ## Service Design
 
-{% hint style="info" %}
-Place for service design assets like journey, blueprint, PBMN
-{% endhint %}
+![USCT BPMN](./../../assets/img/usct-bpmn.png "USCT BPMN")
 
 ## Conceptual Assumptions
 
