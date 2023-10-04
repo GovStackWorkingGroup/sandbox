@@ -1,11 +1,13 @@
 # Emulators
 
-> [!IMPORTANT]
-> Building block emulators are simple application that “emulates“ the behaviour of specific building block (BB). The implementations are based on Govstack Specification. They are example implementation that mimics the actual behaviour of BB. They may not provide the complete functionality of specific BB, but should provide specified endpoints in the Govstack Specification.
-> Emulators should provide necessary API endpoints for Specific Application to accomplish specific use-case. In that case emulator should provide only the endpoints that are needed for specific use-case, and should evolve only when new use-case requires not yet implemented API endpoints.
+{% hint style="warning" %}
+Building block emulators are simple application that “emulates“ the behaviour of specific building block (BB). The implementations are based on Govstack Specification. They are example implementation that mimics the actual behaviour of BB. They may not provide the complete functionality of specific BB, but should provide specified endpoints in the Govstack Specification.
+Emulators should provide necessary API endpoints for Specific Application to accomplish specific use-case. In that case emulator should provide only the endpoints that are needed for specific use-case, and should evolve only when new use-case requires not yet implemented API endpoints.
+{% endhint %}
 
-> [!NOTE]
-> In practical terms, an 'emulator' can be likened to a flight simulator employed to train pilots before the actual aircraft is constructed and tested. Similarly, in our context, a emulator is employed to support the development of use-cases before actual building block to be developed.
+{% hint style="info" %}
+In practical terms, an 'emulator' can be likened to a flight simulator employed to train pilots before the actual aircraft is constructed and tested. Similarly, in our context, a emulator is employed to support the development of use-cases before actual building block to be developed.
+{% endhint %}
 ## Requirements
 
 ### Tech requirements:
@@ -29,13 +31,15 @@
 
 ## Emulator Adaptor implementations:
 
-> [!IMPORTANT]
->Adaptors are used to map existing APIs and functionality in a Digital Public Good into a format and scheme that is compatible with the GovStack API specifications.
->Adaptors may transform data formats (ie. XML to json), may transform URLs/protocols, or may be used to map GovStack APIs and data structures into sector-specific standards (ie. FHIR patient records).
->An adaptor (A) represents a candidate-specific solution to the delta between the API defined in the BB spec (GS) and the actual API (X) of candidate “X”. That’s A = GS - X .
+{% hint style="warning" %}
+Adaptors are used to map existing APIs and functionality in a Digital Public Good into a format and scheme that is compatible with the GovStack API specifications.
+Adaptors may transform data formats (ie. XML to json), may transform URLs/protocols, or may be used to map GovStack APIs and data structures into sector-specific standards (ie. FHIR patient records).
+An adaptor (A) represents a candidate-specific solution to the delta between the API defined in the BB spec (GS) and the actual API (X) of candidate “X”. That’s A = GS - X .
+{% endhint %}
 
-> [!NOTE]
-> In a practical sense, an 'adaptor' can be compared to a waiter who translates client orders into requests for the chef. Likewise, in our scenario, an adaptor is utilized to facilitate the transformation of requests for the building blocks.
+{% hint style="info" %}
+In a practical sense, an 'adaptor' can be compared to a waiter who translates client orders into requests for the chef. Likewise, in our scenario, an adaptor is utilized to facilitate the transformation of requests for the building blocks.
+{% endhint %}
 
 For comprehensive details on Adaptors, please refer to the official GovStack [specification](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding#6.1-adapters).
 
