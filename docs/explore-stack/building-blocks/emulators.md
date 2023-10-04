@@ -37,6 +37,8 @@
 > [!NOTE]
 > In a practical sense, an 'adaptor' can be compared to a waiter who translates client orders into requests for the chef. Likewise, in our scenario, an adaptor is utilized to facilitate the transformation of requests for the building blocks.
 
+For comprehensive details on Adaptors, please refer to the official GovStack [specification](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding#6.1-adapters).
+
 | Building Block                                       | Building Block Adaptor                                                                   | Building Block to adapt                                                                    | Documentation                                                                                                 | Spec Version |
 |------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------|
 | [Payments](https://govstack.gitbook.io/bb-payments/) | [Adaptor](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/tree/main/adapter) | [Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/tree/main/emulator) | [Documentation](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/adapter/docs/1-main.md) | 1.0          |
