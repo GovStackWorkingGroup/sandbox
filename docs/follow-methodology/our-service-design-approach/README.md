@@ -13,7 +13,6 @@ For the application in the sandbox, the use case in the process was generalized 
   * Conduct market research and validate market against received input
 * Design
   * Design country-independent and country-specific Service Blueprints
-  * Review Blueprint with Stakeholders
   * Design Wireframes
 * Test
   * Develop prototype
