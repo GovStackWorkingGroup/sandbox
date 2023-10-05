@@ -20,14 +20,3 @@ of the GovStack sandbox encapsulates the business logic and data necessary to re
 such as APIs, [building blocks](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks), use 
 cases and transaction flows. This helps developers and digital government agencies 
 to achieve a more holistic view of the GovStack.
-
-## Candidates for building blocks
-In the Sandbox, you have the freedom to configure your own setup and run any 
-[building blocks](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks) of your choice.
-
-Try out BB candidates:
-
-* [Information mediator/X-Road](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator)
-* [Registration/OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-registration) 
-* [Payment/Mifos](https://github.com/GovStackWorkingGroup/sandbox-bb-payments) 
-
