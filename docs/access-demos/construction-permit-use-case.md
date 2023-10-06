@@ -1,6 +1,6 @@
 ---
 description: >-
-  Demonstration of service and frontend design using a Online Construction
+  Demonstration of service and frontend design using an Online Construction
   Permit Use Case
 ---
 

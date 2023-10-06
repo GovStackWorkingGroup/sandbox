@@ -25,7 +25,7 @@ You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-o
 
 ## New to GovStack?
 
-Explore what GovStack Initiative is and what we offer on our official website:
+Explore what the GovStack Initiative is and what we offer on our official website:
 
 {% embed url="https://www.govstack.global/" %}
 

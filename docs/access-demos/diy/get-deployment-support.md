@@ -10,7 +10,7 @@ One option to get your own sandbox environment is to follow our DIY-instructions
 [.](./)
 {% endcontent-ref %}
 
-If the instructions are not matching your needs, we are happy to receive your request for support. This request can either be taken up by the GovStack Initiative itself or we forward the request to an ecosystem partner, a company familiar with the GovStack approach, to offer you support services.
+If the instructions are not matching your needs, we are happy to receive your request for support. This request can either be taken up by the GovStack Initiative itself or we forward the request to an ecosystem partner, a company familiar with the GovStack approach, to offer you support services. Those services might implicate costs.
 
 A custom sandbox can have **additional features compared to the DIY-version**. For example:
 
