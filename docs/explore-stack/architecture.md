@@ -6,7 +6,7 @@ The GovStack Sandbox aims to be an isolated, safe environment simulating a small
 
 A conceptual view of the Sandbox is illustrated in the diagram above. Since the Sandbox is an isolated environment, how to *access* the applications within the Sandbox is left unspecified. In the Govstack Sandbox reference/demo implementation, some applications are exposed publicly. A private deployment could restrict access e.g. using a VPN, but give developers full access to the environment to see what is happening behind the scenes.
 
-The Sandbox is itself built from "building blocks":
+The Sandbox is built from several components:
 
 * An execution environment for deploying, executing, and inspecting building block instances.
     * A Kubernetes cluster is used as an abstraction of compute and networking resources. A managed Kubernetes service is available from several clould providers, and it scales from single-node deployments to huge clusters.
