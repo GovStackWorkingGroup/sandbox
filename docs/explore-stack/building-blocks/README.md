@@ -1,6 +1,8 @@
 # Building Blocks
 
-Building blocks (BBs) are software modules that can be deployed and combined in a standardized manner. Each building block is capable of working independently, but they can be combined to do much more.
+{% hint style="info" %}
+Building blocks (BBs) are software modules that can be deployed and combined in a standardized manner. Each building block is capable of working independently, but they can be combined to do much more [...](https://govstack.gitbook.io/specification/building-blocks/about-building-blocks)
+{% endhint %}
 
 ## Building Block Implementations (In Use)
 

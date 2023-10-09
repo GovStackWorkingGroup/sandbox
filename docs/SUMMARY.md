@@ -33,9 +33,3 @@
 ## Old Pages
 
 * [Introduction to the Sandbox](old-pages/readme.md)
-* [Our service design approach](old-pages/service-design.md)
-* [Use Case Analysis and Documentation](old-pages/use-case-analysis-and-documentation/README.md)
-  * [USCT implementation](old-pages/use-case-analysis-and-documentation/implementation.md)
-  * [USCT design](old-pages/use-case-analysis-and-documentation/design.md)
-  * [Building permit implementation](old-pages/use-case-analysis-and-documentation/implementation-1.md)
-  * [Building permit design](old-pages/use-case-analysis-and-documentation/design-1.md)
