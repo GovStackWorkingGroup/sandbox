@@ -8,7 +8,7 @@ description: >-
 
 <img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-Unconditional Social Cash Transfer (USCT) programs help families meet their basic needs for well-being and safety and serves as their path to self-sufficiency. Unconditional Social Cash Transfer programs provide temporary cash benefits and supportive services to the neediest families.
+Unconditional Social Cash Transfer (USCT) programs help families meet their basic needs for well-being and safety and serves as their path to self-sufficiency. USCT are cash payments provided to financially disadvantaged or vulnerable people or households without requiring anything in return (i.e. without conditionality).
 
 This demo covers only a small fraction of a USCT user flow for the purpose of using various Building Block APIs. For a more comprehensive visualization of the use case visit the [GovStack USCT simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
 
@@ -55,7 +55,7 @@ Replicate the whole stack from frontend to infrastructure using our [DYI section
 {% hint style="success" %}
 **Independent and automated Infrastructure and BB Deployment**
 
-Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.&#x20;
+Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
 {% endhint %}
 
 ## Service Design
@@ -74,21 +74,21 @@ The following information are valid for all web applications linked in the [acce
 
 The Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH attaches great importance to responsible and transparent management of personal data.
 
-Below we provide users with information as to&#x20;
+Below we provide users with information as to
 
-* who they can contact at GIZ on the subject of data protection&#x20;
+* who they can contact at GIZ on the subject of data protection
 * what data is processed when they visit the web application
 * what rights they have with respect to us
 
 **Controller and Data Protection Officer**
 
-The responsible body for data processing is the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH.&#x20;
+The responsible body for data processing is the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH.
 
-Address: \
-Friedrich-Ebert-Allee 32 + 36, 53113 Bonn \
-Dag-Hammarskjöld-Weg 1–5, 65760 Eschborn&#x20;
+Address:\
+Friedrich-Ebert-Allee 32 + 36, 53113 Bonn\
+Dag-Hammarskjöld-Weg 1–5, 65760 Eschborn
 
-Contact: \
+Contact:\
 nico.lueck@giz.de
 
 If you have specific questions about the protection of your data, please contact GIZ's data protection officer: datenschutzbeauftragte@giz.de
@@ -99,6 +99,12 @@ GIZ processes personal data exclusively in accordance with the [EU General Data 
 Personal data are, for example, name, address, email addresses and user behaviour.
 
 GIZ only processes personal data to the extent necessary. Which data is required and processed for which purpose and on what basis is largely determined by the type of service you use or the purpose for which the data is required.
+
+**Cookies**
+
+When you visit a web application, small text files, so-called cookies, are stored on your computer. They are used to make the online presence more user-friendly and effective overall Cookies cannot run programs or infect your computer with viruses.
+
+The GIZ website uses cookies that are automatically deleted as soon as the browser in which the page is displayed is closed (so-called temporary cookies or session cookies). This type of cookie makes it possible to assign different requests from a browser to a session and to recognize the browser when you visit the website again (session ID).
 
 **Collection of personal data when visiting a web application**
 
@@ -113,7 +119,6 @@ When visiting a [web application](usct-use-case.md#access-points), GIZ itself pr
 | URI Stem           | cs-uri-stem     | The target of the action, for example, Default.htm.                                                                                       |
 | URI Query          | cs-uri-query    | The query, if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages. |
 | Server Port        | s-port          | The server port number that is configured for the service.                                                                                |
-| User Name          | cs-username     | The name of the authenticated user who accessed your server. Anonymous users are indicated by a hyphen.                                   |
 | Client IP Address  | c-ip            | The IP address of the client that made the request.                                                                                       |
 | User Agent         | cs(User-Agent)  | The browser type that the client used.                                                                                                    |
 | Referrer           | cs(Referrer)    | The site that the user last visited. This site provided a link to the current site.                                                       |
@@ -134,17 +139,17 @@ Data logged when accessing the GIZ's web applications is only transmitted to thi
 
 </details>
 
-**Information on opting out**&#x20;
+**Information on opting out**
 
 Users who do not agree with the described processing of data cannot access the web applications. For technical reasons, opting out is not possible.
 
 **Disclosure to third parties**
 
-GIZ does not pass on personal data to third parties unless it is legally obliged or entitled to do so by law.&#x20;
+GIZ does not pass on personal data to third parties unless it is legally obliged or entitled to do so by law.
 
 **Transfer of data to countries outside Germany**
 
-GIZ does not transfer personal data to third countries. When using social media, the privacy policies of the respective providers apply.&#x20;
+GIZ does not transfer personal data to third countries. When using social media, the privacy policies of the respective providers apply.
 
 **Duration of data retention**
 
@@ -163,12 +168,12 @@ Visitors to the GIZ website have the right
 * To obtain **information** about their data stored by us (Article 15 GDPR)
 * To have their data stored by us **rectified** (Article 16 GDPR)
 * To have their data stored by us **erased** (Article 17 GDPR)
-* To obtain **restriction** of processing of their data stored by us (Article 18 GDPR)&#x20;
-* To **object** to the storage of their data if personal data are processed on the basis of the first sentence of Article 6 (1) 1 f and e GDPR (Article 21 GDPR)&#x20;
+* To obtain **restriction** of processing of their data stored by us (Article 18 GDPR)
+* To **object** to the storage of their data if personal data are processed on the basis of the first sentence of Article 6 (1) 1 f and e GDPR (Article 21 GDPR)
 * To receive their personal data in a commonly used and machine-readable format from the controller such that they can be potentially transmitted to another controller (right to **data portability**, Article 20 GDPR).
 * To **withdraw** their consent to the extent that the data has been processed on the basis of consent (Article 6 (1) a GDPR). The lawfulness of the processing on the basis of the consent given remains unaffected until receipt of the withdrawal.
 
-Users also have the right in accordance with Article 77 GDPR to **lodge a complaint with the competent data protection supervisory authority**. The competent authority is the Federal Commissioner for Data Protection and Freedom of Information ([BfDI](https://www.bfdi.bund.de/EN/Home/home\_node.html)). &#x20;
+Users also have the right in accordance with Article 77 GDPR to **lodge a complaint with the competent data protection supervisory authority**. The competent authority is the Federal Commissioner for Data Protection and Freedom of Information ([BfDI](https://www.bfdi.bund.de/EN/Home/home\_node.html)).
 
 </details>
 
@@ -215,7 +220,7 @@ Jochen Flasbarth, State Secretary in the Federal Ministry for Economic Cooperati
 
 **Management Board**
 
-Thorsten Schäfer-Gümbel (Chair) \
+Thorsten Schäfer-Gümbel (Chair)\
 Ingrid-Gabriela Hoven (Vice-Chair)\
 Anna Sophie Herken
 
