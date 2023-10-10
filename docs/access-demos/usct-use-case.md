@@ -16,9 +16,33 @@ This demo covers only a small fraction of a USCT user flow for the purpose of us
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-full-width="false"><thead><tr><th>Stack Component</th><th>UI Access Point</th><th>Note</th></tr></thead><tbody><tr><td>Use Case Frontend</td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">Use Case Frontend</a></td><td><p>User flow to follow:</p><ol><li>Log-in as <a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md#roles-and-permissions">role</a> via embedded MOSIP UI</li><li>...<br></li></ol></td></tr><tr><td>Building Block Information Mediator</td><td>X-Road Security Server Admin UI</td><td></td></tr><tr><td>Building Block Identity</td><td>MOSIP Admin UI</td><td></td></tr><tr><td>Building Block Payment</td><td>Mifos Admin UI</td><td></td></tr><tr><td>DevOps</td><td>CircleCI</td><td></td></tr></tbody></table>
+### **Stack Components**
 
-## Demonstration
+<table data-full-width="false"><thead><tr><th>Stack Component</th><th data-type="content-ref">UI Access Point</th><th>Note</th></tr></thead><tbody><tr><td>Use Case Frontend</td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td>Follow the <a href="usct-use-case.md#use-case-frontend-walk-through">steps below</a> to navigate through the UI<br></td></tr><tr><td>Building Block Information Mediator</td><td></td><td>e.g. X-Road Admin UI</td></tr><tr><td>Building Block Identity</td><td></td><td></td></tr><tr><td>Building Block Payment</td><td></td><td></td></tr><tr><td>DevOps</td><td></td><td>CircleCI UI</td></tr></tbody></table>
+
+### Use Case Frontend Walk Through
+
+Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo. \
+_In italic, read a very simplified version of the BB interactions._
+
+1. Click "Log in with e-signet"\
+   _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching._
+2. Click "Log-in here" and enter the ID `5649650687` **to log in as Enrollment Officer**
+3. Enter `1 1 1 1 1 1` as One Time Password (OTP)&#x20;
+4. As fictional **Enrollment Officer give consent** to using essential personal information (You do not give consent to use your personal data! It is only for demonstration purposes.)\
+   _The user gets forwarded back to the Use Case Frontend UI with respective role parameters<mark style="color:purple;">.</mark>_
+5. Enter the "Candidate Database" and **enroll any person** to any available benefit package\
+   _The user gets a list of candidates requested by the Use Case Backend from the Registry BB channeled through the Information Mediator BB._
+6. After returning to the overview page, click on your profile in the top-right to **log out**\
+   _The user triggers the Use Case Backend to request the Registry BB to change the enrollment status of a candidate._
+7. Repeat the log in procedure with the ID `4893724702` **to log in as Payment Officer**\
+   _Again, the user gets forwarded through the UI of the Identity BB._
+8. Enter the "Beneficiary Database" and mark (check box) a person to **order payment**
+9. Confirm Payment Order\
+   _The user triggers the Use Case Backend to request the Payment BB to issue a payment order. They Payment BB returns successful execution of the payment._
+10. Optional: Log in with the ID `2371487382` **to log in as Registry Officer** and **create new candidates.**
+
+## Demonstrated GovStack Features
 
 With this use case implementation, we demonstrate the GovStack approach through...
 
@@ -37,13 +61,9 @@ The use case is enabled by the most foundational Building Blocks: Identity, Paym
 {% hint style="success" %}
 **Architectural Best Practices**
 
-Different Integration Scenarios Tbc: Adapters (payment emulator and openIMIS) and native (MOSIP, Mifos, X-Road)
-
-[https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding)
-
-Callbacks through IM (PubSub?)
-
-UI Switch
+* Different [Integration Scenarios](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding) (native or via adapters)
+* Callbacks via the Information Mediator
+* UI Switching
 {% endhint %}
 
 {% hint style="success" %}
@@ -58,13 +78,21 @@ Replicate the whole stack from frontend to infrastructure using our [DYI section
 Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
 {% endhint %}
 
-## Service Design
+## Full Stack List
 
-Place for service design assets like journey, blueprint, PBMN
+The following applications, services and Building Block implementations are being used:
 
-## Conceptual Assumptions
+| Name                          | Type              | Purpose                                                |
+| ----------------------------- | ----------------- | ------------------------------------------------------ |
+| Chakra UI                     | Library           |                                                        |
+| X-Road (Information Mediator) | BB Implementation |                                                        |
+| Mifos (Payment)               | BB Implementation |                                                        |
+| MOSIP (Identity)              | BB Implementation |                                                        |
+| CircleCI                      | Application       | Continuous Integration Pipeline for BB Implementations |
+| Terraform                     |                   |                                                        |
+| AWS EKS                       | Service           |                                                        |
 
-Place for e.g. assumption about state/government in which the use case is used. Registries are existing. People have internet access...
+
 
 ***
 

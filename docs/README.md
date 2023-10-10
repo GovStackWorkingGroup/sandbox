@@ -41,6 +41,6 @@ We help you to find the right partner for the DIY-version of the Sandbox or your
 
 Special thanks to all the contributors to the project:
 
-[Gofore](https://gofore.com/en/) implementing the full stack and integrating BB:
+[Gofore](https://gofore.com/en/) for implementing the full stack and integrating BB. Especially, ...
 
-[Technoforte](https://www.technoforte.co.in/) customizing and supplying MOSIP (Identity BB):
+[Technoforte](https://www.technoforte.co.in/) for customizing and supplying MOSIP (Identity BB):
