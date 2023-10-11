@@ -96,9 +96,13 @@ The following applications, services and Building Block implementations are bein
 
 ***
 
-## Data Protection Notice
+## Data Protection Notice and Registration Information
 
 The following information are valid for all web applications linked in the [access points chapter](usct-use-case.md#access-points).
+
+<details>
+
+<summary>Data Protection Notice</summary>
 
 The Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH attaches great importance to responsible and transparent management of personal data.
 
@@ -136,36 +140,29 @@ The GIZ website uses cookies that are automatically deleted as soon as the brows
 
 **Collection of personal data when visiting a web application**
 
-When visiting a [web application](usct-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to, **the page that is viewed and the IP address of the accessing device**. In Detail:
+When visiting a [web application](usct-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:&#x20;
 
-| Field              | Displayed as    | Description                                                                                                                               |
-| ------------------ | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Date               | date            | The date on which the activity occurred.                                                                                                  |
-| Time               | time            | The time, in coordinated universal time (UTC), at which the activity occurred.                                                            |
-| Server IP Address  | s-ip            | The IP address of the server on which the log file entry was generated.                                                                   |
-| Method             | cs-method       | The requested action, for example, a GET method.                                                                                          |
-| URI Stem           | cs-uri-stem     | The target of the action, for example, Default.htm.                                                                                       |
-| URI Query          | cs-uri-query    | The query, if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages. |
-| Server Port        | s-port          | The server port number that is configured for the service.                                                                                |
-| Client IP Address  | c-ip            | The IP address of the client that made the request.                                                                                       |
-| User Agent         | cs(User-Agent)  | The browser type that the client used.                                                                                                    |
-| Referrer           | cs(Referrer)    | The site that the user last visited. This site provided a link to the current site.                                                       |
-| HTTP Status        | sc-status       | The HTTP status code.                                                                                                                     |
-| Protocol Substatus | sc-substatus    | The sub status error code.                                                                                                                |
-| Win32 Status       | sc-win32-status | The Windows status code.                                                                                                                  |
-| Time Taken         | time-taken      | The length of time that the action took, in milliseconds.                                                                                 |
+* Date (The date on which the activity occurred.)
+* Time (The time, in coordinated universal time (UTC), at which the activity occurred.)
+* Server IP Address (The IP address of the server on which the log file entry was generated.)
+* Method (The requested action, for example, a GET method.)
+* URI Stem (The target of the action, for example, Default.htm.)
+* URI Query (The query, if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages.)
+* Server Port (The server port number that is configured for the service.)
+* Client IP Address (The IP address of the client that made the request.)&#x20;
+* User Agent (The browser type that the client used.)
+* Referrer (The site that the user last visited. This site provided a link to the current site.)
+* HTTP Status (The HTTP status code.)
+* Time Taken (The length of time that the action took, in milliseconds.)
+* Request Body (The transmitted data for demonstration purposes (e.g. fictional person)
 
-The data in the log file is deleted after <mark style="background-color:yellow;">\[number]</mark> days.
+The data in the log file is temporary stored. The log retention time depend on amount of requests, service up time and other factors.
 
-<details>
-
-<summary>Further information on the storage and transfer of data:</summary>
+**Further information on the storage and tranfer of data:**
 
 GIZ is obliged to store data beyond the time of the visit in order to ensure protection against attacks on the GIZ’s internet infrastructure and the communications technology of the Federal Government (legal basis: Art. 6 (1) (e) GDPR in conjunction with Section 5 BSI Act). In the event of attacks on communications technology, this data is analyzed and used to initiate legal and criminal prosecution.
 
 Data logged when accessing the GIZ's web applications is only transmitted to third parties if there is a legal obligation to do so or if the transmission is necessary for legal or criminal prosecution in the event of attacks on the Federal Government's communications technology. Data will not be passed on in any other cases. This data is not merged with other data sources at GIZ.
-
-</details>
 
 **Information on opting out**
 
@@ -187,10 +184,6 @@ User data will not be kept any longer than is necessary for the purpose for whic
 
 GIZ accords great importance to protecting personal data. For this reason, technical and organisational security measures ensure that data is protected against accidental and intentional manipulation and unintended erasure as well as unauthorised access. These measures are updated accordingly based on technical developments and adapted continuously in line with the risks.
 
-<details>
-
-<summary>Reference to user rights</summary>
-
 Visitors to the GIZ website have the right
 
 * To obtain **information** about their data stored by us (Article 15 GDPR)
@@ -205,13 +198,11 @@ Users also have the right in accordance with Article 77 GDPR to **lodge a compla
 
 </details>
 
-## Registration Information
-
-The following information are valid for all web applications linked in the [access points chapter](usct-use-case.md#access-points).
-
 <details>
 
-<summary>Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH</summary>
+<summary>Registration Information</summary>
+
+Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH
 
 **Registered offices**
 
