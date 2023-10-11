@@ -13,4 +13,4 @@ Before embarking on the design process for the sandbox Building Permit Use Case,
 * Role-Based Access and Requests
 * Complaint/Contact Systems
 
-These valuable insights from the previous research serve as a foundational understanding of the intricacies and nuances involved in designing e-government services. These research and UX/UI specifications(Link) of Govstack inform the design approach for the sandbox Building Permit Use Case, ensuring that it is tailored to meet the specific needs and challenges of implementing countries while aligning with GovStack specifications.
+These valuable insights from the previous research serve as a foundational understanding of the intricacies and nuances involved in designing e-government services. These research and <mark style="color:red;">UX/UI specifications(Link)</mark> of Govstack inform the design approach for the sandbox Building Permit Use Case, ensuring that it is tailored to meet the specific needs and challenges of implementing countries while aligning with GovStack specifications.
