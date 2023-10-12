@@ -27,3 +27,7 @@ _Municipalities and counties/towns have traditionally managed construction permi
 {% content-ref url="phase-3-test.md" %}
 [phase-3-test.md](phase-3-test.md)
 {% endcontent-ref %}
+
+{% content-ref url="phase-4-deliver.md" %}
+[phase-4-deliver.md](phase-4-deliver.md)
+{% endcontent-ref %}
