@@ -1,14 +1,16 @@
 # Use Case Backend
 
-The Use Case Backend is an application which follows the business logic and orchestrates the API calls...
+The Use Case Backend is an application which follows the business logic and orchestrates the API calls.
 
 ## Build Assets
 
-| Name            | Type      | Note |
-|-----------------|-----------|------|
-| Spring Boot     | Framework |      |
-| Spring Security | Framework |      |      
-| Database        | H2        |   Embedded in-memory databases   |      
+| Name            | Type      | Note                         |
+|-----------------|-----------|------------------------------|
+| Spring Boot     | Framework | Main framework.              |
+| Spring Security | Framework | Access-control framework.    |      
+| Database        | H2        | Embedded in-memory databases |
+
+Full list of assets located in the [build.gradle](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/build.gradle) file.
 
 ## Use Case Implementations
 ### USCT Use Case
