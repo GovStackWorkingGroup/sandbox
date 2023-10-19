@@ -1,13 +1,22 @@
 # Use Case Backend
 
-Within the core GovStack Initiative, "reference use cases" are used to provide context and and showcase the specific application of the various GovStack Building Blocks. These use cases are considered to be part of GovStack and are versioned and released alongside the Building Block Specifications when a given GovStack release occurs.
+The Use Case Backend is an application which follows the business logic and orchestrates the API calls...
 
-[Govstack Use Case Documentation](https://govstack.gitbook.io/use-cases/)
+## Build Assets
 
-## Unconditional Social Cash Transfer
+| Name            | Type      | Note |
+|-----------------|-----------|------|
+| Spring Boot     | Framework |      |
+| Spring Security | Framework |      |      
+| Database        | H2        |   Embedded in-memory databases   |      
 
-This use case profiles specifically the digital integration steps within the delivery journey of a generalized unconditional social cash transfer service. Unconditional cash transfers are cash payments provided to financially disadvantaged or vulnerable people or households without requiring anything in return (i.e. without conditionality).
+## Use Case Implementations
+### USCT Use Case
 
-[Live demo](https://usct.dev.sandbox-playground.com/driver-poc/)
+An implementation of a Use Case Backend application can be found in the following GitHub Repository:
 
-More details in the [repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md).
+https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md
+
+## Conceptual Decisions
+
+More information about decision you can find in the [repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md).
