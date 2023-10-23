@@ -30,7 +30,3 @@
     * [Phase 4 - Deliver](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-4-deliver.md)
 * [Our DPI/DPG Contributions](follow-methodology/our-dpi-dpg-contributions.md)
 * [Our Project Retrospective](follow-methodology/our-project-retrospective.md)
-
-## Old Pages
-
-* [Introduction to the Sandbox](old-pages/readme.md)

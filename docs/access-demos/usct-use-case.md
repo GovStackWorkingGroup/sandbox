@@ -16,18 +16,22 @@ This demo covers only a small fraction of a USCT user flow for the purpose of us
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-### **Stack Components**
+### **Stack Components with**&#x20;
 
-<table data-full-width="false"><thead><tr><th>Stack Component</th><th data-type="content-ref">UI Access Point</th><th>Note</th></tr></thead><tbody><tr><td>Use Case Frontend</td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td>Follow the <a href="usct-use-case.md#use-case-frontend-walk-through">steps below</a> to navigate through the UI<br></td></tr><tr><td>Building Block Information Mediator</td><td></td><td>e.g. X-Road Admin UI</td></tr><tr><td>Building Block Identity</td><td></td><td></td></tr><tr><td>Building Block Payment</td><td></td><td></td></tr><tr><td>DevOps</td><td></td><td>CircleCI UI</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="233">Stack Component</th><th width="187">UI Access Point</th><th>Note</th></tr></thead><tbody><tr><td>Use Case Frontend</td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">USCT Frontend</a></td><td><p>Registry Officer ID: <code>2371487382</code></p><p>Enrollment Officer ID: <code>5649650687</code></p><p>Payment Officer ID: <code>4893724702</code></p><p>OTP: <code>1 1 1 1 1 1</code></p><p>Follow the <a href="usct-use-case.md#use-case-frontend-walk-through">steps below</a> to navigate through the UI</p></td></tr><tr><td>BB Information Mediator </td><td>X-Road Admin UI</td><td></td></tr><tr><td>BB Identity</td><td><a href="https://admin.tfgovidbb.sandbox-playground.com/">MOSIP Admin UI</a></td><td><p>Username : tfgovidbb</p><p>Password : tfgovidbb@123</p></td></tr><tr><td>BB Payment</td><td>Mifos Payment Hub EE</td><td></td></tr><tr><td>DevOps</td><td>CircleCI UI</td><td></td></tr></tbody></table>
 
 ### Use Case Frontend Walk Through
 
 Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo. \
 _In italic, read a very simplified version of the BB interactions._
 
+<details>
+
+<summary>Walk Through Steps</summary>
+
 1. Click "Log in with e-signet"\
-   _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching._
-2. Click "Log-in here" and enter the ID `5649650687` **to log in as Enrollment Officer**
+   _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching_
+2. Click "Log-in here" and enter the ID `5649650687` **to log in as Enrollment Office**
 3. Enter `1 1 1 1 1 1` as One Time Password (OTP)&#x20;
 4. As fictional **Enrollment Officer give consent** to using essential personal information (You do not give consent to use your personal data! It is only for demonstration purposes.)\
    _The user gets forwarded back to the Use Case Frontend UI with respective role parameters<mark style="color:purple;">.</mark>_
@@ -42,6 +46,8 @@ _In italic, read a very simplified version of the BB interactions._
    _The user triggers the Use Case Backend to request the Payment BB to issue a payment order. They Payment BB returns successful execution of the payment._
 10. Optional: Log in with the ID `2371487382` **to log in as Registry Officer** and **create new candidates.**
 
+</details>
+
 ## Demonstrated GovStack Features
 
 With this use case implementation, we demonstrate the GovStack approach through...
@@ -55,7 +61,11 @@ Browse through all the stack components on the left-hand side menu, to explore t
 {% hint style="success" %}
 **Interoperable Digital Public Infrastructure (DPI)**
 
-The use case is enabled by the most foundational Building Blocks: Identity, Payment, Information Mediator. As an implementation of these BB, we set the goal to procure and integrate only Free and Open Source Software (FOSS) and succeeded with: MOSIP, Mifos and X-Road.
+100% GovStack specification compliant and open source software
+
+* BB Identity: MOSIP
+* BB Payment: Mifos
+* BB Information Mediator: X-Road
 {% endhint %}
 
 {% hint style="success" %}
@@ -77,20 +87,6 @@ Replicate the whole stack from frontend to infrastructure using our [DYI section
 
 Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
 {% endhint %}
-
-## Full Stack List
-
-The following applications, services and Building Block implementations are being used:
-
-| Name                          | Type              | Purpose                                                |
-| ----------------------------- | ----------------- | ------------------------------------------------------ |
-| Chakra UI                     | Library           |                                                        |
-| X-Road (Information Mediator) | BB Implementation |                                                        |
-| Mifos (Payment)               | BB Implementation |                                                        |
-| MOSIP (Identity)              | BB Implementation |                                                        |
-| CircleCI                      | Application       | Continuous Integration Pipeline for BB Implementations |
-| Terraform                     |                   |                                                        |
-| AWS EKS                       | Service           |                                                        |
 
 
 
@@ -158,7 +154,7 @@ When visiting a [web application](usct-use-case.md#access-points), GIZ itself pr
 
 The data in the log file is temporary stored. The log retention time depend on amount of requests, service up time and other factors.
 
-**Further information on the storage and tranfer of data:**
+**Further information on the storage and transfer of data:**
 
 GIZ is obliged to store data beyond the time of the visit in order to ensure protection against attacks on the GIZ’s internet infrastructure and the communications technology of the Federal Government (legal basis: Art. 6 (1) (e) GDPR in conjunction with Section 5 BSI Act). In the event of attacks on communications technology, this data is analyzed and used to initiate legal and criminal prosecution.
 

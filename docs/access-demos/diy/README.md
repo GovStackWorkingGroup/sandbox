@@ -1,8 +1,27 @@
-# Built your own Sandbox
+---
+description: A guide on how to replicate the sandbox in your own environment
+---
 
-The sandbox is reusable and replicable, which means you can set up your own GovStack sandbox within your own environment.
+# Do It Yourself
 
-To get more details on how to up and run your instance check out the
-[infrastructure documentation](https://github.com/GovStackWorkingGroup/sandbox-infra).
+You can reuse our [USCT Use Case Demo](../usct-use-case.md) and deploy for research and testing purposes in your own environment. Alongside your own environment read through our "Explore Stack" section and through our developer guidance on GitHub to learn about the technological setup.
 
-Deploy [USCT use case](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md) to [minikube](https://kubernetes.io/docs/tutorials/hello-minikube/).  
+The following versions are available:
+
+| Title                       | Scope                                                                                                                                                                                                                 | Note |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| USCT-DIY-light              | <ul><li>Use Case Frontend</li><li>Use Case Backend</li><li>X-Road as BB Information Mediator</li><li>BB Payment and BB Registry as <a href="../../explore-stack/building-blocks/emulators.md">Emulators</a></li></ul> |      |
+| USCT-DIY-full (in progress) |                                                                                                                                                                                                                       |      |
+
+## Instructions
+
+1. Follow the [Infrastructure Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md) to setup the infrastructure
+2. Get yourself familiar with [minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+3. Follow the [Deployment Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md) to deploy a use case
+4. Explore the deployed stack via the web interface and your developers tools
+
+## Struggling with setting up your own sandbox?
+
+{% content-ref url="get-deployment-support.md" %}
+[get-deployment-support.md](get-deployment-support.md)
+{% endcontent-ref %}
