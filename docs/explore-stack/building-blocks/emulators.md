@@ -8,28 +8,31 @@ Emulators should provide necessary API endpoints for Specific Application to acc
 {% hint style="info" %}
 In practical terms, an 'emulator' can be likened to a flight simulator employed to train pilots before the actual aircraft is constructed and tested. Similarly, in our context, a emulator is employed to support the development of use-cases before actual building block to be developed.
 {% endhint %}
-## Requirements
 
-### Tech requirements:
+## What do we use to <mark style="color:blue;">build</mark> it?
+
 * Java 17/Spring Boot 3.1 (latest stable versions)
 * Gradle as a build tool
 * Packaged as containers
 * Minimal Helm chart for Kubernetes deployment
 
-### Additional requirements:
+## Which <mark style="color:blue;">decisions</mark> do we follow?
+
 * Health check endpoints (org.springframework.boot:spring-boot-starter-actuator)
 * Structured logging (net.logstash.logback:logstash-logback-encoder), to be able to output logs in JSON format for easier collecting.
 * Swagger UI
 * Open API spec JSON & YAML
 
-## Building Block emulator implementations:
+## Where do we <mark style="color:blue;">demo</mark> it?&#x20;
+
+### Building Block emulator implementations:
 
 | Building Block                                                           | Building Block Emulator                                                                              | Documentation                                                                                                          | SPEC Version |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------|
 | [Payments](https://govstack.gitbook.io/bb-payments/)                     | [Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/tree/main/emulator)           | [Documentation](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/emulator/docs/1-main.md)         | 1.0          |
 | [Digital Registries](https://govstack.gitbook.io/bb-digital-registries/) | [Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/tree/main/emulator) | [Documentation](https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/blob/main/emulator/docs/main.md) | 1.0          |
 
-## Emulator Adaptor implementations:
+### Emulator Adaptor implementations:
 
 {% hint style="warning" %}
 Adaptors are used to map existing APIs and functionality in a Digital Public Good into a format and scheme that is compatible with the GovStack API specifications.
