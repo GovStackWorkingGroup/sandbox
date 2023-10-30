@@ -12,15 +12,24 @@ Unconditional Social Cash Transfer (USCT) programs help families meet their basi
 
 This demo covers only a small fraction of a USCT user flow for the purpose of using various Building Block APIs. For a more comprehensive visualization of the use case visit the [GovStack USCT simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
 
-## Access Points
+## How to <mark style="background-color:blue;">access</mark>?
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-### **Stack Components with**&#x20;
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>USCT Use Case Frontend</strong></td><td>Simplified step in user journey to showcase tech</td><td></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-<table data-full-width="false"><thead><tr><th width="233">Stack Component</th><th width="187">UI Access Point</th><th>Note</th></tr></thead><tbody><tr><td>Use Case Frontend</td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">USCT Frontend</a></td><td><p>Registry Officer ID: <code>2371487382</code></p><p>Enrollment Officer ID: <code>5649650687</code></p><p>Payment Officer ID: <code>4893724702</code></p><p>OTP: <code>1 1 1 1 1 1</code></p><p>Follow the <a href="usct-use-case.md#use-case-frontend-walk-through">steps below</a> to navigate through the UI</p></td></tr><tr><td>BB Information Mediator </td><td>X-Road Admin UI</td><td></td></tr><tr><td>BB Identity</td><td><a href="https://admin.tfgovidbb.sandbox-playground.com/">MOSIP Admin UI</a></td><td><p>Username : tfgovidbb</p><p>Password : tfgovidbb@123</p></td></tr><tr><td>BB Payment</td><td>Mifos Payment Hub EE</td><td></td></tr><tr><td>DevOps</td><td>CircleCI UI</td><td></td></tr></tbody></table>
+{% hint style="info" %}
+This is a demo with focus on technical implementations according to the GovStack Specifications. To understand the value of this demo, read through the [demonstrated features](usct-use-case.md#which-govstack-features-are-demonstrated) and dive into [our build/code repositories](usct-use-case.md#what-do-we-use-to-build-it).
+
+If you are interested in a realistic USCT user flow, access our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
+{% endhint %}
 
 ### Use Case Frontend Walk Through
+
+Registry Officer ID: `2371487382`\
+Enrollment Officer ID: `5649650687`\
+Payment Officer ID: `4893724702`\
+OTP: `1 1 1 1 1 1`
 
 Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo. \
 _In italic, read a very simplified version of the BB interactions._
@@ -48,7 +57,11 @@ _In italic, read a very simplified version of the BB interactions._
 
 </details>
 
-## Demonstrated GovStack Features
+### Building Block UIs
+
+Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment Hub) can only be demonstrated by GovStack Initiative staff, until we implemented a secure way to expose the Admin UIs publicly. If you are interested, please [contact us](https://www.govstack.global/about/contact/).
+
+## Which GovStack <mark style="background-color:blue;">features are demonstrated</mark>?
 
 With this use case implementation, we demonstrate the GovStack approach through...
 
@@ -64,22 +77,21 @@ Browse through all the stack components on the left-hand side menu, to explore t
 100% GovStack specification compliant and open source software
 
 * BB Identity: MOSIP
-* BB Payment: Mifos
+* BB Payment: Mifos Payment Hub
 * BB Information Mediator: X-Road
 {% endhint %}
 
 {% hint style="success" %}
 **Architectural Best Practices**
 
-* Different [Integration Scenarios](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding) (native or via adapters)
-* Callbacks via the Information Mediator
-* UI Switching
+* Different [Integration Scenarios](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding) (native and via adapters)
+* UI Switching (ID Authentication)
 {% endhint %}
 
 {% hint style="success" %}
-**Reusability for everyone**
+**Reusable and Open Source**
 
-Replicate the whole stack from frontend to infrastructure using our [DYI section](diy/).
+Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](diy/).
 {% endhint %}
 
 {% hint style="success" %}
@@ -87,6 +99,16 @@ Replicate the whole stack from frontend to infrastructure using our [DYI section
 
 Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
 {% endhint %}
+
+## How did we <mark style="background-color:blue;">assemble</mark> the stack components?
+
+The following diagram shows a USCT Use Case instance with used applications and Building Blocks.&#x20;
+
+<figure><img src="../explore-stack/assets/usct-govstack-instance.drawio.png" alt=""><figcaption></figcaption></figure>
+
+For more details, browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components.
+
+<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repo</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repo</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repo</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td>-</td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
 
 
 

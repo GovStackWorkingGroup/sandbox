@@ -4,7 +4,7 @@ The GovStack Sandbox aims to be an isolated, safe environment simulating a small
 
 {% embed url="https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements" %}
 
-## What do we use to <mark style="color:blue;">build</mark> it?
+## What do we use to <mark style="background-color:blue;">build</mark> it?
 
 Applying a vertical perspective onto the the GovStack Sandbox, it is constituted by various layers. The objective is to reuse as much software components as possible across use cases. Though, the Use Case Frontend and the orchestrating Backend application are custom to each use case.
 
@@ -28,7 +28,7 @@ Applying a vertical perspective onto the the GovStack Sandbox, it is constituted
 [infrastructure.md](infrastructure.md)
 {% endcontent-ref %}
 
-## Where do we <mark style="color:blue;">demo</mark> it?
+## Where do we <mark style="background-color:blue;">demo</mark> it?
 
 The following diagram shows a GovStack instance with Building Block Software required for the [USCT Use Case Demo](../access-demos/usct-use-case.md).
 
@@ -36,7 +36,7 @@ The following diagram shows a GovStack instance with Building Block Software req
 
 To get more information on the specific implementations, browse through the stack components on the left-hand side menu.
 
-## Which <mark style="color:blue;">decisions</mark> do we follow?
+## Which <mark style="background-color:blue;">decisions</mark> do we follow?
 
 ![Sandbox conceptual view](assets/conceptual-view.drawio.png)
 

@@ -2,13 +2,11 @@
 
 The DevOps component has the purpose to easily deploy and manage Building Block implementations. While Building Blocks vary in their technical stack and deployment requirements, the DevOps component shall standardize the procedure on how Building Blocks are getting deployed and configured.
 
-Comment: Confluence pages which might be worth to migrate content: [https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/114098177/DevSecOps](https://govstack-global.atlassian.net/wiki/spaces/DEMO/pages/114098177/DevSecOps) @Jarkko
-
-## What do we use to <mark style="color:blue;">build</mark> it?
+## What do we use to <mark style="background-color:blue;">build</mark> it?
 
 <table><thead><tr><th width="211">Name</th><th>Purpose</th></tr></thead><tbody><tr><td>CircleCI</td><td>CI/CD platform</td></tr><tr><td>Helm</td><td>Package manager</td></tr></tbody></table>
 
-## Where do we <mark style="color:blue;">demo</mark> it?
+## Where do we <mark style="background-color:blue;">demo</mark> it?
 
 In all use case demos (except the DIY-Version), the same build is being used.
 

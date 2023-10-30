@@ -1,27 +1,71 @@
 ---
-description: A guide on how to replicate the sandbox in your own environment
+description: An overview on possible prototypes and reusable assets
 ---
 
 # Do It Yourself
 
-You can reuse our [USCT Use Case Demo](../usct-use-case.md) and deploy for research and testing purposes in your own environment. Alongside your own environment read through our "Explore Stack" section and through our developer guidance on GitHub to learn about the technological setup.
+In this section, we offer you guidance and reusable assets to develop prototypes. As we developed different prototypes for different demo purposes, we do share our examples and code repositories. &#x20;
 
-The following versions are available:
+From prototype B onwards, the suggested setup is forward compatible.
 
-| Title                       | Scope                                                                                                                                                                                                                 | Note |
-| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| USCT-DIY-light              | <ul><li>Use Case Frontend</li><li>Use Case Backend</li><li>X-Road as BB Information Mediator</li><li>BB Payment and BB Registry as <a href="../../explore-stack/building-blocks/emulators.md">Emulators</a></li></ul> |      |
-| USCT-DIY-full (in progress) |                                                                                                                                                                                                                       |      |
+<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
-## Instructions
+## Prototype A: Wireframes
 
-1. Follow the [Infrastructure Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md) to setup the infrastructure
-2. Get yourself familiar with [minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
-3. Follow the [Deployment Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md) to deploy a use case
-4. Explore the deployed stack via the web interface and your developers tools
+**Purpose:** Demonstrate and test user experience and user interfaces
 
-## Struggling with setting up your own sandbox?
+**Example:** [Construction Permit Wireframes](../../follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
 
-{% content-ref url="get-deployment-support.md" %}
-[get-deployment-support.md](get-deployment-support.md)
-{% endcontent-ref %}
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Wireframe Kit</td><td>from UX/UI Group</td><td><mark style="background-color:orange;">To be added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+## Prototype B: Use Case (UC) Frontend
+
+**Purpose**: Demonstrate and test user experience and user interfaces with limited business logic
+
+**Example:** [USCT Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/)
+
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+## Prototype C: UC Frontend + RPC layer
+
+**Purpose:** Demonstrate and test business logic with an optional switch to a Use Case Backend Application
+
+**Example:** Construction Permit Use Case
+
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Generic RPC Backend Application</td><td>GitHub Repository</td><td><mark style="background-color:orange;">To be Added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+
+## Prototype D: UC Frontend + UC Backend + BB Emulators
+
+**Purpose:** Demonstrate and test Building Block architecture with lightweight Building Block Emulators
+
+**Example:** [USCT DIY Version](usct-diy-version.md)
+
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>USCT DIY Developer Instructions</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md">https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md</a></td></tr><tr><td><strong>BB Payment Emulator</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/emulator/docs/1-main.md">https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/emulator/docs/1-main.md</a></td></tr><tr><td><strong>USCT Backend Application</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md</a></td></tr><tr><td><strong>USCT Frontend Application</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">https://github.com/GovStackWorkingGroup/sandbox-playground</a></td></tr></tbody></table>
+
+## Prototype E: UC Frontend + UC Backend + Building Blocks
+
+**Purpose:** Demonstrate and test a fully functional Building Block architecture with Building Blocks Software implementations
+
+**Example:** [USCT Use Case Demo](../usct-use-case.md)
+
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>MOSIP Repository</strong></td><td>GovStack API Compliant version</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/tf-govstack">https://github.com/tf-govstack</a></td></tr><tr><td>Mifos Repository</td><td>GovStack API Compliant version</td><td><mark style="background-color:orange;">To be added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td></td></tr><tr><td>X-Road Repository</td><td>GovStack API Compliant version</td><td><mark style="background-color:orange;">To be added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td></td></tr></tbody></table>
+
+## Infrastructure and DevOps
+
+**Purpose**: Deploy, configure and operate all the above prototypes
+
+**Example**: [DevOps](../../explore-stack/devops.md) and [Infrastructure](../../explore-stack/infrastructure.md)
+
+**Reusable Assets:**
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Sandbox Infrastructure</strong></td><td>GitHub Repository</td><td></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">https://github.com/GovStackWorkingGroup/sandbox-infra</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>

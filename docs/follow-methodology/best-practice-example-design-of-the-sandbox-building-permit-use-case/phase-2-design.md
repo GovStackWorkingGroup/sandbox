@@ -65,7 +65,7 @@ The first service blueprint was created for Djibouti - a construction permit use
 * **Alignment regarding Scope:** By creating a service blueprint based on the "to-be" journey, we ensure that the service aligns with the organization's strategic goals and objectives. This with risk assessment was a huge help in creating scope.
 * **Mapping the GovStack Design Patterns (Link to design patterns Gitbook):** By incorporating the GovStack design patterns onto the service blueprint, we were able to create a comprehensive visualization of the service's interface flow, meticulously aligning it with user actions. This strategic addition proved to be exceptionally valuable as it facilitated a seamless transition into subsequent project phases, ensuring a harmonious and user-centric service design.
 
-<figure><img src="../../../.gitbook/assets/For service blueprint Documentation.jpg" alt=""><figcaption><p>Djibouti - Construction Permit Service Blueprint</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/For service blueprint Documentation.jpg" alt=""><figcaption><p>Djibouti - Construction Permit Service Blueprint</p></figcaption></figure>
 
 <mark style="color:red;">**(Figma Link)**</mark>&#x20;
 
@@ -81,7 +81,7 @@ The first service blueprint was created for Djibouti - a construction permit use
 * Allows us to zoom in on potential enhancements, identifying areas where the service can be further improved to ensure seamless user experiences and operational efficiency.
 * Most importantly creates the foundational base for our design work and further phases.
 
-<figure><img src="../../../.gitbook/assets/Construction Permit Service Blueprint Sandbox.png" alt=""><figcaption><p>Sandbox - Construction Permit Service Blueprint</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Construction Permit Service Blueprint Sandbox.png" alt=""><figcaption><p>Sandbox - Construction Permit Service Blueprint</p></figcaption></figure>
 
 <mark style="color:red;">**(Figma Link)**</mark>&#x20;
 
@@ -93,9 +93,9 @@ Our wireframing process for the Sandbox - Construction Permit Use Case is ground
 
 Our service blueprints with GovStack Design patterns act as the primary guide in the wireframing phase. They provide a holistic view of the service, helping us identify key touchpoints/interactions, allow us to leverage established UI/UX best practices and maintaining consistency across GovStack components. This influence ensures that the wireframes align seamlessly with the service's intended functionality and user journey.
 
-<figure><img src="../../../.gitbook/assets/Architects actions.png" alt=""><figcaption><p>User Actions and Design Patterns (from Service Blueprint)</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Architects actions.png" alt=""><figcaption><p>User Actions and Design Patterns (from Service Blueprint)</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Wireframing.png" alt=""><figcaption><p>From Service Blueprint to Design - Example</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Wireframing.png" alt=""><figcaption><p>From Service Blueprint to Design - Example</p></figcaption></figure>
 
 At the core of our wireframing process is a dedication to user-centric design. We began by delving into a deep understanding of the needs, preferences, and challenges faced by our end-users.
 

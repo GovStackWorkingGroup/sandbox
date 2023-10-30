@@ -11,13 +11,13 @@ This research phase served as the groundwork for creating a design that not only
 
 We initiated the research process by gathering country-specific input. This included understanding the existing (as-is) user journey and identifying the desired (to-be) journey of the Building Permit Use Case. For our case, the primary reference deliverables came from Djibouti.
 
-<figure><img src="../../../.gitbook/assets/image 3.png" alt=""><figcaption><p>Djibouti Construction Permit Use Case - To-Be Journey</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image 3.png" alt=""><figcaption><p>Djibouti Construction Permit Use Case - To-Be Journey</p></figcaption></figure>
 
 In addition to the To-Be journey mapping from Djibouti, we analysed the generic [<mark style="color:red;">construction permit service</mark> ](https://app.gitbook.com/o/pxmRWOPoaU8fUAbbcrus/s/YLLEfCKTnmzAMDSDzJJH/\~/changes/33/product-use-case/urb-1-construction-permit-service#contributors)<mark style="color:red;">documentation</mark> by GovStack. This provided an overview of the construction permit use cases in which we broke it down and analyzed it further to improve our knowledge and understanding of the use case and derive the design based upon that.
 
-<figure><img src="../../../.gitbook/assets/Desktop - 2.png" alt=""><figcaption><p>Illustration of the Gitbook Documentation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Desktop - 2.png" alt=""><figcaption><p>Illustration of the Gitbook Documentation</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Desktop - 3.png" alt=""><figcaption><p>In-Detail Break Down of the Construction Permit Use Case</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Desktop - 3.png" alt=""><figcaption><p>In-Detail Break Down of the Construction Permit Use Case</p></figcaption></figure>
 
 ## Market Research
 

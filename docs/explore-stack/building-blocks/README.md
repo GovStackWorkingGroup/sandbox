@@ -2,7 +2,7 @@
 
 Building blocks (BBs) are software modules that can be deployed and combined in a standardized manner. Each building block is capable of working independently, but they can be combined to do much more. Read the [full definition in the GovStack Specifications](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/introduction#2.3-building-blocks).
 
-## What do we use to <mark style="color:blue;">build</mark> it?
+## What do we use to <mark style="background-color:blue;">build</mark> it?
 
 The Building Block Software are build based on various different software stacks. Please visit the respective documentations for more insights.&#x20;
 
@@ -16,7 +16,7 @@ The Building Block Software are build based on various different software stacks
 
 For our Building Block Emulators, visit our [sub page on emulators](emulators.md).
 
-## Where do we <mark style="color:blue;">demo</mark> it?&#x20;
+## Where do we <mark style="background-color:blue;">demo</mark> it?&#x20;
 
 ### Building Block Software in Use
 
@@ -38,6 +38,6 @@ For our Building Block Emulators, visit our [sub page on emulators](emulators.md
 
 ## Which <mark style="color:blue;">decisions</mark> do we follow?
 
-The Building Block Implementations listed here have been openly procured by GovStack Initiative based on the GovStack Specifications. The providers of these BB implementations have been assigned to adapt/extend their offered software solutions to fully meet the GovStack Specifications for the respective Building Block. You can read more on our [efforts to contribute these additional features to the software's upstream](../../follow-methodology/our-dpi-dpg-contributions.md).
+The Building Block Implementations listed here have been openly procured by GovStack Initiative based on the GovStack Specifications. The providers of these BB implementations have been assigned to adapt/extend their offered software solutions to fully meet the GovStack Specifications for the respective Building Block.
 
 ## Further documentation

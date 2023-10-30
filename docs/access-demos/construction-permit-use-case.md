@@ -14,19 +14,19 @@ The Construction Permit Service provides citizen and companies a streamlined pro
 Acknowledgement: This Use Case is contributed by the _Government of the Republic of Djibouti_
 {% endhint %}
 
-## Access Points
+## How to <mark style="background-color:blue;">access</mark>?
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="../.gitbook/assets/Background blue web.png">Background blue web.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-## Demonstrated GovStack Features
+## Which GovStack <mark style="background-color:blue;">features are demonstrated</mark>?
 
 {% hint style="success" %}
 **GovStack Playbook Best Practice**
 
 The user experience (UX) of this demo is a result of following the [GovStack Playbook](https://govstack.gitbook.io/implementation-playbook/)\
-Take a look and learn from [our service design approach](../follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/)
+Take a look and learn from [our service design approach](../follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/)
 {% endhint %}
 
 {% hint style="success" %}
