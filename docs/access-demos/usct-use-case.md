@@ -12,6 +12,45 @@ Unconditional Social Cash Transfer (USCT) programs help families meet their basi
 
 This demo covers only a small fraction of a USCT user flow for the purpose of using various Building Block APIs. For a more comprehensive visualization of the use case visit the [GovStack USCT simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
 
+## Which GovStack <mark style="background-color:blue;">features are demonstrated</mark>?
+
+With this use case implementation, we demonstrate the GovStack approach through...
+
+{% hint style="success" %}
+**One possible way to implement the** [**GovStack Specifications**](https://govstack.gitbook.io/specification/)
+
+Browse through all the stack components on the left-hand side menu, to explore the technical details on how we put the specifications into practice.
+{% endhint %}
+
+{% hint style="success" %}
+**Interoperable Digital Public Infrastructure (DPI)**
+
+100% GovStack specification compliant and open source software
+
+* BB Identity: MOSIP
+* BB Payment: Mifos Payment Hub
+* BB Information Mediator: X-Road
+{% endhint %}
+
+{% hint style="success" %}
+**Architectural Best Practices**
+
+* Different [Integration Scenarios](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding) (native and via adapters)
+* UI Switching (ID Authentication)
+{% endhint %}
+
+{% hint style="success" %}
+**Reusable and Open Source**
+
+Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](diy/).
+{% endhint %}
+
+{% hint style="success" %}
+**Independent and automated Infrastructure and BB Deployment**
+
+[Learn how we reduced dependency](../explore-stack/infrastructure.md) on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
+{% endhint %}
+
 ## How to <mark style="background-color:blue;">access</mark>?
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
@@ -60,45 +99,6 @@ _In italic, read a very simplified version of the BB interactions._
 ### Building Block UIs
 
 Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment Hub) can only be demonstrated by GovStack Initiative staff, until we implemented a secure way to expose the Admin UIs publicly. If you are interested, please [contact us](https://www.govstack.global/about/contact/).
-
-## Which GovStack <mark style="background-color:blue;">features are demonstrated</mark>?
-
-With this use case implementation, we demonstrate the GovStack approach through...
-
-{% hint style="success" %}
-**One possible way to implement the** [**GovStack Specifications**](https://govstack.gitbook.io/specification/)
-
-Browse through all the stack components on the left-hand side menu, to explore the technical details on how we put the specifications into practice.
-{% endhint %}
-
-{% hint style="success" %}
-**Interoperable Digital Public Infrastructure (DPI)**
-
-100% GovStack specification compliant and open source software
-
-* BB Identity: MOSIP
-* BB Payment: Mifos Payment Hub
-* BB Information Mediator: X-Road
-{% endhint %}
-
-{% hint style="success" %}
-**Architectural Best Practices**
-
-* Different [Integration Scenarios](https://govstack.gitbook.io/specification/architecture-and-nonfunctional-requirements/6-onboarding) (native and via adapters)
-* UI Switching (ID Authentication)
-{% endhint %}
-
-{% hint style="success" %}
-**Reusable and Open Source**
-
-Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](diy/).
-{% endhint %}
-
-{% hint style="success" %}
-**Independent and automated Infrastructure and BB Deployment**
-
-Learn how we reduced dependency on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
-{% endhint %}
 
 ## How did we <mark style="background-color:blue;">assemble</mark> the stack components?
 

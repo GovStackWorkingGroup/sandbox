@@ -4,7 +4,7 @@ description: An overview on possible prototypes and reusable assets
 
 # Do It Yourself
 
-In this section, we offer you guidance and reusable assets to develop prototypes. As we developed different prototypes for different demo purposes, we do share our examples and code repositories. &#x20;
+In this section, we offer you guidance and reusable assets to develop prototypes. As we developed different prototypes for different demo purposes, we do share our examples and code repositories. You might also consider our [service design page](../../follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/) to get a methodological best practices on designing a use case.
 
 From prototype B onwards, the suggested setup is forward compatible.
 

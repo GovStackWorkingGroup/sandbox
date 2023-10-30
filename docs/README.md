@@ -23,7 +23,7 @@ The GovStack Sandbox is a demonstration environment for **digital teams from gov
 You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/) making the Building Block approach tangible **for non-tech users**.
 {% endhint %}
 
-## What <mark style="color:blue;">value</mark> does the sandbox offer?
+## What <mark style="background-color:blue;">value</mark> does the sandbox offer?
 
 ### Learn
 
@@ -48,17 +48,17 @@ In addition to the demo and test purpose, the Sandbox offers a [publicly availab
 * RPC layer for rapid prototyping
 * Building Block Emulator examples
 
-## What <mark style="color:blue;">value</mark> does the sandbox <mark style="color:blue;">not</mark> offer?
+## What <mark style="background-color:blue;">value</mark> does the sandbox <mark style="background-color:blue;">not</mark> offer?
 
 * The Sandbox is _not_ an off-the-self testing environment for your countries e-Government stack. To resemble your IT systems and therefore be of practical testing use for your existing IT context, you would need to customize the Sandbox.
 
-## <mark style="color:blue;">New</mark> to GovStack?
+## <mark style="background-color:blue;">New</mark> to GovStack?
 
 Explore what the GovStack Initiative is and what we offer on our official website:
 
 {% embed url="https://www.govstack.global/" %}
 
-## Need <mark style="color:blue;">support</mark> setting up a GovStack Sandbox instance?
+## Need <mark style="background-color:blue;">support</mark> setting up a GovStack Sandbox instance?
 
 We help you to find the right partner for the DIY-version of the Sandbox or your bespoke enhanced testing environment:
 
@@ -72,4 +72,8 @@ Special thanks to all the contributors to the project:
 
 [Gofore](https://gofore.com/en/) for implementing the full stack and integrating BB. Especially, ...
 
-[Technoforte](https://www.technoforte.co.in/) for customizing and supplying MOSIP (Identity BB):
+[Technoforte](https://www.technoforte.co.in/) for customizing and supplying MOSIP (Identity BB).
+
+Mifos Consortium (...) for customizing and supplying Mifos Payment Hub (Payment BB).
+
+Nortal for customizing and supplying X-Road (Information Mediator BB).
