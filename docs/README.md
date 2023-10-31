@@ -29,7 +29,7 @@ You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-o
 
 The design of the GovStack sandbox encapsulates the business logic and data necessary to **represent multiple GovStack capabilities** such as APIs, Building Blocks, use cases and transaction flows. This helps developers and digital government agencies to achieve a more holistic view of the GovStack approach.
 
-[Access the various demos](access-demos/usct-use-case.md) and [explore the software stack](explore-stack/architecture.md#what-do-we-use-to-build-it) behind these demos. Additionally, you can learn from our development experience at [follow methodology](broken-reference).
+[Access the various demos](access-demos/usct-use-case.md) and [explore the software stack](explore-stack/architecture.md#what-do-we-use-to-build-it) behind these demos. Additionally, you can learn from our development experience at [follow methodology](follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/).
 
 ### Test
 

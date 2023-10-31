@@ -14,7 +14,7 @@ From prototype B onwards, the suggested setup is forward compatible.
 
 **Purpose:** Demonstrate and test user experience and user interfaces
 
-**Example:** [Construction Permit Wireframes](../../follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
+**Example:** [Construction Permit Wireframes](../../follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
 
 **Reusable Assets:**
 

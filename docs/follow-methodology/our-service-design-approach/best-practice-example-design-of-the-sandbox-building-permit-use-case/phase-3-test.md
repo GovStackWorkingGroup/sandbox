@@ -6,7 +6,9 @@ After the initial creation of wireframes, our next step was to transform them in
 
 The Figma prototype grants us the ability to showcase not only the visual design but also the functional aspects of the Sandbox - Construction Permit Use Case interface. It enables us to create realistic user journeys, simulate user actions, and provide a hands-on experience for testing purposes.
 
-<mark style="color:red;">Add FIgma protoFigmatype link (First One)</mark>
+{% embed url="https://www.figma.com/proto/CfwFievYmLdgcDNKEwhvYd/Sandbox%2FConstruction-Permit%2FGitBook?page-id=1%3A29242&type=design&node-id=1-32790&viewport=1854%2C657%2C0.22&t=cEHu6ozohlXJbQjV-8&scaling=scale-down&starting-point-node-id=1%3A32790&hide-ui=1" %}
+Figma Prototype for Testing (Before Iteration)
+{% endembed %}
 
 ## Test Prototype with Users and Iterate Wireframes
 
@@ -15,8 +17,6 @@ User testing is a pivotal phase that follows the development of the Figma protot
 In general, the user testing phase was a success, with participants expressing satisfaction with the wireframes and overall flow. They found the wireframes to be efficient and navigated the prototype with ease, encountering minimal issues.
 
 **We'd like to extend our appreciation to our participants for their valuable insights and feedback during the testing phase.**
-
-
 
 After creating the first version of the wireframes we started to create a **figma prototype** and prepared for user testing. Testing brings feedback from real **users into the equation**, allowing us to **validate our design assumptions** and to **gain invaluable insights** into how users interact with the interface. Through testing, usability issues, pain points, and misunderstandings were unearthed, enabling us to make informed refinements.&#x20;
 

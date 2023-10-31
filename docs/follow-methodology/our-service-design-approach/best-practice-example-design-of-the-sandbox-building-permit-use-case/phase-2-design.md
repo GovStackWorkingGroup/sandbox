@@ -9,7 +9,7 @@ The design phase of the GovStack Sandbox project is where the analyses, conceptu
 
 Service Blueprints are a continuum of “to-be” journeys which are a series of diagrams that visualize the relationship between different components such as user action/goals, Building Blocks, and Data Input/output.
 
-Detailed Service Blueprints were created, encompassing both country-independent and country-specific aspects. These blueprints served as a visual representation of the entire process, highlighting key interactions. There are two service blueprint created for this work:
+Detailed Service Blueprints were created, encompassing both country-independent and country-specific aspects. These blueprints served as a visual representation of the entire process, highlighting key interactions. There are two service blueprints created for this work:
 
 * Djibouti - Construction Permit Use Case Service Blueprint
 * Sandbox - Construction Permit Use Case Service Blueprint
@@ -50,9 +50,13 @@ The primary elements of our service blueprints are:
 * Required documents, Data input and output
 * Building Blocks
 
-<mark style="color:red;">Figma Link of the Template</mark>
+[Service Blueprint Template](https://www.figma.com/file/DAK1g4cpOaBYIEh86jrSaf/Service-Blueprint-Template?type=whiteboard\&node-id=0%3A1\&t=UF29338KZEBhudYq-1)
 
 </details>
+
+{% embed url="https://www.figma.com/file/DAK1g4cpOaBYIEh86jrSaf/Service-Blueprint-Template?type=whiteboard&node-id=0%3A1&t=UF29338KZEBhudYq-1" %}
+Our Service Blueprint Template
+{% endembed %}
 
 **Djibouti - Country-specific construction permit use case service blueprint:**
 
@@ -65,9 +69,9 @@ The first service blueprint was created for Djibouti - a construction permit use
 * **Alignment regarding Scope:** By creating a service blueprint based on the "to-be" journey, we ensure that the service aligns with the organization's strategic goals and objectives. This with risk assessment was a huge help in creating scope.
 * **Mapping the GovStack Design Patterns (Link to design patterns Gitbook):** By incorporating the GovStack design patterns onto the service blueprint, we were able to create a comprehensive visualization of the service's interface flow, meticulously aligning it with user actions. This strategic addition proved to be exceptionally valuable as it facilitated a seamless transition into subsequent project phases, ensuring a harmonious and user-centric service design.
 
-<figure><img src="../../.gitbook/assets/For service blueprint Documentation.jpg" alt=""><figcaption><p>Djibouti - Construction Permit Service Blueprint</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Djibouti Construction permit Service Blueprint.png" alt=""><figcaption><p>Djibouti - Construction Permit Service Blueprint</p></figcaption></figure>
 
-<mark style="color:red;">**(Figma Link)**</mark>&#x20;
+{% embed url="https://www.figma.com/file/CfwFievYmLdgcDNKEwhvYd/Sandbox%2FConstruction-Permit%2FGitBook?type=design&node-id=26%3A25485&mode=design&t=u2GwuxpHqJTye6g1-1" %}
 
 **Sandbox - Generalized construction Permit use case service blueprint:**
 
@@ -81,21 +85,23 @@ The first service blueprint was created for Djibouti - a construction permit use
 * Allows us to zoom in on potential enhancements, identifying areas where the service can be further improved to ensure seamless user experiences and operational efficiency.
 * Most importantly creates the foundational base for our design work and further phases.
 
-<figure><img src="../../.gitbook/assets/Construction Permit Service Blueprint Sandbox.png" alt=""><figcaption><p>Sandbox - Construction Permit Service Blueprint</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Generic Construction Permit Service Blueprint.png" alt=""><figcaption><p>Sandbox - Construction Permit Service Blueprint</p></figcaption></figure>
 
-<mark style="color:red;">**(Figma Link)**</mark>&#x20;
+{% embed url="https://www.figma.com/file/CfwFievYmLdgcDNKEwhvYd/Sandbox%2FConstruction-Permit%2FGitBook?type=design&node-id=12%3A53450&mode=design&t=2txOEl2Wpxz9mqtw-1" %}
+Sandbox - Construction Permit Service Blueprint
+{% endembed %}
 
 ## Design Wireframes
 
 #### **Design Wireframes:** <a href="#design-wireframes" id="design-wireframes"></a>
 
-Our wireframing process for the Sandbox - Construction Permit Use Case is grounded in a multi-faceted approach that combines **GovStack UX/UI specifications **<mark style="color:red;">**(Add Link)**</mark>, **service blueprint insights**, and the integration of **GovStack design patterns.** This methodology streamlines our design efforts, making the process more efficient and effective.
+Our wireframing process for the Sandbox - Construction Permit Use Case is grounded in a multi-faceted approach that combines [**GovStack UX/UI specifications**](https://govstack.gitbook.io/bb-ux/), **service blueprint insights**, and the integration of [**GovStack design patterns**](https://govstack.gitbook.io/bb-ux/service-patterns/7-page-templates)**.** This methodology streamlines our design efforts, making the process more efficient and effective.
 
 Our service blueprints with GovStack Design patterns act as the primary guide in the wireframing phase. They provide a holistic view of the service, helping us identify key touchpoints/interactions, allow us to leverage established UI/UX best practices and maintaining consistency across GovStack components. This influence ensures that the wireframes align seamlessly with the service's intended functionality and user journey.
 
-<figure><img src="../../.gitbook/assets/Architects actions.png" alt=""><figcaption><p>User Actions and Design Patterns (from Service Blueprint)</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Architects actions.png" alt=""><figcaption><p>User Actions and Design Patterns (from Service Blueprint)</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Wireframing.png" alt=""><figcaption><p>From Service Blueprint to Design - Example</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Wireframing.png" alt=""><figcaption><p>From Service Blueprint to Design - Example</p></figcaption></figure>
 
 At the core of our wireframing process is a dedication to user-centric design. We began by delving into a deep understanding of the needs, preferences, and challenges faced by our end-users.
 
@@ -103,6 +109,9 @@ While creating wireframes, we used **Figma** as our primary tool and started wit
 
 In addition, our wireframes are built with a **mobile-first** approach, ensuring that the interface was optimized for mobile devices. This approach not only enhances the user experience on mobile. These wireframes serve as the foundation for subsequent development and testing phases, guaranteeing that the final product not only meets GovStack standards but also provides an exceptional user experience.
 
-It is important to mention that this is an iterative process where user testing and feedback play a crucial role. Based on the user testing and feedback we constantly changed our wireframes to provide optimum solutions within our use case.
+It is important to mention that this is an iterative process where user testing and feedback play a crucial role. Based on the user testing and feedback we constantly changed our wireframes to provide optimum solutions within our use case.&#x20;
 
-<mark style="color:red;">**(Figma Link) And Image**</mark>
+{% embed url="https://www.figma.com/file/CfwFievYmLdgcDNKEwhvYd/Sandbox%2FConstruction-Permit%2FGitBook?type=design&node-id=1%3A19239&mode=design&t=u2GwuxpHqJTye6g1-1" %}
+Final Wireframes after Testing
+{% endembed %}
+
