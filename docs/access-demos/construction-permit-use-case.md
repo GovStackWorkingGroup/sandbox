@@ -26,7 +26,7 @@ Take a look and learn from [our service design approach](../follow-methodology/b
 {% hint style="success" %}
 **Service Patterns of UX/UI Building Block**
 
-The user interface (UI) follows and demonstrates the <mark style="color:red;">UI service patterns (link)</mark>
+The user interface (UI) follows and demonstrates the UI service patterns
 {% endhint %}
 
 {% hint style="success" %}
@@ -39,7 +39,7 @@ The user interface (UI) is optimized for mobile devices with the aim to increase
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="../.gitbook/assets/Background blue web.png">Background blue web.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="../.gitbook/assets/Background blue web.png">Background blue web.png</a></td></tr></tbody></table>
 
 ## How did we <mark style="background-color:blue;">assemble</mark> the stack components?
 

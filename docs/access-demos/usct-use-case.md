@@ -25,12 +25,12 @@ Browse through all the stack components on the left-hand side menu, to explore t
 {% hint style="success" %}
 **Interoperable Digital Public Infrastructure (DPI)**
 
-100% GovStack specification compliant and open source software
+GovStack Specification compliant and open source licensed
 
 * BB Identity: MOSIP
 * BB Payment: Mifos Payment Hub
-* [BB Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator): X-Road
-* [BB Digital registry](https://github.com/GovStackWorkingGroup/sandbox-bb-registration): OpenIMIS
+* BB Information Mediator: X-Road
+* BB Digital Registry: OpenIMIS
 {% endhint %}
 
 {% hint style="success" %}
@@ -56,7 +56,7 @@ Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>USCT Use Case Frontend</strong></td><td>Simplified step in user journey to showcase tech</td><td></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>USCT Use Case Frontend</strong></td><td>Simplified step in user journey to showcase tech</td><td></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 This is a demo with focus on technical implementations according to the GovStack Specifications. To understand the value of this demo, read through the [demonstrated features](usct-use-case.md#which-govstack-features-are-demonstrated) and dive into [our build/code repositories](usct-use-case.md#what-do-we-use-to-build-it).
@@ -71,7 +71,7 @@ Enrollment Officer ID: `5649650687`\
 Payment Officer ID: `4893724702`\
 OTP: `1 1 1 1 1 1`
 
-Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo. \
+Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
 _In italic, read a very simplified version of the BB interactions._
 
 <details>
@@ -81,7 +81,7 @@ _In italic, read a very simplified version of the BB interactions._
 1. Click "Log in with e-signet"\
    _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching_
 2. Click "Log-in here" and enter the ID `5649650687` **to log in as Enrollment Office**
-3. Enter `1 1 1 1 1 1` as One Time Password (OTP)&#x20;
+3. Enter `1 1 1 1 1 1` as One Time Password (OTP)
 4. As fictional **Enrollment Officer give consent** to using essential personal information (You do not give consent to use your personal data! It is only for demonstration purposes.)\
    _The user gets forwarded back to the Use Case Frontend UI with respective role parameters<mark style="color:purple;">.</mark>_
 5. Enter the "Candidate Database" and **enroll any person** to any available benefit package\
@@ -95,6 +95,8 @@ _In italic, read a very simplified version of the BB interactions._
    _The user triggers the Use Case Backend to request the Payment BB to issue a payment order. They Payment BB returns successful execution of the payment._
 10. Optional: Log in with the ID `2371487382` **to log in as Registry Officer** and **create new candidates.**
 
+View a [sequence diagram describing all API requests between BB](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md) in the developer documentation
+
 </details>
 
 ### Building Block UIs
@@ -103,15 +105,13 @@ Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment 
 
 ## How did we <mark style="background-color:blue;">assemble</mark> the stack components?
 
-The following diagram shows a USCT Use Case instance with used applications and Building Blocks.&#x20;
+The following diagram shows a USCT Use Case instance with used applications and Building Blocks.
 
 <figure><img src="../explore-stack/assets/usct-govstack-instance.drawio.png" alt=""><figcaption></figcaption></figure>
 
 For more details, browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components.
 
-<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repo</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repo</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repo</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-registration">OpenIMIS Repo</a>  </td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
-
-
+<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repo</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repo</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repo</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-registration">OpenIMIS Repo</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
 
 ***
 
@@ -159,7 +159,7 @@ The GIZ website uses cookies that are automatically deleted as soon as the brows
 
 **Collection of personal data when visiting a web application**
 
-When visiting a [web application](usct-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:&#x20;
+When visiting a [web application](usct-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:
 
 * Date (The date on which the activity occurred.)
 * Time (The time, in coordinated universal time (UTC), at which the activity occurred.)
@@ -168,7 +168,7 @@ When visiting a [web application](usct-use-case.md#access-points), GIZ itself pr
 * URI Stem (The target of the action, for example, Default.htm.)
 * URI Query (The query, if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages.)
 * Server Port (The server port number that is configured for the service.)
-* Client IP Address (The IP address of the client that made the request.)&#x20;
+* Client IP Address (The IP address of the client that made the request.)
 * User Agent (The browser type that the client used.)
 * Referrer (The site that the user last visited. This site provided a link to the current site.)
 * HTTP Status (The HTTP status code.)
