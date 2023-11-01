@@ -29,7 +29,8 @@ Browse through all the stack components on the left-hand side menu, to explore t
 
 * BB Identity: MOSIP
 * BB Payment: Mifos Payment Hub
-* BB Information Mediator: X-Road
+* [BB Information Mediator](https://github.com/GovStackWorkingGroup/sandbox-bb-information-mediator): X-Road
+* [BB Digital registry](https://github.com/GovStackWorkingGroup/sandbox-bb-registration): OpenIMIS
 {% endhint %}
 
 {% hint style="success" %}
@@ -108,7 +109,7 @@ The following diagram shows a USCT Use Case instance with used applications and 
 
 For more details, browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components.
 
-<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repo</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repo</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repo</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td>-</td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
+<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repo</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repo</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repo</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-registration">OpenIMIS Repo</a>  </td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
 
 
 

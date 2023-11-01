@@ -1,6 +1,6 @@
 # Use Case Backend
 
-The Use Case Backend is an application which follows the business logic and orchestrates the API calls... [vasil.kolev](http://127.0.0.1:5000/u/Hr22V5ZBiTRTprDdc58iaF798OC3 "mention")[Oleksii Danyliuk](http://127.0.0.1:5000/u/dVcx9ZRsQlQpFcAczNRk5jTaVb72 "mention")
+The Use Case Backend is an application which follows the business logic and orchestrates the API calls.
 
 ## What do we use to <mark style="background-color:blue;">build</mark> it?
 
