@@ -70,7 +70,7 @@ We help you to find the right partner for the DIY-version of the Sandbox or your
 
 Special thanks to all the contributors to the project:
 
-[Gofore](https://gofore.com/en/) for implementing the full stack and integrating BB. Especially, ...
+[Gofore](https://gofore.com/en/) for implementing the concept of sandbox for Govstack and integrating BB. Especially: Jarkko Hyöty; Bert Viikmäe; Kimmo Hedemäki; Heidi Kuum; Martha Vasquez; Oleksii Danyliuk; Priit Puru; Vladislav Todorov; Tsvetomir Krumov; Akseli Karvinen; Artun Gurkan; Jonas Bergmeier; Valentin Filyov; Vasil Kolev; Meelis Zujev; Harri Mansikamäki.
 
 [Technoforte](https://www.technoforte.co.in/) for customizing and supplying MOSIP (Identity BB).
 
