@@ -36,7 +36,7 @@ The following diagram shows a GovStack instance with Building Block Software req
 
 To get more information on the specific implementations, browse through the stack components on the left-hand side menu.
 
-## Which <mark style="background-color:blue;">decisions</mark> do we follow?
+## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
 ![Sandbox conceptual view](assets/conceptual-view.drawio.png)
 

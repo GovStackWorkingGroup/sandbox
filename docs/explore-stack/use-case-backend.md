@@ -12,9 +12,9 @@ Full list of assets located in the [build.gradle](https://github.com/GovStackWor
 
 <table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/mocksris">USCT Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
 
-## Which <mark style="color:blue;">decisions</mark> do we follow?
+## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
-
+Chapter in development
 
 ## Further documentation
 

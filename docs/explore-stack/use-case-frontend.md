@@ -12,7 +12,7 @@ For a deeper explanation of why these tools were chosen, read about the [Compone
 
 <table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Application</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a><br><a href="https://www.govstack.global/our-offerings/govspecs/simulation/">USCT Use Case Simulation</a></td></tr><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">Construction Permit Frontend Application</a></td><td><a href="../access-demos/construction-permit-use-case.md">Construction Permit Use Case</a></td></tr></tbody></table>
 
-## Which <mark style="background-color:blue;">decisions</mark> do we follow?
+## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
 Both the [full-stack USCT demo](../access-demos/usct-use-case.md) and the [front-end only USCT](https://www.govstack.global/our-offerings/govspecs/simulation/) demo applications live in the same application due to the interconnectedness of the UI and not seeing a point in separating them at this point in time for simplicity's sake. The full-stack demo is an MVP-like application demonstrating how the front-end and the back-end work together when using multiple building blocks to build an application.
 
