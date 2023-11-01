@@ -28,6 +28,7 @@
   * [Phase 2 - Design](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
   * [Phase 3 - Test](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-3-test.md)
   * [Phase 4 - Deliver](follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-4-deliver.md)
+* [Frontend Development](follow-methodology/frontend-development.md)
 
 ***
 
