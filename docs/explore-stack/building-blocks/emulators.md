@@ -10,13 +10,6 @@ In practical terms, an 'emulator' can be likened to a flight simulator employed 
 
 <table><thead><tr><th width="225">Name</th><th>Purpose</th></tr></thead><tbody><tr><td>Java 17/Spring Boot 3.1</td><td>Application framework</td></tr><tr><td>Gradle</td><td>Build tool</td></tr><tr><td>Helm chart</td><td>Kubernetes deployment</td></tr></tbody></table>
 
-## Which <mark style="background-color:blue;">decisions</mark> do we follow?
-
-* Health check endpoints (org.springframework.boot:spring-boot-starter-actuator)
-* Structured logging (net.logstash.logback:logstash-logback-encoder), to be able to output logs in JSON format for easier collecting.
-* Swagger UI
-* Open API spec JSON & YAML
-
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
 
 ### Building Block emulator implementations:
@@ -39,3 +32,10 @@ For comprehensive details on Adaptors, please refer to the official GovStack [sp
 | Building Block                                       | Building Block Adaptor                                                                   | Building Block to adapt                                                                    | Documentation                                                                                                 | Spec Version |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ------------ |
 | [Payments](https://govstack.gitbook.io/bb-payments/) | [Adaptor](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/tree/main/adapter) | [Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/tree/main/emulator) | [Documentation](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/adapter/docs/1-main.md) | 1.0          |
+
+## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
+
+* Health check endpoints (org.springframework.boot:spring-boot-starter-actuator)
+* Structured logging (net.logstash.logback:logstash-logback-encoder), to be able to output logs in JSON format for easier collecting.
+* Swagger UI
+* Open API spec JSON & YAML

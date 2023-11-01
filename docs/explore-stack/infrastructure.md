@@ -12,7 +12,7 @@ In all use case demos (except the DIY-Version), the same build is being used.
 
 <table><thead><tr><th width="498">Github Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infrastructure</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr></tbody></table>
 
-## Which <mark style="background-color:blue;">decisions</mark> do we follow?
+## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
 The Sandbox Infrastructure provides the foundation of the Sandbox — an environment for deploying and running compatible building block implementations.
 
