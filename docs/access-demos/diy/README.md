@@ -38,7 +38,7 @@ From prototype B onwards, the suggested setup is forward compatible.
 
 **Reusable Assets:**
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Generic RPC Backend Application</td><td>GitHub Repository</td><td><mark style="background-color:orange;">To be Added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Generic RPC Backend Application</strong></td><td>GitHub Repository</td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend</a></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ## Prototype D: UC Frontend + UC Backend + BB Emulators
 
