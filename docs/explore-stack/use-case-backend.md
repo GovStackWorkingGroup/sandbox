@@ -9,8 +9,8 @@ The Use Case Backend is an application which follows the business logic and orch
 Full list of assets located in the [build.gradle](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/build.gradle) file.
 
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
-
-<table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">USCT Backend Application</a></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">USCT Use Case Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
+            
+<table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">USCT Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
