@@ -29,12 +29,12 @@ For our Building Block Emulators, visit our [sub page on emulators](emulators.md
 | [OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/tree/main/digital-registries/open-imis/) | [USCT](../../access-demos/usct-use-case.md)                                                                     |
 | [Payment Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/emulator/docs/1-main.md)         | [USCT DIY](../../access-demos/diy/)                                                                             |
 | [Payment Adapter](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/adapter/docs/1-main.md)           | [USCT DIY](../../access-demos/diy/)                                                                             |
+| [Consent BB](https://example.com)                                                                                         | [USCT DIY](../../access-demos/diy/)                                                                             |
 
 ### Building Block Software in Progress
 
 | BB Implementation      | BB Specification Compliance | Status         |
 | ---------------------- | --------------------------- | -------------- |
-| iGrant.io              | Consent Specification 1.0   | In Development |
 | Platform of Registries | Registry Specification 1.0  | Planned        |
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
