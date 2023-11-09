@@ -30,7 +30,7 @@ Applying a vertical perspective onto the the GovStack Sandbox, it is constituted
 
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
 
-The following diagram shows a GovStack instance with Building Block Software required for the [USCT Use Case Demo](../access-demos/usct-use-case.md).
+The following diagram shows a GovStack instance with Building Block Software required for the [Social Cash Transfer Use Case Demo](../access-demos/usct-use-case.md).
 
 ![USCT demo GovStack instance](assets/usct-govstack-instance.drawio.png)
 

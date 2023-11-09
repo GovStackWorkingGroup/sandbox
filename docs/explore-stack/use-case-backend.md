@@ -4,13 +4,13 @@ The Use Case Backend is an application which follows the business logic and orch
 
 ## What do we use to <mark style="background-color:blue;">build</mark> it?
 
-<table><thead><tr><th width="226">Name</th><th>Purpose</th></tr></thead><tbody><tr><td>Spring Boot</td><td>Main framework</td></tr><tr><td>Spring Security</td><td>Access-control framework</td></tr><tr><td>H2</td><td>Embedded in-memory databases</td></tr></tbody></table>
+<table><thead><tr><th width="365.8262910798122">Name</th><th>Purpose</th></tr></thead><tbody><tr><td>Spring Boot</td><td>Main framework</td></tr><tr><td>Spring Security</td><td>Access-control framework</td></tr><tr><td>H2</td><td>Embedded in-memory databases</td></tr></tbody></table>
 
 Full list of assets located in the [build.gradle](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/build.gradle) file.
 
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
 
-<table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">USCT Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="366.5">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">Unconditional Social Cash Tranfer (USCT) Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 

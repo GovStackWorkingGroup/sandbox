@@ -10,7 +10,7 @@ For a deeper explanation of why these tools were chosen, read about the [Compone
 
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
 
-<table><thead><tr><th width="504">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Application</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a><br><a href="https://www.govstack.global/our-offerings/govspecs/simulation/">USCT Use Case Simulation</a></td></tr><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">Construction Permit Frontend Application</a></td><td><a href="../access-demos/construction-permit-use-case.md">Construction Permit Use Case</a></td></tr></tbody></table>
+<table><thead><tr><th width="378">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Application</a></td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a><br><a href="https://www.govstack.global/our-offerings/govspecs/simulation/">Unconditional Social Cash Transfer (USCT) Simulation</a></td></tr><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">Construction Permit Frontend Application</a></td><td><a href="../access-demos/construction-permit-use-case.md">Construction Permit Use Case</a></td></tr></tbody></table>
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 

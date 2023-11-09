@@ -4,10 +4,10 @@
 
 ## Access Demos
 
-* [USCT Use Case](access-demos/usct-use-case.md)
+* [Social Cash Transfer Use Case](access-demos/usct-use-case.md)
 * [Construction Permit Use Case](access-demos/construction-permit-use-case.md)
 * [Do It Yourself](access-demos/diy/README.md)
-  * [USCT DIY Version](access-demos/diy/usct-diy-version.md)
+  * [Social Cash Transfer DIY Version](access-demos/diy/usct-diy-version.md)
   * [Get Deployment Support](access-demos/diy/get-deployment-support.md)
 
 ## Explore Stack
@@ -32,5 +32,4 @@
 
 ***
 
-* [FAQ](faq.md)
-* [Version History](version-history.md)
+* [Version History](https://github.com/GovStackWorkingGroup/sandbox/releases/)

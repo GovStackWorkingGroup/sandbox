@@ -23,36 +23,48 @@ The GovStack Sandbox is a demonstration environment for **digital teams from gov
 You might also enjoy our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/) making the Building Block approach tangible **for less tech-savvy users**.
 {% endhint %}
 
-## What <mark style="background-color:blue;">value</mark> does the sandbox offer?
+## Sandbox <mark style="background-color:blue;">Value Proposition</mark>
 
-### Learn
+### <mark style="background-color:blue;">Learn</mark> about one possible implementation of the GovStack Specifications
+
+In the Access Demo section, Explore Stack section and our [GitHub repositories](https://github.com/GovStackWorkingGroup?q=sandbox\&type=all\&language=\&sort=), you can dive step-by-step deeper into the technical implementation details.
+
+* Access our [Social Cash Transfer Use Case](access-demos/usct-use-case.md) and [Construction Permit Use Case](access-demos/construction-permit-use-case.md) demos
+* Explore the [Sandbox architecture](explore-stack/architecture.md) and how the stack layers are build
+* Read about the Digital Public Infrastructure & Goods (DPI/DPG) we procured and customized from the open market **(soon)**
+* Examine our [code repositories and developer documentation](./#sandbox-developer-documentation-and-code-repositories-github) containing: cloud infrastructure configurations; CI/CD pipeline configurations; Helm charts; RPC layer for rapid prototyping; Building Block Emulator examples and many more.
+
+### <mark style="background-color:blue;">Prototype</mark> with reusable assets to create your own use cases
+
+Re-usability as one of GovStack's core principles, let us to develop all assets under Open Source licence and as much as possible as a generic implementation to be re-used for new use case prototypes.
+
+* Follow our [service design best practice](follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/) to implement according to the [GovStack Playbook](https://govstack.gitbook.io/implementation-playbook/)
+* Rapidly develop [frontend prototypes with the dynamic RPC backend](access-demos/diy/#prototype-c-uc-frontend-+-rpc-layer)
+* Develop [prototypes comprising the Building Block architecture](access-demos/diy/#prototype-d-uc-frontend-+-uc-backend-+-bb-emulators) with lightweight [emulators](explore-stack/building-blocks/emulators.md)
+
+### <mark style="background-color:blue;">Replicate</mark> stack components to freely explore and change
+
+The full admin access enables you to, for example, access all admin panels, change data or API calls, integrate new Building Blocks.
+
+* [DIY-Package "Light"](access-demos/diy/usct-diy-version.md) of Social Cash Transfer Use Case
+* DIY-Instructions "Full Stack" of Social Cash Transfer Use Case **(soon!)**
+* Clone AWS environment of complete GovStack Sandbox (Get in [contact with us](https://www.govstack.global/about/contact/))
+
+### <mark style="background-color:blue;">Customize</mark> to your own needs local context
+
+A customized version of the sandbox can take various forms and typically involves a software developer team. Possible customization projects could be: (a) providing mainly infrastructure and DevOps components to standardize deployment and configuration of Building Block software from your local GovTech companies or (b) recreating the full stack with different use cases and Building Block software.
+
+[Contact us](https://www.govstack.global/about/contact/) to explore all the possibilities together.
+
+{% hint style="info" %}
+**GovStack Sandbox Short Description**
 
 The design of the GovStack sandbox encapsulates the business logic and data necessary to **represent multiple GovStack capabilities** such as APIs, Building Blocks, use cases and transaction flows. This helps developers and digital government agencies to achieve a more holistic view of the GovStack approach.
 
-[Access the various demos](access-demos/usct-use-case.md) and [explore the software stack](explore-stack/architecture.md#what-do-we-use-to-build-it) behind these demos. Additionally, you can learn from our development experience at [follow methodology](follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/).
+The fully operational environment offers a comprehensive API that public and private agencies can use to **mimic the characteristics exhibited by the GovStack Specifications**. Therefore, it offers an environment on a real-time basis to help **simulate responses** from all the systems an application interfaces with. This especially enables digital government players to **experiment with innovative GovTech products or services** within a well-defined space and duration.
+{% endhint %}
 
-### Test
-
-The fully operational environment offers a comprehensive API that public and private agencies can use to **mimic the characteristics exhibited by the GovStack Specifications**. Therefore, it offers an environment on a real-time basis to help **simulate responses** from all the systems an application interfaces with. This especially enables digital government players to **experiment with innovative GovTech products or services** within a well-defined space and duration.&#x20;
-
-[Deploy a replication](access-demos/diy/usct-diy-version.md) of the GovStack Sandbox and experiment with the software architecture.
-
-### Reuse
-
-In addition to the demo and test purpose, the Sandbox offers a [publicly available kit of reusable tools](access-demos/diy/), including:
-
-* Cloud infrastructure configurations
-* Container images
-* CI/CD pipeline configurations
-* Helm charts for Building Blocks
-* RPC layer for rapid prototyping
-* Building Block Emulator examples
-
-## What <mark style="background-color:blue;">value</mark> does the sandbox <mark style="background-color:blue;">not</mark> offer?
-
-* The Sandbox is _not_ an off-the-self testing environment for your countries e-Government stack. To resemble your IT systems and therefore be of practical testing use for your existing IT context, you would need to customize the Sandbox.
-
-## Where can I <mark style="background-color:blue;">find ...</mark> ?
+## <mark style="background-color:blue;">Table of Contents</mark>
 
 ### GovStack General
 
@@ -61,13 +73,13 @@ In addition to the demo and test purpose, the Sandbox offers a [publicly availab
 
 ### Sandbox High-Level Documentation (GitBook)
 
-| <p><a href="access-demos/usct-use-case.md">USCT Use Case Demo</a></p><p><a href="access-demos/construction-permit-use-case.md">Construction Permit Use Case</a></p><p><a href="access-demos/diy/">Do It Yourself</a></p> | <p><a href="explore-stack/architecture.md">Architecture</a></p><p><a href="explore-stack/use-case-frontend.md">Use Case Frontend</a></p><p><a href="explore-stack/use-case-backend.md">Use Case Backend</a></p><p><a href="explore-stack/building-blocks/">Building Blocks</a></p><p><a href="explore-stack/devops.md">DevOps</a></p><p><a href="explore-stack/infrastructure.md">Infrastructure</a></p> | <p><a href="follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/">Service Design</a></p><p><a href="follow-methodology/frontend-development.md">Frontend Development</a></p><p><a href="faq.md">FAQ</a></p><p><a href="version-history.md">Version History</a></p> |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p><a href="access-demos/usct-use-case.md">Social Cash Transfer Use Case Demo</a></p><p><a href="access-demos/construction-permit-use-case.md">Construction Permit Use Case Demo</a></p><p><a href="access-demos/diy/">Do It Yourself</a></p> | <p><a href="explore-stack/architecture.md">Architecture</a></p><p><a href="explore-stack/use-case-frontend.md">Use Case Frontend</a></p><p><a href="explore-stack/use-case-backend.md">Use Case Backend</a></p><p><a href="explore-stack/building-blocks/">Building Blocks</a></p><p><a href="explore-stack/devops.md">DevOps</a></p><p><a href="explore-stack/infrastructure.md">Infrastructure</a></p> | <p><a href="follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/">Service Design</a></p><p><a href="follow-methodology/frontend-development.md">Frontend Development</a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox/releases/">Version History</a></p> |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Sandbox Developer Documentation and Code Repositories (GitHub)
 
-| <p><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Infrastructure </a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend</a><br><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-emulator">Generic BB Emulator</a></p> | <p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-frontend">USCT Use Case Frontend</a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Use Case Backend</a></p> | <p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">Construction Permit Use Case Frontend</a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-backend">Construction Permit Use Case Backend</a></p> |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Infrastructure </a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend</a><br><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-emulator">Generic BB Emulator</a></p> | <p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-frontend">Social Cash Transfer (USCT) Use Case Frontend</a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">Social Cash Transfer (USCT) Use Case Backend</a></p> | <p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend">Construction Permit Use Case Frontend</a></p><p><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-backend">Construction Permit Use Case Backend</a></p> |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ## Acknowledgement
 
@@ -77,6 +89,6 @@ Special thanks to all the contributors to the project:
 
 [Technoforte](https://www.technoforte.co.in/) for customizing and supplying MOSIP (Identity BB).
 
-Mifos Consortium (...) for customizing and supplying Mifos Payment Hub (Payment BB).
+Mifos Consortium for customizing and supplying Mifos Payment Hub (Payment BB).
 
 Nortal for customizing and supplying X-Road (Information Mediator BB).

@@ -10,7 +10,7 @@ The DevOps component has the purpose to easily deploy and manage Building Block 
 
 In all use case demos (except the DIY-Version), the same build is being used.
 
-<table><thead><tr><th width="500">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td>Helm Chart Example used for Payment BB</td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr><tr><td>Helm Chart Template</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="500">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td>Helm Chart Example used for Payment BB</td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a></td></tr><tr><td>Helm Chart Template</td><td></td></tr></tbody></table>
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 

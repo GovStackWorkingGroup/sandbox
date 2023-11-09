@@ -10,7 +10,7 @@ The infrastructure component has the purpose to efficiently run and manage the u
 
 In all use case demos (except the DIY-Version), the same build is being used.
 
-<table><thead><tr><th width="498">Github Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infrastructure</a></td><td><a href="../access-demos/usct-use-case.md">USCT Use Case Demo</a></td></tr></tbody></table>
+<table><thead><tr><th width="498">Github Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infrastructure</a></td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a></td></tr></tbody></table>
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 

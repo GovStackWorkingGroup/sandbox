@@ -39,13 +39,13 @@ The user interface (UI) is optimized for mobile devices with the aim to increase
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td><mark style="background-color:orange;">Release on the 07.11.2023</mark></td><td><a href="../.gitbook/assets/Background blue web.png">Background blue web.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td><mark style="background-color:orange;">Release on the 21.11.2023</mark></td><td><a href="../.gitbook/assets/Background blue web.png">Background blue web.png</a></td></tr></tbody></table>
 
-## How did we <mark style="background-color:blue;">assemble</mark> the stack components?
+## How are the stack components <mark style="background-color:blue;">assembled</mark>?
 
 Browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components:
 
-<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Construction Permit Frontend Repo</a></td></tr><tr><td>RPC Backend (to be inserted)</td><td></td><td></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Doc</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repo</a></td></tr></tbody></table>
+<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Construction Permit Frontend Repository</a></td></tr><tr><td>RPC Backend (to be inserted)</td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
 
 
 
