@@ -11,10 +11,9 @@ The following versions are available:
 
 ## Instructions
 
-1. Follow the [Infrastructure Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md) to setup the infrastructure
-2. Get yourself familiar with [minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
-3. Follow the [Deployment Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md) to deploy a use case
-4. Explore the deployed stack via the web interface and your developers tools
+1. Get yourself familiar with [minikube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+2. Follow the [Deployment Developer Documentation](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md) to deploy a use case
+3. Explore the deployed stack via the web interface and your developers tools
 
 ## Struggling with setting up the GovStack Sandbox?
 
