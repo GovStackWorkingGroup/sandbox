@@ -6,7 +6,7 @@ description: >-
 
 # Construction Permit Use Case
 
-<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
 
 The Construction Permit Service provides citizen and companies a streamlined process for obtaining permits for construction, renovation, or demolition projects from the national Government.
 

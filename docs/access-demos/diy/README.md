@@ -8,7 +8,7 @@ In this section, we offer you guidance and reusable assets to develop prototypes
 
 From prototype B onwards, the suggested setup is forward compatible.
 
-<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ## Prototype A: Wireframes
 
@@ -18,7 +18,7 @@ From prototype B onwards, the suggested setup is forward compatible.
 
 **Reusable Assets:**
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Wireframe Kit</td><td>from UX/UI Group</td><td><mark style="background-color:orange;">To be added</mark></td><td><a href="../../.gitbook/assets/github-6980894_640.png">github-6980894_640.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Wireframe Kit on Figma</strong></td><td>Select "duplicate to your drafts" to start using the kit</td><td><a href="https://www.figma.com/file/ArThVqhrC8zdu1gRCIAU1m/GovStack-Wireframing-Kit?type=design&#x26;node-id=1-54&#x26;mode=design&#x26;t=f1taXbDpS8YLW70L-0">https://www.figma.com/file/ArThVqhrC8zdu1gRCIAU1m/GovStack-Wireframing-Kit?type=design&#x26;node-id=1-54&#x26;mode=design&#x26;t=f1taXbDpS8YLW70L-0</a></td><td></td></tr></tbody></table>
 
 ## Prototype B: Use Case (UC) Frontend
 
