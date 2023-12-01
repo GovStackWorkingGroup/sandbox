@@ -8,6 +8,7 @@
 * [Construction Permit Use Case](access-demos/construction-permit-use-case.md)
 * [Do It Yourself](access-demos/diy/README.md)
   * [Social Cash Transfer DIY Version](access-demos/diy/usct-diy-version.md)
+  * [Dynamic Frontend DIY](access-demos/diy/diy-dynamic-frontend.md)
   * [Get Deployment Support](access-demos/diy/get-deployment-support.md)
 
 ## Explore Stack
