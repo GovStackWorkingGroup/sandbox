@@ -49,5 +49,5 @@ There are multiple ways to run and use the rpc-backend storage app. The differen
 
 All environment variable definitions can be found in [GovStack Git Repo](https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend/blob/main/docs/env-vars.md)
 
-{% hint style="info" %}All available endpoints can be found in [Main Documentation](https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend/blob/main/docs/main.md) after accessing swagger UI and usage of endpoints is described in [API Usage (TBD)]().
+{% hint style="info" %}All available endpoints can be found in [Main Documentation](https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend/blob/main/docs/main.md) after accessing swagger UI. Usage of endpoints is described in [API Usage](https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend/blob/main/docs/api.md).
 {% endhint %}
