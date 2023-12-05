@@ -36,7 +36,7 @@ All three providers contain the business login in the front end and use the prov
 | ----------- | ----------- | -------- |
 | Run locally | Run application locally. Run like a react app | [GovStack GIT Repo](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/main.md)|
 Docker        | Run application in Docker | [Docker](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/docker.md) |
-Kubernetes    | Run application in k8s cluster using [HELM Chart](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/helm.md) | [Kubernetes](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/kubernetes.md)
+Kubernetes    | Run application in k8s cluster using [HELM Chart](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/helm) | [Kubernetes](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/kubernetes.md)
 
 
 Environment variables needed are described in [Configuration](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/tree/main/docs/configuration.md)
