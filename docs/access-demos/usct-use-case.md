@@ -43,7 +43,7 @@ GovStack Specification compliant and open source licensed
 {% hint style="success" %}
 **Reusable and Open Source**
 
-Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](diy/).
+Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](../follow-methodology/diy/).
 {% endhint %}
 
 {% hint style="success" %}
@@ -58,10 +58,12 @@ Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr></tbody></table>
 
-{% hint style="info" %}
-This is a demo with focus on technical implementations according to the GovStack Specifications. To understand the value of this demo, read through the [demonstrated features](usct-use-case.md#which-govstack-features-are-demonstrated) and dive into [our build/code repositories](usct-use-case.md#what-do-we-use-to-build-it).
+{% hint style="warning" %}
+Public UIs of other Building Blocks will be added until 15.01.2024
+{% endhint %}
 
-If you are interested in a realistic USCT user flow, access our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
+{% hint style="info" %}
+This technical demo does not focus on user experience. For a the full user journey of this use case, visit our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
 {% endhint %}
 
 ### Use Case Frontend Walk Through

@@ -14,7 +14,7 @@ If the instructions are not matching your needs, we are happy to receive your re
 
 A custom sandbox can have **additional features compared to the DIY-version**. For example:
 
-* Fully functional software components as Building Blocks (similar to our [Social Cash Transfer Use Case Demo](../usct-use-case.md))
+* Fully functional software components as Building Blocks (similar to our [Social Cash Transfer Use Case Demo](../../access-demos/usct-use-case.md))
 * Custom use case
 * Full admin rights
 * Localization (e.g. example data, language)

@@ -4,5 +4,5 @@ For the GovStack Sandbox project so far, the delivery phase consisted of publish
 
 As a reader following these phases and aiming for implementation of use cases in your countries live systems, we will collect additional readings and offerings of GovStack in the following list:
 
-* [Frontend Development Recommendations](../frontend-development.md) by the Sandbox Developer Team
+* [Frontend Development Recommendations](../diy/diy-dynamic-frontend/frontend-development.md) by the Sandbox Developer Team
 * Public Administration Ecosystem Reference Architecture (PAERA) (coming soon)
