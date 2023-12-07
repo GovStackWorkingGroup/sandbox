@@ -41,7 +41,7 @@ The Construction Permit Frontend can switch between three providers:
 
 These providers extend the [Base Provider](https://github.com/GovStackWorkingGroup/sandbox-usecase-bp-frontend/blob/main/src/rpc/BaseProvider.ts) which acts as an interface for needed methods and api calls.
 
-All three providers contain the business login in the front end and use the provider as data storage.
+All three providers contain the business logic in the front end and use the provider as data storage.
 
 ### Deployment Guidelines
 
