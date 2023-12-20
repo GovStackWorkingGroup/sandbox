@@ -68,9 +68,9 @@ This technical demo does not focus on user experience. For a the full user journ
 
 ### Use Case Frontend Walk Through
 
-Registry Officer ID: `2371487382`\
-Enrollment Officer ID: `5649650687`\
-Payment Officer ID: `4893724702`\
+Registry Officer ID: `7495681570`\
+Enrollment Officer ID: `9038952310`\
+Payment Officer ID: `2405176278`\
 OTP: `1 1 1 1 1 1`
 
 Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
@@ -82,7 +82,7 @@ _In italic, read a very simplified version of the BB interactions._
 
 1. Click "Log in with e-signet"\
    _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching_
-2. Click "Log-in here" and enter the ID `5649650687` **to log in as Enrollment Office**
+2. Click "Log-in here" and enter the ID `9038952310` **to log in as Enrollment Office**
 3. Enter `1 1 1 1 1 1` as One Time Password (OTP)
 4. As fictional **Enrollment Officer give consent** to using essential personal information (You do not give consent to use your personal data! It is only for demonstration purposes.)\
    _The user gets forwarded back to the Use Case Frontend UI with respective role parameters<mark style="color:purple;">.</mark>_
@@ -90,12 +90,12 @@ _In italic, read a very simplified version of the BB interactions._
    _The user gets a list of candidates requested by the Use Case Backend from the Registry BB channeled through the Information Mediator BB._
 6. After returning to the overview page, click on your profile in the top-right to **log out**\
    _The user triggers the Use Case Backend to request the Registry BB to change the enrollment status of a candidate._
-7. Repeat the log in procedure with the ID `4893724702` **to log in as Payment Officer**\
+7. Repeat the log in procedure with the ID `2405176278` **to log in as Payment Officer**\
    _Again, the user gets forwarded through the UI of the Identity BB._
 8. Enter the "Beneficiary Database" and mark (check box) a person to **order payment**
 9. Confirm Payment Order\
    _The user triggers the Use Case Backend to request the Payment BB to issue a payment order. They Payment BB returns successful execution of the payment._
-10. Optional: Log in with the ID `2371487382` **to log in as Registry Officer** and **create new candidates.**
+10. Optional: Log in with the ID `7495681570` **to log in as Registry Officer** and **create new candidates.**
 
 View a [sequence diagram describing all API requests between BB](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md) in the developer documentation
 
