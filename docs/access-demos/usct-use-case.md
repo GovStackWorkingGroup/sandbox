@@ -56,7 +56,7 @@ Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td></td><td><a href="https://usct.dev.sandbox-playground.com/driver-poc/">https://usct.dev.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td></td><td><a href="https://usct.playground.sandbox-playground.com/driver-poc/">https://usct.playground.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Public UIs of other Building Blocks will be added until 15.01.2024
@@ -73,7 +73,7 @@ Enrollment Officer ID: `9038952310`\
 Payment Officer ID: `2405176278`\
 OTP: `1 1 1 1 1 1`
 
-Open the [Use Case Frontend](https://usct.dev.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
+Open the [Use Case Frontend](https://usct.playground.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
 _In italic, read a very simplified version of the BB interactions._
 
 <details>
