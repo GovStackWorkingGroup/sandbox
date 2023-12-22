@@ -22,6 +22,14 @@
   * [Phase 2 - Design](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
   * [Phase 3 - Test](follow-methodology/our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-3-test.md)
   * [Phase 4 - Deliver](follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-4-deliver.md)
+* [GovStack Design Sprint](follow-methodology/govstack-design-sprint/README.md)
+  * [Overview](follow-methodology/govstack-design-sprint/overview.md)
+  * [Preparation](follow-methodology/govstack-design-sprint/preparation.md)
+  * [Day 1 - Sharing](follow-methodology/govstack-design-sprint/day-1-sharing.md)
+  * [Day 2 - Mapping](follow-methodology/govstack-design-sprint/day-2-mapping.md)
+  * [Day 3 - Ideating](follow-methodology/govstack-design-sprint/day-3-ideating.md)
+  * [Day 4 - Testing](follow-methodology/govstack-design-sprint/day-4-testing.md)
+  * [Day 5 - Learning](follow-methodology/govstack-design-sprint/day-5-learning.md)
 
 ## Explore Stack
 
