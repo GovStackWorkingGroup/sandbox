@@ -39,7 +39,7 @@ The user interface (UI) is optimized for mobile devices with the aim to increase
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="https://bp.dev.sandbox-playground.com/">https://bp.dev.sandbox-playground.com/</a></td><td><a href="../.gitbook/assets/Screenshot-construction-permit.png">Screenshot-construction-permit.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="https://bp.playground.sandbox-playground.com/">https://bp.playground.sandbox-playground.com/</a></td><td><a href="../.gitbook/assets/Screenshot-construction-permit.png">Screenshot-construction-permit.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 On desktop computer, you may shrink the browser window or use the the developer tools of your browser to simulate a mobile device.&#x20;
