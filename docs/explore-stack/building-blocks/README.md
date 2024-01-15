@@ -14,7 +14,7 @@ The Building Block Software are build based on various different software stacks
 | [OpenIMIS](https://openimis.org/)                          | [Digital Registry Specification](https://govstack.gitbook.io/bb-digital-registries/)             |
 | Payment Emulator                                           | [Payment Specification 1.0](https://govstack.gitbook.io/bb-payments/)                            |
 | Payment Adapter                                            | [Payment Specification 1.0 Service APIs](https://govstack.gitbook.io/bb-payments/9-service-apis) |
-| [iGrant.io](https://github.com/decentralised-dataexchange) | [Consent Specification Service APIs](https://govstack.gitbook.io/bb-consent/8-service-apis)      |
+| [iGrant.io](https://github.com/decentralised-dataexchange) | [Consent Specification 1.0](https://govstack.gitbook.io/bb-consent/)      |
 
 For our Building Block Emulators, visit our [sub page on emulators](emulators.md).
 
@@ -30,7 +30,7 @@ For our Building Block Emulators, visit our [sub page on emulators](emulators.md
 | [OpenIMIS](https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/tree/main/digital-registries/open-imis/) | [Unconditional Social Cash Transfer (USCT)](../../access-demos/usct-use-case.md) |
 | [Payment Emulator](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/emulator/docs/1-main.md)         | [USCT DIY Version](../../follow-methodology/diy/)                                |
 | [Payment Adapter](https://github.com/GovStackWorkingGroup/sandbox-bb-payments/blob/main/adapter/docs/1-main.md)           | [USCT DIY Version](../../follow-methodology/diy/)                                |
-| [iGrant.io](https://github.com/decentralised-dataexchange/bb-consent-api)           | [USCT DIY Version](../../follow-methodology/diy/)                                |
+| [iGrant.io](https://github.com/decentralised-dataexchange/bb-consent-api)           | [Unconditional Social Cash Transfer (USCT)](../../access-demos/usct-use-case.md))                                |
 
 ### Building Block Software in Progress
 
