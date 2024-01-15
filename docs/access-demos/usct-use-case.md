@@ -31,6 +31,7 @@ GovStack Specification compliant and open source licensed
 * BB Payment: Mifos Payment Hub
 * BB Information Mediator: X-Road
 * BB Digital Registry: OpenIMIS
+* BB Consent: iGrant
 {% endhint %}
 
 {% hint style="success" %}
@@ -56,11 +57,7 @@ Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td></td><td><a href="https://usct.playground.sandbox-playground.com/driver-poc/">https://usct.playground.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr></tbody></table>
-
-{% hint style="warning" %}
-Public UIs of other Building Blocks will be added until 15.01.2024
-{% endhint %}
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td><em>Authenticate using the roles displayed below</em></td><td><a href="https://usct.playground.sandbox-playground.com/driver-poc/">https://usct.playground.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr><tr><td><strong>API Testing Interface</strong><br></td><td>Test API calls to operating Building Blocks</td><td><em>Authenticate via frontend beforehand</em></td><td><a href="https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/">https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/</a></td><td><a href="../.gitbook/assets/USCT-swagger-screenshot.png">USCT-swagger-screenshot.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 This technical demo does not focus on user experience. For a the full user journey of this use case, visit our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
@@ -68,34 +65,34 @@ This technical demo does not focus on user experience. For a the full user journ
 
 ### Use Case Frontend Walk Through
 
-Registry Officer ID: `7495681570`\
 Enrollment Officer ID: `9038952310`\
 Payment Officer ID: `2405176278`\
 OTP: `1 1 1 1 1 1`
 
 Open the [Use Case Frontend](https://usct.playground.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
-_In italic, read a very simplified version of the BB interactions._
+<mark style="color:green;">In green, read a very simplified version of the BB interactions.</mark>
 
 <details>
 
 <summary>Walk Through Steps</summary>
 
 1. Click "Log in with e-signet"\
-   _The user gets forwarded to the UI of the Identity BB. Demonstrating UI Switching_
-2. Click "Log-in here" and enter the ID `9038952310` **to log in as Enrollment Office**
+   <mark style="color:green;">The user gets forwarded to the UI of the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Identity BB</mark>_<mark style="color:green;">. Demonstrating UI Switching.</mark>
+2. Click "Log-in here" and enter the ID `9038952310` **to login in as Enrollment Officer**
 3. Enter `1 1 1 1 1 1` as One Time Password (OTP)
 4. As fictional **Enrollment Officer give consent** to using essential personal information (You do not give consent to use your personal data! It is only for demonstration purposes.)\
-   _The user gets forwarded back to the Use Case Frontend UI with respective role parameters<mark style="color:purple;">.</mark>_
-5. Enter the "Candidate Database" and **enroll any person** to any available benefit package\
-   _The user gets a list of candidates requested by the Use Case Backend from the Registry BB channeled through the Information Mediator BB._
-6. After returning to the overview page, click on your profile in the top-right to **log out**\
-   _The user triggers the Use Case Backend to request the Registry BB to change the enrollment status of a candidate._
-7. Repeat the log in procedure with the ID `2405176278` **to log in as Payment Officer**\
-   _Again, the user gets forwarded through the UI of the Identity BB._
-8. Enter the "Beneficiary Database" and mark (check box) a person to **order payment**
-9. Confirm Payment Order\
-   _The user triggers the Use Case Backend to request the Payment BB to issue a payment order. They Payment BB returns successful execution of the payment._
-10. Optional: Log in with the ID `7495681570` **to log in as Registry Officer** and **create new candidates.**
+   <mark style="color:green;">The user gets forwarded back to the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Use Case Frontend</mark>_ <mark style="color:green;"></mark><mark style="color:green;">with respective role parameters.</mark>
+5. **Enter the "Candidate Database"**\
+   <mark style="color:green;">The user gets a list of candidates requested by the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Use Case Backend</mark>_ <mark style="color:green;"></mark><mark style="color:green;">from the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Registry BB</mark>_ <mark style="color:green;"></mark><mark style="color:green;">channeled through the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Information Mediator BB</mark>_<mark style="color:green;">.</mark>
+6. **Pick a candidate which has given consent or request consent** to using their personal information by clicking that person and "request consent"\
+   <mark style="color:green;">The user requests information from the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Consent BB</mark>_<mark style="color:green;">, if candidates approved the usage of their personal data. If approval has not been given yet, the user triggers the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Consent BB</mark>_ <mark style="color:green;"></mark><mark style="color:green;">to request approval from the candidate (in this demo, the approval process is mocked and only takes a few seconds).</mark>
+7. **Enroll any person** to any available benefit package and **log out.**\
+   <mark style="color:green;">The user triggers the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Use Case Backend</mark>_ <mark style="color:green;"></mark><mark style="color:green;">to request the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Registry BB</mark>_ <mark style="color:green;"></mark><mark style="color:green;">to change the enrollment status of a candidate to "Beneficiary".</mark>
+8. Repeat the log in procedure with the ID `2405176278` **to log in as Payment Officer**\
+   <mark style="color:green;">Again, the user gets forwarded through the UI of the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Identity BB</mark>_<mark style="color:green;">.</mark>
+9. Enter the "Beneficiary Database" and mark (check box) a person to **order payment**
+10. Confirm Payment Order\
+    <mark style="color:green;">The user triggers the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Use Case Backend</mark>_ <mark style="color:green;"></mark><mark style="color:green;">to request the</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Payment BB</mark>_ <mark style="color:green;"></mark><mark style="color:green;">to issue a payment order. They</mark> <mark style="color:green;"></mark>_<mark style="color:green;">Payment BB</mark>_ <mark style="color:green;"></mark><mark style="color:green;">returns successful execution of the payment.</mark>
 
 View a [sequence diagram describing all API requests between BB](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md) in the developer documentation
 
@@ -103,7 +100,7 @@ View a [sequence diagram describing all API requests between BB](https://github.
 
 ### Building Block UIs
 
-Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment Hub) can only be demonstrated by GovStack Initiative staff, until we implemented a secure way to expose the Admin UIs publicly. If you are interested, please [contact us](https://www.govstack.global/about/contact/).
+Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment Hub, iGrant) can only be demonstrated by GovStack Initiative staff, until we implemented a secure way to expose the Admin UIs publicly. If you are interested, please [contact us](https://www.govstack.global/about/contact/).
 
 ## How are the stack components <mark style="background-color:blue;">assembled</mark>?
 
@@ -113,7 +110,7 @@ The following diagram shows one use case instance with used applications and Bui
 
 For more details, browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components.
 
-<table><thead><tr><th width="283.6548980606663">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repository</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repository</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repository</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/blob/main/digital-registries/open-imis/docs/1-main.md">OpenIMIS Repository</a></td></tr><tr><td></td><td> IGrant</td><td><a href="https://github.com/decentralised-dataexchange/bb-consent-api"> BB Consent-api Repository</a></td></tr><tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
+<table><thead><tr><th width="283.6548980606663">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repository</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repository</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repository</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/blob/main/digital-registries/open-imis/docs/1-main.md">OpenIMIS Repository</a></td></tr><tr><td></td><td>iGrant</td><td><a href="https://github.com/decentralised-dataexchange/bb-consent-api">BB Consent-api Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
 
 ***
 
