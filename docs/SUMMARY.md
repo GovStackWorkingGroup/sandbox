@@ -6,6 +6,7 @@
 
 * [Social Cash Transfer Use Case](access-demos/usct-use-case.md)
 * [Construction Permit Use Case](access-demos/construction-permit-use-case.md)
+* [Message Use Case](access-demos/message-use-case.md)
 
 ## Follow Methodology
 
