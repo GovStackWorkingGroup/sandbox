@@ -10,10 +10,10 @@ RapidPro would be “sent a SMS to all health worker informing about XYZ”. On 
 
 ```mermaid
 sequenceDiagram
-    Civil servant ->> RapidPro: Sign in
-    RapidPro ->> registry BB: Pull list of recipients
-    Civil servant ->> RapidPro: write or choose an SMS alert text and request to recipients
-    RapidPro ->> RapidPro Android Channel: Show the screen where the message is displayed
+    District health manager ->> RapidPro: Sign in
+    RapidPro ->> registry BB: Pull list of healthcare workers 
+  District health manager ->> RapidPro: write or choose an SMS alert text and request to recipients
+    RapidPro ->> RapidPro Channel: Show the screen where the message is displayed
 ```
 
 ### Requirements
