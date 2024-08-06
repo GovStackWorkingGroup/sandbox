@@ -4,7 +4,7 @@ description: >-
   Transfer (USCT) use case
 ---
 
-# Social Cash Transfer Use Case
+# Social Cash Transfer - Tech Demo
 
 <img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
@@ -32,6 +32,8 @@ GovStack Specification compliant and open source licensed
 * BB Information Mediator: X-Road
 * BB Digital Registry: OpenIMIS
 * BB Consent: iGrant
+
+Building Block Software has been selected through a public tender procedure. Each software is one possible solution to fulfilling the Building Block Specifications. <mark style="color:red;">The selection should not be understood as a recommendation by GovStack.</mark>
 {% endhint %}
 
 {% hint style="success" %}
@@ -47,17 +49,11 @@ GovStack Specification compliant and open source licensed
 Replicate the Frontend, Backend and Building Block (Emulators) or reuse specific components using our [DYI section](../follow-methodology/diy/).
 {% endhint %}
 
-{% hint style="success" %}
-**Independent and automated Infrastructure and BB Deployment**
-
-[Learn how we reduced dependency](../explore-stack/infrastructure.md) on one cloud provider and set-up continuous integration pipelines to ease managing building blocks software candidates.
-{% endhint %}
-
 ## How to <mark style="background-color:blue;">access</mark>?
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer Frontend</strong></td><td>Simplified steps of a civil servant user journey</td><td><em>Authenticate using the roles displayed below</em></td><td><a href="https://usct.playground.sandbox-playground.com/driver-poc/">https://usct.playground.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr><tr><td><strong>API Testing Interface</strong><br></td><td>Test API calls to operating Building Blocks</td><td><em>Authenticate via frontend beforehand</em></td><td><a href="https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/">https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/</a></td><td><a href="../.gitbook/assets/USCT-swagger-screenshot.png">USCT-swagger-screenshot.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Social Cash Transfer</strong> <br><strong>User Interface</strong></td><td>Simplified steps of a civil servant user journey</td><td><em>Authenticate using the roles displayed below</em></td><td><a href="https://usct.playground.sandbox-playground.com/driver-poc/">https://usct.playground.sandbox-playground.com/driver-poc/</a></td><td><a href="../.gitbook/assets/USCT V2.png">USCT V2.png</a></td></tr><tr><td><strong>API</strong> <br><strong>Testing Interface</strong></td><td>Test API calls to operating Building Blocks</td><td><em>Authenticate via user interface beforehand</em></td><td><a href="https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/">https://usct.playground.sandbox-playground.com/swagger-ui/index.html#/</a></td><td><a href="../.gitbook/assets/USCT-swagger-screenshot.png">USCT-swagger-screenshot.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 This technical demo does not focus on user experience. For a the full user journey of this use case, visit our [GovStack Simulation](https://www.govstack.global/our-offerings/govspecs/simulation/).
@@ -68,6 +64,8 @@ This technical demo does not focus on user experience. For a the full user journ
 Enrollment Officer ID: `9038952310`\
 Payment Officer ID: `2405176278`\
 OTP: `1 1 1 1 1 1`
+
+{% embed url="https://www.youtube.com/watch?v=w3TIj5Oz5sg" %}
 
 Open the [Use Case Frontend](https://usct.playground.sandbox-playground.com/driver-poc/) and follow these steps to navigate through the demo.\
 <mark style="color:green;">In green, read a very simplified version of the BB interactions.</mark>
@@ -106,11 +104,11 @@ Administrative UIs of the Building Block Software (X-Road, MOSIP, Mifos Payment 
 
 The following diagram shows one use case instance with used applications and Building Blocks.
 
-<figure><img src="../explore-stack/assets/usct-govstack-instance.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/usct-govstack-instance.drawio.png" alt=""><figcaption></figcaption></figure>
 
 For more details, browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components.
 
-<table><thead><tr><th width="283.6548980606663">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repository</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repository</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td>-</td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repository</a></td></tr><tr><td></td><td>Mifos</td><td>-</td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/blob/main/digital-registries/open-imis/docs/1-main.md">OpenIMIS Repository</a></td></tr><tr><td></td><td>iGrant</td><td><a href="https://github.com/decentralised-dataexchange/bb-consent-api">BB Consent-api Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
+<table><thead><tr><th width="283.6548980606663">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-playground">USCT Frontend Repository</a></td></tr><tr><td><a href="../explore-stack/use-case-backend.md">Use Case Backend</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/main.md">USCT Backend Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend">USCT Backend Repository</a></td></tr><tr><td><a href="../explore-stack/building-blocks/">Building Blocks</a></td><td>X-Road</td><td><a href="https://github.com/nortal/GovStack-IM-BB-X-Road">X-Road Repository</a></td></tr><tr><td></td><td>MOSIP</td><td><a href="https://github.com/tf-govstack">MOSIP Repository</a></td></tr><tr><td></td><td>Mifos</td><td><a href="https://mifos.gitbook.io/docs/payment-hub-ee/overview/source-code-repositories">Mifos Repositories</a></td></tr><tr><td></td><td>OpenIMIS + Adapter</td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-bb-digital-registries/blob/main/digital-registries/open-imis/docs/1-main.md">OpenIMIS Repository</a></td></tr><tr><td></td><td>iGrant</td><td><a href="https://github.com/decentralised-dataexchange/bb-consent-docs/wiki">BB Consent-api Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="broken-reference">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
 
 ***
 

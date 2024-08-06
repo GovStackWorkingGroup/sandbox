@@ -10,11 +10,7 @@ Full list of assets located in the [build.gradle](https://github.com/GovStackWor
 
 ## Where do we <mark style="background-color:blue;">demo</mark> it?
 
-<table><thead><tr><th width="366.5">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">Unconditional Social Cash Tranfer (USCT) Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
-
-## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
-
-Chapter in development
+<table><thead><tr><th width="366.5">GitHub Repository</th><th>Used in...</th></tr></thead><tbody><tr><td><a href="https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/src/main/java/global/govstack/usct">Unconditional Social Cash Transfer (USCT) Backend Application</a></td><td><a href="../access-demos/usct-use-case.md">Unconditional Social Cash Transfer (USCT) Demo</a></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 ## Further documentation
 

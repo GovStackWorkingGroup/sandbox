@@ -4,7 +4,7 @@ description: >-
   Use Case
 ---
 
-# Service Design Practice
+# Service Design Best Practice
 
 ## Designing along the GovStack specifications
 
@@ -12,7 +12,7 @@ Work on the use cases envisioned for the GovStack Sandbox was done in close coor
 
 This documentation can be used as an example of how the service design process for developing a use case can look from As-Is Journey to prototypical implementation.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The GovStack Implementation Journey</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The GovStack Implementation Journey</p></figcaption></figure>
 
 The goal has been to deliver tangible and usable demos that provide a realistic but generalised representation of the use case, to support the implementing country and to validate the GovStack specifications.
 
@@ -34,28 +34,28 @@ _Municipalities and counties/towns have traditionally managed construction permi
 
 For the application in the sandbox, the use case was generalised where possible during the design process. The procedure can be roughly divided into the following phases:
 
-{% content-ref url="../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-0-empathy.md" %}
-[phase-0-empathy.md](../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-0-empathy.md)
+{% content-ref url="phase-0-empathy.md" %}
+[phase-0-empathy.md](phase-0-empathy.md)
 {% endcontent-ref %}
 
 * Generic user research
 
-{% content-ref url="../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-1-research.md" %}
-[phase-1-research.md](../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-1-research.md)
+{% content-ref url="phase-1-research.md" %}
+[phase-1-research.md](phase-1-research.md)
 {% endcontent-ref %}
 
 * Receiving country- and use case specific input (i.e. as-is user journey, to-be user journey)
 * Conduct market research and validate market against received input
 
-{% content-ref url="../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md" %}
-[phase-2-design.md](../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-2-design.md)
+{% content-ref url="phase-2-design.md" %}
+[phase-2-design.md](phase-2-design.md)
 {% endcontent-ref %}
 
 * Design country-independent and country-specific Service Blueprints
 * Design Wireframes
 
-{% content-ref url="../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-3-test.md" %}
-[phase-3-test.md](../our-service-design-approach/best-practice-example-design-of-the-sandbox-building-permit-use-case/phase-3-test.md)
+{% content-ref url="phase-3-test.md" %}
+[phase-3-test.md](phase-3-test.md)
 {% endcontent-ref %}
 
 * Develop prototype

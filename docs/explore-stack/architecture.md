@@ -20,8 +20,8 @@ Applying a vertical perspective onto the the GovStack Sandbox, it is constituted
 [building-blocks](building-blocks/)
 {% endcontent-ref %}
 
-{% content-ref url="devops.md" %}
-[devops.md](devops.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="infrastructure.md" %}
@@ -32,13 +32,13 @@ Applying a vertical perspective onto the the GovStack Sandbox, it is constituted
 
 The following diagram shows a GovStack instance with Building Block Software required for the [Social Cash Transfer Use Case Demo](../access-demos/usct-use-case.md).
 
-![USCT demo GovStack instance](assets/usct-govstack-instance.drawio.png)
+![USCT demo GovStack instance](../.gitbook/assets/usct-govstack-instance.drawio.png)
 
 To get more information on the specific implementations, browse through the stack components on the left-hand side menu.
 
 ## Which <mark style="background-color:blue;">conceptual decisions</mark> do we follow?
 
-![Sandbox conceptual view](assets/conceptual-view.drawio.png)
+![Sandbox conceptual view](../.gitbook/assets/conceptual-view.drawio.png)
 
 A conceptual view of the Sandbox is illustrated in the diagram above. Since the Sandbox is an isolated environment, how to _access_ the applications within the Sandbox is left unspecified. In the Govstack Sandbox reference/demo implementation, some applications are exposed publicly. A private deployment could restrict access e.g. using a VPN, but give developers full access to the environment to see what is happening behind the scenes.
 
@@ -55,7 +55,7 @@ The Sandbox is built from several components:
 
 An overview of the GovStack Sandbox implementation is illustrated in the following diagram. The reference implementation is hosted in AWS, and uses CircleCI for assembly and deployment pipelines.
 
-![Sandbox infrastructure diagram](assets/sandbox-infrastructure.drawio.png)
+![Sandbox infrastructure diagram](../.gitbook/assets/sandbox-infrastructure.drawio.png)
 
 The objective of the approach is to allow flexible selection of Sandbox components, depending on need:
 

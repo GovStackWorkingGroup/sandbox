@@ -4,9 +4,9 @@ description: >-
   Permit Use Case
 ---
 
-# Construction Permit Use Case
+# Construction Permit - UX Demo
 
-<img src="../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 The Construction Permit Service provides citizen and companies a streamlined process for obtaining permits for construction, renovation, or demolition projects from the national Government.
 
@@ -39,19 +39,17 @@ The user interface (UI) is optimized for mobile devices with the aim to increase
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit Frontend Demo</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="https://bp.playground.sandbox-playground.com/">https://bp.playground.sandbox-playground.com/</a></td><td><a href="../.gitbook/assets/Screenshot-construction-permit.png">Screenshot-construction-permit.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit</strong> <br><strong>User Interface</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="https://bp.playground.sandbox-playground.com/">https://bp.playground.sandbox-playground.com/</a></td><td><a href="../.gitbook/assets/Screenshot-construction-permit.png">Screenshot-construction-permit.png</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-On desktop computer, you may shrink the browser window or use the the developer tools of your browser to simulate a mobile device.&#x20;
+On desktop computer, you may shrink the browser window or use the the developer tools of your browser to simulate a mobile device.
 {% endhint %}
 
 ## How are the stack components <mark style="background-color:blue;">assembled</mark>?
 
 Browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components:
 
-<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Construction Permit Frontend Repository</a></td></tr><tr><td>RPC Backend (to be inserted)</td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="../explore-stack/devops.md">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
-
-
+<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Construction Permit Frontend Repository</a></td></tr><tr><td>RPC Backend (to be inserted)</td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a> &#x26; <a href="broken-reference">DevOps</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
 
 ***
 
@@ -99,7 +97,7 @@ The GIZ website uses cookies that are automatically deleted as soon as the brows
 
 **Collection of personal data when visiting a web application**
 
-When visiting a [web application](construction-permit-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:&#x20;
+When visiting a [web application](construction-permit-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:
 
 * Date (The date on which the activity occurred.)
 * Time (The time, in coordinated universal time (UTC), at which the activity occurred.)
@@ -108,7 +106,7 @@ When visiting a [web application](construction-permit-use-case.md#access-points)
 * URI Stem (The target of the action, for example, Default.htm.)
 * URI Query (The query, if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages.)
 * Server Port (The server port number that is configured for the service.)
-* Client IP Address (The IP address of the client that made the request.)&#x20;
+* Client IP Address (The IP address of the client that made the request.)
 * User Agent (The browser type that the client used.)
 * Referrer (The site that the user last visited. This site provided a link to the current site.)
 * HTTP Status (The HTTP status code.)
