@@ -8,7 +8,7 @@ description: >-
 
 ## Designing along the GovStack specifications
 
-Work on the use cases envisioned for the GovStack Sandbox was done in close coordination with the respective working groups along the [Implementation framework](https://govstack.gitbook.io/implementation-playbook/) and [UX/UI specifications](https://govstack.gitbook.io/bb-ux/).&#x20;
+Work on the use cases envisioned for the GovStack Sandbox was done in close coordination with the respective working groups along the [Implementation framework](https://govstack.gitbook.io/implementation-playbook/) and [UX/UI specifications](https://govstack.gitbook.io/specification/govstack-ui-ux-guidelines).&#x20;
 
 This documentation can be used as an example of how the service design process for developing a use case can look from As-Is Journey to prototypical implementation.
 
