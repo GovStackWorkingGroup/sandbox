@@ -60,7 +60,7 @@ Success! The service design team is ready to hand over the service to the develo
    * If you end or pause with this prototype, you might add Functionality with our [generic RPC backend](../diy/diy-dynamic-frontend/)
 5. Download <mark style="background-color:blue;">**GovStack’s Sandbox**</mark> environment (Minikube container with Use Case Frontend + X-Road + BB Emulator) and deploy and configure X-Road (a possible software for Information Mediator Building Block). Learn how Building Blocks interact via X-Road with the Frontend based on GovStack’s use case “Social Cash Transfer”.
    * [Sandbox Minikube Explanatory Videos](https://govstack.gitbook.io/sandbox/follow-methodology/diy/usct-diy-version)
-   * [Sandbox Minikube Github Docs](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/blob/main/docs/diy.md)
+   * [Sandbox Minikube Github Docs](https://github.com/GovStackWorkingGroup/sandbox-usecase-usct-backend/tree/main/sandbox-demo-builder/use-cases/diy-minikube)
 6. Build <mark style="background-color:blue;">**Your Emulated Sandbox**</mark> by recreating GovStack’s Sandbox and extend it with your Frontend and Building Block Emulators needed according to your Service Blueprint.
    * Rebuild [infrastructure layer](https://github.com/GovStackWorkingGroup/sandbox-infra)
    * Deploy [Information Mediator "X-Road"](../diy/diy-full-stack.md#deploy-information-mediator)
