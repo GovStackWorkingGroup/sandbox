@@ -13,7 +13,7 @@ DIY Full-Stack deployment will take time! Did you find errors or gaps in the gui
 ### Build Infrastructure
 
 1. Follow the [guide to deploy the infrastructure](https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md)
-2. Decide for manual deployment or use [continues integration](broken-reference) (e.g. CircleCI) tools
+2. Decide for manual deployment or use continues integration (e.g. CircleCI) tools
 
 ### Deploy Information Mediator
 
@@ -25,7 +25,7 @@ DIY Full-Stack deployment will take time! Did you find errors or gaps in the gui
       3. [PubSub Component](https://github.com/nortal/GovStack-IM-BB-PubSub-Component)
       4. [Deployment Scripts](https://github.com/nortal/GovStack-IM-BB-SandBox-Deployment)
 2. Connect Building Blocks and Use Case Backend of next chapter via X-Road Security Server
-   1. [Deployment and Configuration Instructions](https://docs.x-road.global/Manuals/ug-ss\_x-road\_6\_security\_server\_user\_guide.html#table-of-contents)
+   1. [Deployment and Configuration Instructions](https://docs.x-road.global/Manuals/ug-ss_x-road_6_security_server_user_guide.html#table-of-contents)
 
 ### Deploy Building Blocks
 
