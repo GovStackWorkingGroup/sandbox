@@ -20,10 +20,6 @@ Applying a vertical perspective onto the the GovStack Sandbox, it is constituted
 [building-blocks](building-blocks/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="infrastructure.md" %}
 [infrastructure.md](infrastructure.md)
 {% endcontent-ref %}

@@ -12,7 +12,7 @@ Work on the use cases envisioned for the GovStack Sandbox was done in close coor
 
 This documentation can be used as an example of how the service design process for developing a use case can look from As-Is Journey to prototypical implementation.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The GovStack Implementation Journey</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The GovStack Implementation Journey</p></figcaption></figure>
 
 The goal has been to deliver tangible and usable demos that provide a realistic but generalised representation of the use case, to support the implementing country and to validate the GovStack specifications.
 

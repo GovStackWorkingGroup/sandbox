@@ -4,6 +4,8 @@
 
 ## Access Demos
 
+* [Early Warning - Tech Demo](access-demos/early-warning-tech-demo/README.md)
+  * [Project Documentation](access-demos/early-warning-tech-demo/project-documentation.md)
 * [Social Cash Transfer - Tech Demo](access-demos/usct-use-case.md)
 * [Construction Permit - UX Demo](access-demos/construction-permit-use-case.md)
 * [High School Certificate - Methodology Demo](access-demos/high-school-certificate-methodology-demo.md)
@@ -44,6 +46,7 @@
   * [Identity: MOSIP](explore-stack/building-blocks/identity-mosip.md)
   * [Consent: iGrant.io/Redpill Linpro](explore-stack/building-blocks/consent-igrant.io-redpill-linpro.md)
   * [Payment: Mifos Payment Hub](explore-stack/building-blocks/payment-mifos-payment-hub.md)
+  * [Messaging: RapidPro](explore-stack/building-blocks/messaging-rapidpro.md)
   * [Emulators](explore-stack/building-blocks/emulators.md)
 * [Infrastructure](explore-stack/infrastructure.md)
 

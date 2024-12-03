@@ -1,61 +1,122 @@
 ---
-description: >-
-  Demonstration of service and frontend design using an Online Construction
-  Permit Use Case
+description: Demonstration of a full stack implementation using a Early Warning use case
 ---
 
-# Construction Permit - UX Demo
+# Early Warning - Tech Demo
 
-<img src="../.gitbook/assets/file.excalidraw (2) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
-The Construction Permit Service provides citizen and companies a streamlined process for obtaining permits for construction, renovation, or demolition projects from the national Government.
+The demo of a early warning system focuses on efficient communication between civil servants and communities in a given region. The system enables civil servants to validate raw threat information and create broadcasts to inform communities about potential hazards, while collecting structured feedback from recipients.
 
 {% hint style="info" %}
-Acknowledgement: This Use Case is contributed by the _Government of the Republic of Djibouti_
+Acknowledgement: This use case has been developed in cooperation with the _IGAD Climate Prediction & Applications Centre_
 {% endhint %}
 
 ## Which GovStack <mark style="background-color:blue;">features are demonstrated</mark>?
 
-{% hint style="success" %}
-**GovStack Playbook Best Practice**
+With this use case implementation, we demonstrate the GovStack approach through...
 
-The user experience (UX) of this demo is a result of following the [GovStack Playbook](https://govstack.gitbook.io/implementation-playbook/)\
-Take a look and learn from [our service design approach](../follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/)
+{% hint style="success" %}
+**Modular and scalable architecture**
+
+A-synchronous data exchange between micro services / Building Block enables future scaling to additional messaging channels, sectors and recipients. See architecture diagram below.
 {% endhint %}
 
 {% hint style="success" %}
-**Service Patterns of UX/UI Building Block**
+**Integration of Building Blocks Software**
 
-The user interface (UI) follows and demonstrates the UI service patterns
+For this demo, we chose the following software applications (does not imply a recommendation):
+
+* BB Messaging: RapidPro (for bi-directional communication)
+* BB Information Mediator (Pub/Sub): Kafka
+* BB Registry: PostgreSQL
 {% endhint %}
 
 {% hint style="success" %}
-**High accessibility through mobile-first approach**
+**Backend Visualization**
 
-The user interface (UI) is optimized for mobile devices with the aim to increase accessibility by users
+As core features of the demo are hidden in the backend, we implemented a side bar visualizing the handling of broadcasts by micro services and Building Blocks.
 {% endhint %}
 
 ## How to <mark style="background-color:blue;">access</mark>?
 
 **Data Privacy Note:** By clicking on one of the access points you enter web applications operated by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH where these Data Protection Notice and Registration Information are valid.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Construction Permit</strong> <br><strong>User Interface</strong></td><td>Highest UX/UI standards in practice</td><td></td><td><a href="https://bp.playground.sandbox-playground.com/">https://bp.playground.sandbox-playground.com/</a></td><td><a href="../.gitbook/assets/Screenshot-construction-permit.png">Screenshot-construction-permit.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Early Warning System</strong></td><td>Create and broadcast SMS messages</td><td></td><td><a href="https://early-warnings.playground.sandbox-playground.com/">https://early-warnings.playground.sandbox-playground.com/</a></td><td><a href="../../.gitbook/assets/GSEarlyWarning.png">GSEarlyWarning.png</a></td></tr></tbody></table>
 
-{% hint style="info" %}
-On desktop computer, you may shrink the browser window or use the the developer tools of your browser to simulate a mobile device.
-{% endhint %}
+Email: `firstUser@test.com`
+
+Password: `asdf1234`
+
+Check marking "I accept the Terms and Conditions" is technically necessary but has no legal implication.
+
+## How to <mark style="background-color:blue;">navigate</mark> through the demo?
+
+**Threat:** Raw information regarding a warning or potential hazard. This is what admins (civil servants) see and use to create broadcasts.&#x20;
+
+**Broadcast:** Information that is shared with a group of end-users. These are created based on threats and distributed to affected people.
+
+**Feedbacks:** Messages received in response to broadcasts or about ongoing situations.
+
+{% stepper %}
+{% step %}
+### Log-in
+
+Authentication is done with a simple mock-up (no _Identity BB_)
+{% endstep %}
+
+{% step %}
+### Watch current and past threats and broadcasts
+
+Threats have been ingested from external sources (e.g. hazard watch). Both threats and broadcasts are stored in databases representing the _Registry BB_.
+{% endstep %}
+
+{% step %}
+### Draft a broadcast
+
+Based on a threat, a broadcast is created and title, languages, content, channel, recipients are added by the admin.
+{% endstep %}
+
+{% step %}
+### Sent a broadcast
+
+The submitted broadcast will be sent to the _Information Mediator BB_ (PubSub). From there, the communication service add recpient data and sents the complete broadcast to the _Messaging BB_ to be sent to a SMS service provider.
+{% endstep %}
+
+{% step %}
+### Receive feedback by recipients (deactivated)
+
+The Messaging Building Block receives a response, gives a label and saves the response. In this demo, this functionality is deactivated.
+{% endstep %}
+{% endstepper %}
 
 ## How are the stack components <mark style="background-color:blue;">assembled</mark>?
 
-Browse through the high-level explanation component page or the in-depth documentation and code repositories of the various components:
+The following diagram shows one use case instance with used applications and Building Blocks.
 
-<table><thead><tr><th width="270.3333333333333">Component Page</th><th>Developer Documentation</th><th>Code Repository</th></tr></thead><tbody><tr><td><a href="../explore-stack/use-case-frontend.md">Use Case Frontend</a></td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Construction Permit Frontend Repository</a></td></tr><tr><td>RPC Backend (to be inserted)</td><td></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-app-rpc-backend">Generic RPC Backend Repository</a></td></tr><tr><td><a href="../explore-stack/infrastructure.md">Infrastructure</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra/blob/main/docs/1-main.md">Infrastructure Docs</a></td><td><a href="https://github.com/GovStackWorkingGroup/sandbox-infra">Sandbox Infra Repository</a></td></tr></tbody></table>
+<figure><img src="../../.gitbook/assets/EWarchitecture.png" alt="" width="375"><figcaption><p>architecture diagram</p></figcaption></figure>
 
-***
+The following diagram shows the BPM of the core process: Using threat information to issue a broadcast.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+You can find the open source code and helm charts for deployment in the following repositories:
+
+[Thread Service - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-threatservice)
+
+[Frontend - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-frontend)
+
+[Log Service - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-frontend)
+
+[Data Ingestion Service - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-dataingestionservice)
+
+[Communication Service - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-communicationservice)
+
+[User Service - GitHub Repository](https://github.com/GovStackWorkingGroup/sandbox-usecase-earlywarning-userservice)
 
 ## Data Protection Notice and Registration Information
 
-The following information are valid for all web applications linked in the [access points chapter](construction-permit-use-case.md#how-to-access).
+The following information are valid for all web applications linked in the access points chapter.
 
 <details>
 
@@ -97,7 +158,7 @@ The GIZ website uses cookies that are automatically deleted as soon as the brows
 
 **Collection of personal data when visiting a web application**
 
-When visiting a [web application](construction-permit-use-case.md#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:
+When visiting a [web application](./#access-points), GIZ itself processes only the data that is automatically transmitted by the browser and technically required in order to display the website correctly and to ensure its stability and security. Each time a web application is accessed, the data stored includes, but is not limited to the following:
 
 * Date (The date on which the activity occurred.)
 * Time (The time, in coordinated universal time (UTC), at which the activity occurred.)
