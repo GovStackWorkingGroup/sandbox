@@ -94,7 +94,7 @@ The Messaging Building Block receives a response, gives a label and saves the re
 
 The following diagram shows one use case instance with used applications and Building Blocks.
 
-<figure><img src="../../.gitbook/assets/EWarchitecture.png" alt="" width="375"><figcaption><p>architecture diagram</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/earlywarning-architecture.drawio.png" alt=""><figcaption></figcaption></figure>
 
 The following diagram shows the BPM of the core process: Using threat information to issue a broadcast.
 
