@@ -8,7 +8,7 @@
   * [Project Documentation](access-demos/early-warning-tech-demo/project-documentation.md)
 * [Social Cash Transfer - Tech Demo](access-demos/usct-use-case.md)
 * [Construction Permit - UX Demo](access-demos/construction-permit-use-case.md)
-* [High School Certificate - Methodology Demo](access-demos/high-school-certificate-methodology-demo.md)
+* [High School Certificate - UX Demo](access-demos/high-school-certificate-methodology-demo.md)
 
 ## Follow Methodology
 

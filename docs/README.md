@@ -3,22 +3,11 @@ description: >-
   The GovStack Sandbox is a demonstration environment for digital teams from
   governments and service providers to learn and test how the GovStack approach
   can be implemented.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: false
 ---
 
 # Enter the Sandbox
 
-<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Early Warning Tech Demo</strong><br></td><td>Demonstrating GovStack architecture and a-sync data exchange</td><td><a href=".gitbook/assets/USCT V2.png">USCT V2.png</a></td><td><a href="access-demos/early-warning-tech-demo/">early-warning-tech-demo</a></td></tr><tr><td><strong>Social Cash Transfer</strong> <br><strong>Tech Demo</strong></td><td>Demonstrating the GovStack architecture and all stack layers</td><td><a href=".gitbook/assets/USCT V2.png">USCT V2.png</a></td><td><a href="access-demos/usct-use-case.md">usct-use-case.md</a></td></tr><tr><td><strong>Construction Permit</strong><br><strong>UX Demo</strong></td><td>Demonstrating service design, UX/UI BB usage and mobile first approach</td><td><a href=".gitbook/assets/Technical partv2.png">Technical partv2.png</a></td><td><a href="access-demos/construction-permit-use-case.md">construction-permit-use-case.md</a></td></tr><tr><td><strong>Do It Yourself</strong></td><td>Protoype your own use case with different supporting assets</td><td><a href=".gitbook/assets/DIY v2.png">DIY v2.png</a></td><td><a href="follow-methodology/do-it-yourself-guide/">do-it-yourself-guide</a></td></tr><tr><td><strong>Technical Stack</strong></td><td>Learn about our implementations on all architecture layers</td><td><a href=".gitbook/assets/Technical part v2.png">Technical part v2.png</a></td><td><a href="explore-stack/architecture.md">architecture.md</a></td></tr><tr><td><strong>Design Methodology</strong></td><td>Learn about best practices on UX and Frontend design</td><td><a href=".gitbook/assets/Background blue web.png">Background blue web.png</a></td><td><a href="follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/">best-practice-example-design-of-the-sandbox-building-permit-use-case</a></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Early Warning Tech Demo</strong><br></td><td>Demonstrating GovStack architecture and a-sync data exchange</td><td><a href=".gitbook/assets/USCT V2.png">USCT V2.png</a></td><td><a href="access-demos/early-warning-tech-demo/">early-warning-tech-demo</a></td></tr><tr><td><strong>High School Records</strong><br></td><td>Demonstrating service design, UX/UI BB usage and mobile first approach</td><td><a href=".gitbook/assets/USCT V2.png">USCT V2.png</a></td><td><a href="access-demos/high-school-certificate-methodology-demo.md">high-school-certificate-methodology-demo.md</a></td></tr><tr><td><strong>Construction Permit</strong><br><strong>UX Demo</strong></td><td>Demonstrating service design, UX/UI BB usage and mobile first approach</td><td><a href=".gitbook/assets/Technical partv2.png">Technical partv2.png</a></td><td><a href="access-demos/construction-permit-use-case.md">construction-permit-use-case.md</a></td></tr><tr><td><strong>Do It Yourself</strong></td><td>Protoype your own use case with different supporting assets</td><td><a href=".gitbook/assets/DIY v2.png">DIY v2.png</a></td><td><a href="follow-methodology/do-it-yourself-guide/">do-it-yourself-guide</a></td></tr><tr><td><strong>Technical Stack</strong></td><td>Learn about our implementations on all architecture layers</td><td><a href=".gitbook/assets/Technical part v2.png">Technical part v2.png</a></td><td><a href="explore-stack/architecture.md">architecture.md</a></td></tr><tr><td><strong>Design Methodology</strong></td><td>Learn about best practices on UX and Frontend design</td><td><a href=".gitbook/assets/Background blue web.png">Background blue web.png</a></td><td><a href="follow-methodology/best-practice-example-design-of-the-sandbox-building-permit-use-case/">best-practice-example-design-of-the-sandbox-building-permit-use-case</a></td></tr></tbody></table>
 
 {% hint style="success" %}
 **What you will find here**
